@@ -358,9 +358,62 @@
     .fade-up { transition: none; opacity: 1; transform: none; }
   }
 
+  /* HAMBURGER */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+    z-index: 101;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--coway-navy);
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.22,1,0.36,1);
+  }
+  .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px); }
+
   /* MOBILE */
   @media (max-width: 768px) {
-    .nav-links { display: none; }
+    .nav { position: relative; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      flex-direction: column;
+      padding: 0.75rem 1.5rem;
+      border-bottom: 3px solid var(--coway-navy);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+      gap: 0;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 0.75rem 0.25rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .nav-links a.nav-cta {
+      margin-top: 0.5rem;
+      text-align: center;
+      border-radius: 8px;
+      border-bottom: none;
+      padding: 0.75rem !important;
+    }
     .hero { padding: 2rem 1rem; }
     .hero h1 { font-size: 1.4rem; }
     .hero p { font-size: 0.95rem; }
@@ -387,6 +440,9 @@
 <!-- NAV -->
 <nav class="nav">
   <img src="images/coway-logo.png" alt="Coway" class="nav-logo" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
+    <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
   <ul class="nav-links">
     <li><a href="#penapis-air">Penapis Air</a></li>
     <li><a href="#penapis-udara">Penapis Udara</a></li>
@@ -735,6 +791,23 @@ document.querySelectorAll('img').forEach(img => {
       this.src = 'images/poster-promo.jpg';
     }
   };
+});
+</script>
+<script>
+// Mobile menu: close on link click
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.querySelector('.nav-toggle').classList.remove('open');
+    document.querySelector('.nav-links').classList.remove('open');
+  });
+});
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+  const nav = document.querySelector('.nav');
+  if (!nav.contains(e.target)) {
+    document.querySelector('.nav-toggle').classList.remove('open');
+    document.querySelector('.nav-links').classList.remove('open');
+  }
 });
 </script>
 </body>
