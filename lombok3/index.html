@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coway Lombok III</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Noto Sans',Arial,Helvetica,sans-serif;color:#464646;background:#a1b6c0;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;height:auto;display:block}
+    a{text-decoration:none;color:inherit}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.97);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:72px;box-shadow:0 1px 8px rgba(0,0,0,0.06)}
+    .nav-logo{height:36px}
+    .nav-links{display:flex;list-style:none;gap:32px;align-items:center}
+    .nav-links a{font-size:13px;font-weight:600;letter-spacing:.5px;color:#333;text-transform:uppercase;transition:color .2s}
+    .nav-links a:hover{color:#78baa6}
+    .nav-cta{background:#78baa6;color:#fff!important;padding:8px 20px;border-radius:4px;font-weight:700!important}
+    .nav-cta:hover{background:#5da893}
+    .sec{width:100%;min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .sec-in{width:100%;max-width:1280px;margin:0 auto;padding:100px 60px;position:relative;z-index:2}
+    .sdark{background:#1a1a2e;color:#fff}
+    .sdarker{background:#12121f;color:#fff}
+    .spurple{background:#2d1b4e;color:#fff}
+    .ht{font-size:clamp(60px,8vw,100px);font-weight:400;color:#78baa6;letter-spacing:4px;text-transform:uppercase;line-height:1}
+    .htag{font-size:clamp(18px,2.5vw,32px);font-weight:500;color:#fff;letter-spacing:2px;margin-top:12px;text-transform:uppercase}
+    .sh{font-size:clamp(32px,4.5vw,55px);font-weight:800;letter-spacing:1px;line-height:1.15;margin-bottom:24px}
+    .ss{font-size:clamp(14px,1.3vw,18px);font-weight:400;opacity:.85;max-width:650px;line-height:1.7}
+    .sl{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:3px;margin-bottom:16px;color:#78baa6}
+    .btn{display:inline-block;padding:14px 36px;border-radius:6px;font-weight:700;font-size:15px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:all .25s;border:none}
+    .btn-p{background:#78baa6;color:#fff}.btn-p:hover{background:#5da893;transform:translateY(-2px);box-shadow:0 8px 24px rgba(120,186,166,.3)}
+    .btn-o{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.5)}.btn-o:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+    .btn-w{background:#fff;color:#1a1a2e}.btn-w:hover{background:#e8e8e8;transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+    .g2{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+    .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+    .fc{display:flex;flex-direction:column;align-items:center;text-align:center}
+    .card{background:rgba(255,255,255,.06);border-radius:12px;padding:32px 24px;text-align:center;transition:transform .25s;border:1px solid rgba(255,255,255,.08)}
+    .card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.2)}
+    .fh{font-size:clamp(16px,1.8vw,22px);font-weight:700;margin:16px 0 8px}
+    .fd{font-size:14px;opacity:.8;max-width:280px;line-height:1.6;margin:0 auto}
+    .fsteps{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+    .fstep{background:rgba(255,255,255,.05);border-radius:16px;padding:24px 20px;text-align:center;flex:1;min-width:140px;max-width:180px;border:1px solid rgba(255,255,255,.08)}
+    .fstep img{height:90px;margin:0 auto 12px}
+    .fstep .sn{font-size:11px;font-weight:700;letter-spacing:2px;color:#78baa6;margin-bottom:4px}
+    .fstep .snm{font-size:15px;font-weight:700}
+    .fstep .sd{font-size:12px;opacity:.7;margin-top:4px}
+    .modes{display:flex;gap:24px;flex-wrap:wrap;justify-content:center}
+    .mode{background:rgba(255,255,255,.05);border-radius:16px;padding:28px 20px;text-align:center;width:180px;border:1px solid rgba(255,255,255,.08);transition:transform .25s}
+    .mode:hover{transform:translateY(-4px)}
+    .mode img{width:80px;margin:0 auto 12px}
+    .mode .mn{font-size:15px;font-weight:700}
+    .pcards{display:flex;gap:24px;flex-wrap:wrap;justify-content:center;margin-top:32px}
+    .pcard{background:rgba(255,255,255,.08);border-radius:16px;padding:36px 28px;text-align:center;flex:1;min-width:200px;max-width:280px;border:1px solid rgba(255,255,255,.1)}
+    .pcard.feat{background:rgba(120,186,166,.15);border-color:#78baa6}
+    .pcard .pn{font-size:15px;font-weight:700;margin-bottom:4px}
+    .pcard .pp{font-size:36px;font-weight:800;margin:12px 0;color:#78baa6}
+    .pcard .pd{font-size:13px;opacity:.7;margin-bottom:16px}
+    .footer{background:#0a0a12;color:rgba(255,255,255,.6);padding:60px 40px 32px;text-align:center;font-size:13px}
+    .fgr{display:flex;gap:40px;flex-wrap:wrap;justify-content:center;margin-bottom:32px}
+    .fcol{text-align:left;min-width:160px}
+    .fcol h6{font-size:14px;font-weight:700;color:#fff;margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
+    .fcol a{display:block;padding:4px 0;font-size:13px;opacity:.65;transition:opacity .2s}
+    .fcol a:hover{opacity:1;color:#78baa6}
+    .fbot{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;opacity:.5}
+    @media(max-width:1024px){.g2{grid-template-columns:1fr;gap:40px}.g3{grid-template-columns:repeat(2,1fr)}.sec-in{padding:80px 40px}}
+    @media(max-width:768px){.nav{padding:0 20px}.nav-links{display:none}.g3{grid-template-columns:1fr}.g4{grid-template-columns:repeat(2,1fr)}.sec-in{padding:60px 24px}.sec{min-height:auto;padding:60px 0}.ht{font-size:48px}.sh{font-size:32px}}
+  </style>
+</head>
+<body>
+<div style="padding:12px 20px;background:#fff;border-bottom:1px solid #e2e8f0"><a href="/coway-product-pages/" style="color:#002856;text-decoration:none;font-weight:600;font-size:14px">← Kembali ke Senarai Produk</a></div>
+
+  <nav class="nav">
+    <img class="nav-logo" src="https://www.coway.com.my/img/coway-malaysia-logo.png" alt="Coway Malaysia Logo" width="167" height="39">
+    <ul class="nav-links">
+      <li><a href="#">Change Your Life</a></li><li><a href="#">Products</a></li>
+      <li><a href="#">Service</a></li><li><a href="#">Trade-In</a></li>
+      <li><a href="#">Happy Water Project</a></li><li><a href="#">About</a></li>
+      <li><a href="#">Support</a></li><li><a href="#" class="nav-cta">Subscribe</a></li>
+    </ul>
+  </nav>
+
+  <section class="sec" style="background:linear-gradient(135deg,#0d1b2a,#1b2838,#162447);text-align:center;padding-top:72px;">
+    <div class="sec-in fc">
+      <h1 class="ht">LOMBOK III</h1>
+      <p style="font-size:16px;letter-spacing:3px;opacity:.8;margin-bottom:8px;">AP-1520C</p>
+      <h5 class="htag">MORE THAN JUST AIR FILTRATION</h5>
+      <img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-ap1520c-air-purifier.jpg" alt="Coway Lombok 3" style="max-width:500px;margin:40px 0;filter:drop-shadow(0 20px 40px rgba(0,0,0,.3));">
+      <p style="font-size:18px;max-width:500px;opacity:.9;margin:8px 0 24px;line-height:1.6;">Stay protected with Coway's RBD Plasma and Ioniser</p>
+      <div style="display:flex;align-items:baseline;gap:8px;"><span style="opacity:.7;font-size:14px;">FROM</span><span style="font-size:clamp(32px,4vw,48px);font-weight:800;color:#fff;">RM 3,190</span></div>
+      <div style="margin-top:24px;display:flex;gap:16px;flex-wrap:wrap;justify-content:center;"><a href="#" class="btn btn-p">Subscribe Now</a><a href="#" class="btn btn-o">Learn More</a></div>
+    </div>
+  </section>
+
+  <section class="sec sdark"><div class="sec-in g2">
+    <div><p class="sl">Innovation</p><h2 class="sh">3rd GENERATION<br>AIR PURIFIER</h2><p class="ss">DESIGNED FOR POWERFUL PROTECTION</p><div style="margin-top:24px;"><a href="#" class="btn btn-o">▶ Play Video</a></div></div>
+    <div style="text-align:center;"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/lombok3-rbd-plasma.jpg" alt="Lombok 3 RBD Plasma" style="max-width:400px;margin:0 auto;border-radius:16px;"></div>
+  </div></section>
+
+  <section class="sec sdarker"><div class="sec-in g2">
+    <div style="text-align:center;"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-rbd-plasma-logo.png" alt="Coway RBD Plasma" style="max-width:280px;margin:0 auto;"></div>
+    <div><h2 class="sh">AIR PURIFIER<br>WITH IONISER</h2><p class="ss">Eliminates activated oxygen and static electricity from the air.</p><p class="ss" style="margin-top:16px;">Professionally built by Coway's own team of R&amp;D researchers to enhance the sterilisation capacity and to effectively capture harmful gases, allergens and pollutants.</p></div>
+  </div></section>
+
+  <section class="sec sdark"><div class="sec-in fc">
+    <h2 class="sh">COWAY AIR MATCHING<br>FILTER PROGRAMME</h2><p class="ss" style="text-align:center;">A personalised filter change with every service*</p>
+    <img src="https://www.coway.com.my/files/Products/air-purifier/coway-air-matching-filters.jpg" alt="Coway Air Matching Filter Programme" style="max-width:600px;margin:32px auto;border-radius:12px;">
+    <p style="font-size:12px;opacity:.6;margin-top:8px;">*Coway Air Matching Filter Programme is exclusively available for Heart Service subscribers. Terms and conditions apply.</p>
+  </div></section>
+
+  <section class="sec sdarker"><div class="sec-in fc">
+    <p class="sl">Filtration</p><h2 class="sh">ADVANCED 6-STEP FILTRATION</h2>
+    <p class="ss" style="text-align:center;margin-bottom:48px;">These filters are globally recognised and certified to effectively remove indoor pollutants and ensure clean indoor air.</p>
+    <div class="fsteps">
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-air-purifier-pre-filter.png" alt="Pre-Filter"><div class="sn">STEP 1</div><div class="snm">Pre-Filter</div><div class="sd">Filters larger particles.</div></div>
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-air-purifier-fine-dust-filter-breeze.gif" alt="Air Matching"><div class="sn">STEP 2</div><div class="snm">Air Matching Filter*</div><div class="sd">Customised filter for your environment.</div></div>
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-air-purifier-double-hepa-filter.png" alt="Double HEPA"><div class="sn">STEP 3</div><div class="snm">Double HEPA Filter</div><div class="sd">Captures 99.97% of ultrafine particles.</div></div>
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-air-purifier-rbd-plasma-filter.png" alt="RBD Plasma"><div class="sn">STEP 4</div><div class="snm">RBD Plasma Filter</div><div class="sd">Neutralises harmful substances.</div></div>
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-air-purifier-catalyst-filter.png" alt="Catalyst"><div class="sn">STEP 5</div><div class="snm">Catalyst Filter</div><div class="sd">Decomposes toxic gases.</div></div>
+      <div class="fstep"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-air-purifier-deodorisation-filter.png" alt="Deodorisation"><div class="sn">STEP 6</div><div class="snm">Deodorisation Filter</div><div class="sd">Removes odours and VOCs.</div></div>
+    </div>
+  </div></section>
+
+  <section class="sec sdark"><div class="sec-in g2">
+    <div><h2 class="sh" style="font-size:clamp(24px,3vw,40px);">Double HEPA-ness for double protection with the new Coway Double HEPA Filter</h2><p class="ss">Enhanced filtration performance with dual HEPA layers for superior air purification.</p><div style="margin-top:24px;"><a href="#" class="btn btn-p">LEARN MORE</a></div></div>
+    <div style="text-align:center;"><img src="https://www.coway.com.my/files/Products/air-purifier/doublehepa/coway-double-hepa-filter-Double-HEPA-ness-for-double-protection-for-double-protection.jpg" alt="Double HEPA Filter" style="max-width:400px;border-radius:16px;"></div>
+  </div></section>
+
+  <section class="sec sdarker"><div class="sec-in g2">
+    <div style="text-align:center;"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-air-purifier-fine-dust-and-odour-indicator.jpg" alt="Fine Dust and Odour Indicator" style="max-width:400px;border-radius:16px;"></div>
+    <div><p class="sl">Smart Detection</p><h2 class="sh">FINE DUST AND<br>ODOUR INDICATORS</h2><p class="ss">Provide a real-time update on the level of microfine dust particles (PM 2.5) and the presence of strong odour in the air.</p></div>
+  </div></section>
+
+  <section class="sec sdark"><div class="sec-in g2">
+    <div><p class="sl">Smart Control</p><h2 class="sh">INTELLIGENT &amp;<br>VERSATILE FEATURES</h2><p class="ss">Enjoy purer air in various ways that suit your needs.</p></div>
+    <div style="text-align:center;"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-air-purifier-intelligent-and-versatile-features.jpg" alt="Intelligent Features" style="max-width:400px;border-radius:16px;"></div>
+  </div></section>
+
+  <section class="sec sdarker"><div class="sec-in fc">
+    <div class="modes">
+      <div class="mode"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-mode-button.png" alt="Mode"><div class="mn">Automatic / Silent / Eco &amp; Turbo Mode</div></div>
+      <div class="mode"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-speed-control-button.png" alt="Speed"><div class="mn">Controllable Air Speed</div></div>
+      <div class="mode"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-ion-plasma-button.png" alt="Ion"><div class="mn">RBD Plasma &amp; Ion Mode</div></div>
+      <div class="mode"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-light-or-child-lock-button.png" alt="Lock"><div class="mn">Light &amp; Child Lock</div></div>
+    </div>
+  </div></section>
+
+  <section class="sec sdark"><div class="sec-in">
+    <h2 class="sh" style="text-align:center;">ADDITIONAL FEATURES</h2>
+    <div class="g3" style="margin-top:48px;">
+      <div class="card"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/air-purifier-0-pressure-touch-panel-coway-lombok3.jpg" alt="0-Pressure Touch Panel" style="border-radius:8px;margin-bottom:16px;"><h6 class="fh">0-PRESSURE TOUCH PANEL</h6><p class="fd">Choose your preferred settings with just one gentle touch.</p></div>
+      <div class="card"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/air-purifier-speed-control-feature-coway-lombok3.jpg" alt="3-Stage Speed Control" style="border-radius:8px;margin-bottom:16px;"><h6 class="fh">3-STAGE SPEED CONTROL</h6><p class="fd">Adjusts the fan speed according to your needs.</p></div>
+      <div class="card"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/air-purifier-child-lock-feature-coway-lombok3.jpg" alt="Child Lock" style="border-radius:8px;margin-bottom:16px;"><h6 class="fh">CHILD LOCK SYSTEM</h6><p class="fd">Keeps your settings safe from accidental touches.</p></div>
+    </div>
+  </div></section>
+
+  <section class="sec sdarker"><div class="sec-in">
+    <h2 class="sh" style="text-align:center;margin-bottom:40px;">PRODUCT GALLERY</h2>
+    <div class="g4">
+      <img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/front-side-view-of-air-purifier-at-home-coway-lombok3.jpg" alt="Front Side Angle at Home" style="border-radius:12px;">
+      <img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/front-view-of-air-purifier-coway-lombok3.jpg" alt="Front View" style="border-radius:12px;">
+      <img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/front-side-view-of-air-purifier-at-living-room-coway-lombok3.jpg" alt="Living Room" style="border-radius:12px;">
+      <img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/rbd-plasma-air-purifier-coway-lombok3.jpg" alt="RBD Plasma" style="border-radius:12px;">
+    </div>
+  </div></section>
+
+  <section class="sec spurple"><div class="sec-in">
+    <p class="sl">Purchase Options</p><h2 class="sh" style="text-align:center;">SPECS &amp; PRICE</h2><p class="ss" style="text-align:center;margin-bottom:40px;">All you need to know.</p>
+    <div class="pcards">
+      <div class="pcard"><div class="pn">OUTRIGHT PURCHASE</div><div class="pp">RM 3,190</div><div class="pd">One-time payment. Own the product.</div><a href="#" class="btn btn-w" style="width:100%;">Buy Now</a></div>
+      <div class="pcard feat"><div class="pn">MONTHLY RENTAL<br>(7 Years)</div><div class="pp">RM 70*</div><div class="pd">Per month. Free 7-year service included.</div><a href="#" class="btn btn-p" style="width:100%;">Subscribe</a></div>
+      <div class="pcard"><div class="pn">MONTHLY RENTAL<br>(3+2 Years)</div><div class="pp">RM 65*</div><div class="pd">Per month. 3+2 year obligation plan.</div><a href="#" class="btn btn-o" style="width:100%;">Subscribe</a></div>
+    </div>
+    <div style="text-align:center;margin-top:48px;"><img src="https://www.coway.com.my/files/Products/air-purifier/lombok3/coway-lombok3-product-spec.png" alt="Product Specs" style="max-width:500px;margin:0 auto;"></div>
+    <p style="font-size:11px;opacity:.55;margin-top:32px;line-height:1.7;text-align:center;max-width:800px;margin-left:auto;margin-right:auto;">The 3+2 plan carries a minimum obligation period of 3 years, with an optional 2 year extension during which the product may be returned without penalties. While the 5 year, 7 year, and 9 year plans are full-term obligations, and early terminations will result in penalties. Prices displayed include SST and are subject to change without prior notice.</p>
+    <div style="text-align:center;margin-top:24px;"><a href="#" class="btn btn-o">User Guide</a></div>
+  </div></section>
+
+  <footer class="footer">
+    <div class="fgr">
+      <div class="fcol"><h6>Products</h6><a href="#">Water Purifier</a><a href="#">Air Purifier</a><a href="#">Coway BEREX</a><a href="#">Hands-free Bidet</a><a href="#">Air Conditioner</a></div>
+      <div class="fcol"><h6>Service</h6><a href="#">Heart Service</a><a href="#">Mattress Care Service</a><a href="#">Trade-In</a></div>
+      <div class="fcol"><h6>About</h6><a href="#">Our Story</a><a href="#">R&amp;D</a><a href="#">Design Philosophy</a><a href="#">CSR</a><a href="#">Career</a></div>
+      <div class="fcol"><h6>Support</h6><a href="#">FAQ</a><a href="#">Terms of Use</a><a href="#">Privacy Notice</a><a href="#">Warranty Policy</a><a href="#">Contact Us</a></div>
+    </div>
+    <div class="fbot">COWAY (MALAYSIA) © 2026. ALL RIGHTS RESERVED. (735420-H) (AJL931694)</div>
+  </footer>
+</body>
+</html>

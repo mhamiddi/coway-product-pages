@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coway BEREX Mine — Compact Massage Chair</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #333; background: #f5f0eb; }
+  img { max-width: 100%; height: auto; display: block; }
+  .header { background: #fff; padding: 12px 5%; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+  .header .logo { height: 32px; }
+  .header nav a { color: #333; text-decoration: none; margin-left: 24px; font-size: 14px; font-weight: 500; }
+  .header nav a:hover { color: #8b6914; }
+
+  .hero { min-height: 90vh; background: linear-gradient(180deg, #f5f0eb 0%, #e8d5c4 50%, #d4b896 100%); display: flex; align-items: center; padding: 5%; }
+  .hero-inner { max-width: 1400px; margin: 0 auto; display: flex; align-items: center; gap: 60px; flex-wrap: wrap; width: 100%; }
+  .hero-text { flex: 1; min-width: 300px; }
+  .hero-text h1 { font-size: clamp(48px, 8vw, 80px); font-weight: 800; letter-spacing: 4px; color: #3d2b1f; margin-bottom: 8px; }
+  .hero-text .subtitle { font-size: 20px; color: #6b5b4f; text-transform: uppercase; letter-spacing: 2px; }
+  .hero-image { flex: 1; min-width: 300px; text-align: center; }
+  .hero-image .chair-placeholder { width: 100%; max-width: 500px; height: 400px; background: rgba(139,105,20,.1); border-radius: 24px; display: flex; align-items: center; justify-content: center; margin: 0 auto; }
+  .cta-btn { display: inline-block; margin-top: 30px; padding: 16px 40px; background: #8b6914; color: #fff; text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 16px; letter-spacing: 1px; }
+  .cta-btn:hover { background: #a07818; }
+
+  .section { padding: 80px 5%; position: relative; }
+  .section h2 { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin-bottom: 16px; color: #3d2b1f; }
+  .section h3 { font-size: clamp(18px, 2.5vw, 24px); font-weight: 600; margin-bottom: 12px; color: #5a4636; }
+  .section p { font-size: 16px; line-height: 1.7; color: #6b5b4f; max-width: 650px; }
+  .section .row { display: flex; align-items: center; gap: 60px; max-width: 1200px; margin: 0 auto; flex-wrap: wrap; }
+  .section .col { flex: 1; min-width: 300px; }
+  .center { text-align: center; max-width: 800px; margin: 0 auto; }
+
+  .section-light { background: #fff; }
+  .section-beige { background: #f5f0eb; }
+  .section-brown { background: #3d2b1f; color: #f5f0eb; }
+  .section-brown h2, .section-brown h3, .section-brown p { color: #f5f0eb; }
+
+  .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; max-width: 1200px; margin: 30px auto 0; }
+  .feature-card { background: #fff; padding: 40px 30px; border-radius: 16px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,.05); }
+  .feature-card .icon { font-size: 48px; margin-bottom: 16px; }
+  .feature-card h3 { font-size: 18px; color: #3d2b1f; }
+
+  .specs { background: #fff; }
+  .specs table { width: 100%; max-width: 900px; margin: 30px auto 0; border-collapse: collapse; text-align: left; }
+  .specs td { padding: 16px 20px; border-bottom: 1px solid #e8d5c4; }
+  .specs td:first-child { font-weight: 600; width: 250px; color: #8b6914; }
+  .specs td:last-child { color: #3d2b1f; }
+
+  .service-steps { display: grid; grid-template-columns: repeat(7, 1fr); gap: 12px; max-width: 1200px; margin: 30px auto 0; }
+  .service-step { background: rgba(255,255,255,.1); padding: 20px 10px; border-radius: 12px; text-align: center; }
+  .service-step .num { font-size: 24px; font-weight: 700; color: #d4b896; }
+  .service-step .desc { font-size: 12px; margin-top: 8px; }
+  @media (max-width: 768px) { .service-steps { grid-template-columns: repeat(4, 1fr); } }
+
+  .massage-modes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 1000px; margin: 30px auto 0; }
+  .massage-mode { background: #fff; padding: 24px 12px; border-radius: 12px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+  .massage-mode .name { font-weight: 600; font-size: 14px; color: #3d2b1f; }
+  @media (max-width: 768px) { .massage-modes { grid-template-columns: repeat(2, 1fr); } }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 1000px; margin: 30px auto 0; }
+  .stat-card { background: #fff; padding: 30px; border-radius: 12px; text-align: center; }
+  .stat-card .value { font-size: 32px; font-weight: 700; color: #8b6914; }
+  .stat-card .label { font-size: 14px; color: #6b5b4f; margin-top: 4px; }
+
+  .price-box { background: #fff; padding: 40px; border-radius: 16px; max-width: 700px; margin: 30px auto; box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+  .price-box h3 { color: #8b6914; margin-bottom: 16px; }
+  .price-box .price-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #e8d5c4; flex-wrap: wrap; gap: 8px; }
+  .price-box .price-row .label { font-weight: 600; }
+  .price-box .price-row .amount { color: #8b6914; font-weight: 700; }
+
+  .ar-section { display: flex; align-items: center; gap: 40px; max-width: 1200px; margin: 0 auto; flex-wrap: wrap; }
+  .ar-section .app-buttons img { height: 44px; margin-right: 12px; margin-top: 16px; }
+
+  .footer { background: #3d2b1f; padding: 40px 5%; text-align: center; color: #d4b896; }
+  .footer nav a { color: #d4b896; text-decoration: none; margin: 0 16px; font-size: 13px; }
+  .footer nav a:hover { color: #fff; }
+  .footer .social { margin-top: 20px; }
+  .footer .social a { color: #d4b896; margin: 0 8px; font-size: 18px; }
+  .footer .copyright { margin-top: 20px; font-size: 12px; color: #8b7355; }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <a href="/"><img src="https://www.coway.com.my/img/coway-malaysia-logo.png" alt="Coway Malaysia" class="logo"></a>
+  <nav><a href="/coway-product-pages/" style="display:inline-block;padding:10px 20px;color:#002856;text-decoration:none;font-weight:600;font-size:14px">← Kembali</a>
+    <a href="/products">Products</a>
+    <a href="/products/berex">BEREX</a>
+    <a href="/service">Service</a>
+    <a href="/support">Support</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>MINE</h1>
+      <p class="subtitle">COMPACT MASSAGE CHAIR</p>
+      <p style="margin-top:16px;color:#6b5b4f;font-size:18px;">Your personal relaxation sanctuary — small enough for any room.</p>
+      <a href="#" class="cta-btn">LEARN MORE</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://www.coway.com.my/files/Products/berex/mine/coway-malaysia-berex-mine-compact-massage-chair.jpg" alt="Coway BEREX Mine Compact Massage Chair" style="max-height:500px;border-radius:24px;">
+    </div>
+  </div>
+</section>
+
+<section class="section section-beige">
+  <div class="center">
+    <h2>COMPACT RELAXATION</h2>
+    <p>Experience full-body massage in a chair designed for modern living spaces. The Mine fits seamlessly into bedrooms, living rooms, and home offices.</p>
+    <a href="#" style="display:inline-flex;align-items:center;gap:12px;color:#8b6914;text-decoration:none;font-size:18px;margin-top:20px;">
+      Play Video
+    </a>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="row">
+    <div class="col">
+      <h2>SMALLER BY APPROX. 24%</h2>
+      <p>Compared to conventional massage chairs, the Mine saves valuable floor space without compromising on massage quality or comfort.</p>
+      <div class="stat-grid" style="margin-top:20px;">
+        <div class="stat-card"><div class="value">740mm</div><div class="label">Width</div></div>
+        <div class="stat-card"><div class="value">1250mm</div><div class="label">Depth (Upright)</div></div>
+        <div class="stat-card"><div class="value">1030mm</div><div class="label">Height</div></div>
+        <div class="stat-card"><div class="value">58.5kg</div><div class="label">Weight</div></div>
+      </div>
+    </div>
+    <div class="col">
+      <div style="background:#f5f0eb;padding:40px;border-radius:16px;text-align:center;">
+        <img src="https://www.coway.com.my/files/Products/berex/mine/coway-malaysia-berex-mine-massage-chair-24-percent-smaller.jpg" alt="24% Smaller" style="max-width:400px;margin:0 auto;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-beige">
+  <div class="row">
+    <div class="col">
+      <div style="background:#fff;padding:30px;border-radius:16px;text-align:center;">
+        <img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-massage-chair-adjustable-roller-position.png" alt="SL Massage Track" style="max-width:300px;margin:0 auto;">
+      </div>
+    </div>
+    <div class="col">
+      <h2>SL MASSAGE TRACK</h2>
+      <p>The curved SL track follows your spine's natural shape from neck to thighs, delivering a comprehensive massage that targets every tension point.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="row">
+    <div class="col">
+      <h2>2D MASSAGE PERFORMANCE</h2>
+      <p>Precision-controlled rollers move in two dimensions — up/down and forward/back — for deep, targeted relief exactly where you need it.</p>
+    </div>
+    <div class="col">
+      <div class="feature-card">
+        <div class="icon"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-massage-chair-adjustable-roller-position.png" alt="Body Scan" style="width:64px;margin:0 auto;"></div>
+        <h3>Body Scan Sensor</h3>
+        <p>Automatically maps your body for personalised massage</p>
+      </div>
+      <div class="feature-card" style="margin-top:20px;">
+        <div class="icon"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-massage-chair-adjustable-roller-position.png" alt="Adjustable Roller" style="width:64px;margin:0 auto;"></div>
+        <h3>Adjustable Massage Roller Position</h3>
+        <p>Fine-tune roller width and intensity to your preference</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-beige">
+  <div class="center">
+    <h3 style="font-size:22px;">Malaysia's 1st Compact Massage Chair with Convertible Knee-to-Calf Massage</h3>
+    <p style="margin-top:12px;">Unique convertible design extends massage coverage from your knees all the way to your calves for complete lower-body relief.</p>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="row">
+    <div class="col">
+      <h2>INTENSIVE CARE FOR CALVES AND FEET</h2>
+      <p>Air-cell technology wraps around your calves and feet, providing compression massage that improves circulation and relieves fatigue.</p>
+    </div>
+    <div class="col">
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <div class="feature-card" style="flex:1;min-width:200px;">
+          <h3>KNEE-TO-FEET AIR MASSAGE</h3>
+          <p>Air cells inflate and deflate rhythmically for soothing compression</p>
+        </div>
+        <div class="feature-card" style="flex:1;min-width:200px;">
+          <h3>3-ZONE HEAT TREATMENT</h3>
+          <p>Gentle warmth in three zones enhances relaxation and blood flow</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-beige">
+  <div class="center">
+    <h2>12 MASSAGE MODES</h2>
+    <p>For a whole spectrum of needs — from gentle relaxation to deep tissue relief.</p>
+  </div>
+  <div class="massage-modes">
+    <div class="massage-mode"><div class="name">Relax</div></div>
+    <div class="massage-mode"><div class="name">Recovery</div></div>
+    <div class="massage-mode"><div class="name">Stretch</div></div>
+    <div class="massage-mode"><div class="name">Deep Tissue</div></div>
+    <div class="massage-mode"><div class="name">Neck & Shoulder</div></div>
+    <div class="massage-mode"><div class="name">Lower Back</div></div>
+    <div class="massage-mode"><div class="name">Air Massage</div></div>
+    <div class="massage-mode"><div class="name">Heat Therapy</div></div>
+    <div class="massage-mode"><div class="name">Combo</div></div>
+    <div class="massage-mode"><div class="name">Morning</div></div>
+    <div class="massage-mode"><div class="name">Night</div></div>
+    <div class="massage-mode"><div class="name">Custom</div></div>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="center">
+    <h2>THOUGHTFULLY DESIGNED DETAILS AND ACCESSORIES</h2>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card"><h3>Detachable Cover</h3><p>Easy to remove and wash for lasting freshness</p></div>
+    <div class="feature-card"><h3>Adjustable Footrest</h3><p>Extends to fit users of different heights</p></div>
+    <div class="feature-card"><h3>Built-in Wheels</h3><p>Move the chair effortlessly between rooms</p></div>
+    <div class="feature-card"><h3>Remote Control</h3><p>Intuitive controls at your fingertips</p></div>
+    <div class="feature-card"><h3>Zero-Gravity Mode</h3><p>Reclines to a weightless position for deeper relaxation</p></div>
+    <div class="feature-card"><h3>Bluetooth Speakers</h3><p>Connect your device for immersive audio</p></div>
+  </div>
+</section>
+
+<section class="section section-brown">
+  <div class="center">
+    <h2>COWAY 7-STEP MASSAGE CHAIR CARE SERVICE</h2>
+    <p>Professional maintenance that keeps your Mine in pristine condition.</p>
+  </div>
+  <div class="service-steps">
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-1.jpg" alt="Step 1" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">1</div><div class="desc">Disassemble Upper Leather Cover</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-2.jpg" alt="Step 2" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">2</div><div class="desc">Clean Interior Components</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-3.jpg" alt="Step 3" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">3</div><div class="desc">Lubricate Moving Parts</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-4.jpg" alt="Step 4" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">4</div><div class="desc">Inspect Electrical Systems</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-5.jpg" alt="Step 5" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">5</div><div class="desc">Sanitise All Surfaces</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-6.jpg" alt="Step 6" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">6</div><div class="desc">Reassemble and Test</div></div>
+    <div class="service-step"><img src="https://www.coway.com.my/files/Products/berex/mine/coway-berex-mine-service-step-7.jpg" alt="Step 7" style="width:60px;height:60px;border-radius:50%;margin:0 auto 8px;object-fit:cover;"><div class="num">7</div><div class="desc">Final Quality Check</div></div>
+  </div>
+</section>
+
+<section class="section specs">
+  <div class="center">
+    <h2>SPECS and PRICE</h2>
+    <table>
+      <tr><td>MODEL</td><td>MINE MC-B02</td></tr>
+      <tr><td>COLOUR</td><td>Champagne Beige, Rose Brown, Ink Black</td></tr>
+      <tr><td>VOLTAGE</td><td>220-240V, 50/60 Hz</td></tr>
+      <tr><td>POWER CONSUMPTION</td><td>130 W</td></tr>
+      <tr><td>DIMENSIONS (W x D x H)</td><td>740 x 1250 x 1030 mm (Upright) / 740 x 1510 x 770 mm (Reclined)</td></tr>
+      <tr><td>NET WEIGHT</td><td>58.5 kg</td></tr>
+    </table>
+
+    <div class="price-box">
+      <h3>PRICING</h3>
+      <div class="price-row"><span class="label">Monthly Rental</span><span class="amount">RM 120* (Free 5-Year Service) / RM 105* (With Service Membership)</span></div>
+      <div class="price-row"><span class="label">Outright Price</span><span class="amount">RM 6,000 (Free 1-Year Service)</span></div>
+      <div class="price-row"><span class="label">Service Membership</span><span class="amount">RM 200 (One-Time Care Service + Parts Replacement)</span></div>
+      <div class="price-row"><span class="label">Parts Replaced (on 36M)</span><span class="amount">Airbag Cover and Foot Cover</span></div>
+    </div>
+    <p style="font-size:11px;color:#999;">*Terms and conditions apply.</p>
+  </div>
+</section>
+
+<section class="section section-beige">
+  <div class="ar-section">
+    <div style="flex:0 0 280px;background:#fff;padding:40px;border-radius:16px;text-align:center;box-shadow:0 4px 20px rgba(0,0,0,.05);">
+      <img src="https://www.coway.com.my/files/Products/berex/mine/coway-AR-mine.png" alt="Coway AR" style="max-width:280px;margin:0 auto;">
+    </div>
+    <div class="col">
+      <h2>Visualise in Your Home with AR</h2>
+      <p>Use the Coway AR app to see how the Mine fits in your space before you commit.</p>
+      <div style="margin-top:16px;display:flex;gap:12px;">
+        <a href="#"><img src="https://www.coway.com.my/files/Products/mattress/primelite/an-image-of-download-on-the-app-store-for-coway-ar-app.png" alt="App Store" style="height:44px;"></a>
+        <a href="#"><img src="https://www.coway.com.my/files/Products/mattress/primelite/an-image-of-get-it-on-google-play-for-coway-ar-app.png" alt="Google Play" style="height:44px;"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <nav>
+    <a href="/faq">FAQ</a>
+    <a href="/terms">Terms of Use</a>
+    <a href="/privacy">Privacy Notice</a>
+    <a href="/warranty">Warranty Policy</a>
+    <a href="/support">Support</a>
+  </nav>
+  <div class="social">
+    <a href="#">YouTube</a>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+  </div>
+  <p class="copyright">2024 Coway (Malaysia) Sdn Bhd. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
