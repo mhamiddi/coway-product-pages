@@ -8,10 +8,6 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #fff; background: #000; }
   img { max-width: 100%; height: auto; display: block; }
-  .header { background: #fff; padding: 12px 5%; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
-  .header .logo { height: 32px; }
-  .header nav a { color: #333; text-decoration: none; margin-left: 24px; font-size: 14px; font-weight: 500; }
-  .header nav a:hover { color: #0056b3; }
   .hero { position: relative; min-height: 100vh; background: url('https://www.coway.com.my/files/Products/refrigerator/551L/fridge_551L_homebanner.jpg') center/cover no-repeat; display: flex; align-items: center; }
   .hero-overlay { width: 100%; max-width: 1400px; margin: 0 auto; padding: 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
   .hero-text { max-width: 500px; }
@@ -62,19 +58,17 @@
 
     .float-wa{position:fixed;bottom:24px;right:24px;z-index:9999;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,.4);transition:all .25s;color:#fff}
     .float-wa:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(37,211,102,.5)}
+:root{--navy:#002856;--white:#fff;--gray-200:#e2e8f0;--max:1140px}.nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px solid var(--gray-200)}.nav-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;padding:10px 24px;gap:16px}.nav-logo{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:2px}.nav-cta{display:flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:8px 16px;border-radius:24px;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:transform .2s}.nav-cta:hover{transform:scale(1.05)}
 </style>
 </head>
 <body>
 
-<header class="header">
-  <a href="/"><img src="https://www.coway.com.my/img/coway-malaysia-logo.png" alt="Coway Malaysia" class="logo"></a>
-  <nav><a href="/" style="display:inline-block;padding:10px 20px;color:#002856;text-decoration:none;font-weight:600;font-size:14px">← Kembali</a>
-    <a href="/products">Products</a>
-    <a href="/service">Service</a>
-    <a href="/trade-in">Trade-In</a>
-    <a href="/support">Support</a>
-  </nav>
-</header>
+<nav class="nav">
+  <div class="nav-inner"><a href="/" style="display:flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-size:14px;font-weight:600;margin-right:auto">← Kembali</a>
+    <div class="nav-logo">COWAY</div>
+    
+  </div>
+</nav>
 
 <section class="hero">
   <div class="hero-overlay">

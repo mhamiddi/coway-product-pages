@@ -3,12 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coway GLAZE — Water Purifier | Sewa RM 20/bln</title>
-<meta name="description" content="Coway GLAZE (CHPI-6320L) — Water Purifier premium. Sewa dari RM 20/bulan.">
+<title>Coway Glaze: Large Capacity 3 Temperature Hot and Cold Water Dispenser | Sewa RM20/bln</title>
+<meta name="description" content="Upgrade to our cold water purifier, featuring RO membrane filter, a large capacity dispenser, 3 temperature settings, and convenient one touch operation. Sewa dari RM20/bulan.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>:root { --hero-bg-url: url('https://www.coway.com.my/files/Products/water-purifier/glaze/coway-glaze-water-purifier.jpg'); }</style>
 <style>
 :root {
   --navy: #002856;
@@ -110,7 +109,7 @@ a { color: inherit; text-decoration: none; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('https://www.coway.com.my/files/Products/water-purifier/villaem3/coway-villaem3-water-purifier.jpg') center/cover no-repeat;
+  background: url('/images/coway-glaze-water-purifier.jpg') center/cover no-repeat;
   opacity: 0.25;
 }
 .hero .container {
@@ -126,6 +125,10 @@ a { color: inherit; text-decoration: none; }
   font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
   margin-bottom: 20px;
 }
+.hero-badges {
+  display: flex; gap: 12px; margin-bottom: 20px; align-items: center;
+}
+.hero-badges img { height: 32px; }
 .hero-promo-badge {
   display: inline-block;
   background: var(--red);
@@ -201,15 +204,73 @@ a { color: inherit; text-decoration: none; }
 }
 .img-text-image img { width: 100%; }
 
-/* Full-width Image */
-.full-img {
-  position: relative; width: 100%;
-  min-height: 400px;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden;
+/* Award Badge */
+.award-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 50px;
+  padding: 8px 20px 8px 8px;
+  font-size: 13px; font-weight: 600; color: var(--gray-600);
+  margin-top: 16px;
 }
-.full-img img {
-  width: 100%; max-height: 560px; object-fit: cover;
+.award-badge img { width: 36px; height: 36px; border-radius: 50%; }
+
+/* Video Play Button */
+.video-play {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 64px; height: 64px;
+  background: var(--blue);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  box-shadow: 0 4px 20px rgba(0,102,179,0.35);
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.video-play:hover { transform: scale(1.08); }
+
+/* Volume Controls */
+.volume-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  margin-top: 32px;
+}
+.volume-card {
+  text-align: center;
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 32px 20px;
+  transition: all 0.3s;
+}
+.volume-card:hover { border-color: var(--blue); transform: translateY(-2px); }
+.volume-card img { width: 80px; margin: 0 auto 16px; }
+.volume-card .volume-amount {
+  font-size: 28px; font-weight: 800; color: var(--navy);
+}
+
+/* Temperature Display */
+.temp-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  margin-top: 32px;
+}
+.temp-card {
+  text-align: center;
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 32px 20px;
+  transition: all 0.3s;
+}
+.temp-card:hover { border-color: var(--blue); transform: translateY(-2px); }
+.temp-card img { width: 64px; margin: 0 auto 16px; }
+.temp-card .temp-name {
+  font-size: 18px; font-weight: 700; color: var(--navy);
+  margin-bottom: 4px;
+}
+.temp-card .temp-range {
+  font-size: 13px; color: var(--gray-500);
 }
 
 /* Colors */
@@ -295,7 +356,7 @@ a { color: inherit; text-decoration: none; }
   border-bottom: 1px solid var(--gray-200);
 }
 .specs-table th {
-  width: 220px;
+  width: 260px;
   font-size: 14px; font-weight: 600; color: var(--gray-500);
   background: var(--gray-50);
   white-space: nowrap;
@@ -436,6 +497,7 @@ a { color: inherit; text-decoration: none; }
   .hero-tagline { margin: 0 auto 32px; }
   .hero-pricing { justify-content: center; }
   .hero-cta { margin: 0 auto; }
+  .hero-badges { justify-content: center; }
   .hero-image img { max-height: 300px; }
   .img-text { grid-template-columns: 1fr; gap: 32px; }
   .img-text.reverse { direction: ltr; }
@@ -443,6 +505,8 @@ a { color: inherit; text-decoration: none; }
   .filter-steps { grid-template-columns: repeat(2, 1fr); }
   .pricing-grid { grid-template-columns: 1fr; }
   .colors-grid { grid-template-columns: 1fr; }
+  .volume-grid { grid-template-columns: repeat(3, 1fr); }
+  .temp-grid { grid-template-columns: repeat(3, 1fr); }
   .specs-table th { width: 140px; font-size: 13px; }
   .specs-table td { font-size: 13px; }
   .gallery-strip { grid-template-columns: repeat(2, 1fr); }
@@ -455,16 +519,387 @@ a { color: inherit; text-decoration: none; }
   .container { padding: 0 16px; }
   .filter-steps { grid-template-columns: 1fr; }
   .gallery-strip { grid-template-columns: 1fr; }
+  .volume-grid { grid-template-columns: 1fr; }
+  .temp-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
 <body>
+
+<!-- Nav -->
 <nav class="nav">
   <div class="nav-inner"><a href="/" style="display:flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-size:14px;font-weight:600;margin-right:auto">← Kembali</a>
     <div class="nav-logo">COWAY</div>
-    <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20Glaze%20-%20promosi%20RM20%2Fbulan" class="nav-cta" target="_blank">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-</svg> WhatsApp Kami
-    </a>
+    
   </div>
 </nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div>
+      <div class="hero-badge">🏆 No.1 Water Purifier di Malaysia</div>
+      <div class="hero-badges">
+        <img src="/images/coway-glaze-wqa-certified.png" alt="WQA Certified" onerror="this.style.display='none'">
+        <img src="/images/coway-glaze-halal-certified.png" alt="Halal Certified" onerror="this.style.display='none'">
+      </div>
+      <p class="hero-model">CHPI-6320L</p>
+      <h1>GLAZE</h1>
+      <p class="hero-tagline">COOLNESS REDEFINED</p>
+      <div class="hero-promo-badge">🔥 7 BULAN PERTAMA</div>
+      <div class="hero-pricing">
+        <span class="hero-price">RM 20</span>
+        <span class="hero-price-unit">/bulan</span>
+        <span class="hero-original">RM 70/bulan</span>
+      </div>
+      <p style="color:rgba(255,255,255,0.6); font-size:13px; margin-top:-12px; margin-bottom:24px;">Promosi 7 bulan pertama. Bulan ke-8: RM70/bulan.</p>
+      <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20GLAZE%20-%20promosi%20RM20%2Fbulan" class="hero-cta" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        RM20/bln — WhatsApp Sekarang
+      </a>
+    </div>
+    <div class="hero-image">
+      <img src="/images/coway-glaze-water-purifier.jpg" alt="Coway GLAZE CHPI-6320L" loading="eager">
+    </div>
+  </div>
+</section>
+
+<!-- Stay Fresh and Chilled With Glaze -->
+<section class="section">
+  <div class="container">
+    <div class="img-text">
+      <div class="img-text-image">
+        <img src="/images/coway-glaze-water-purifier-front-view.jpg" alt="Coway GLAZE — Stay Fresh and Chilled" loading="lazy">
+      </div>
+      <div>
+        <p class="section-label">Introduction</p>
+        <h2 class="section-title">Stay Fresh and Chilled With Glaze</h2>
+        <p class="section-desc">A perfect companion to keep you refreshed with its advanced cooling technology and sleek design. Glaze delivers cool, crisp water at the touch of a button — redefining what it means to stay hydrated.</p>
+        <div class="award-badge">
+          <img src="/images/coway-glaze-good-design-award.png" alt="Good Design Award" onerror="this.style.display='none'">
+          Good Design Award Winner
+        </div>
+        <div class="video-play" style="margin-top:24px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cold Water+ Function -->
+<section class="section" style="background: var(--gray-50);">
+  <div class="container">
+    <div class="img-text reverse">
+      <div class="img-text-image">
+        <img src="/images/coway-glaze-cold-water-plus-function.jpg" alt="Coway GLAZE Cold Water+ Function" loading="lazy">
+      </div>
+      <div>
+        <p class="section-label">Cold Water+</p>
+        <h2 class="section-title">Experience Extra Cooling with Cold Water+</h2>
+        <p class="section-desc">Activate the Cold Water+ function to enjoy water that's even colder than the standard cold setting. Perfect for those hot Malaysian days when you need an extra-chilled refreshment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- One-Touch Extraction -->
+<section class="section">
+  <div class="container">
+    <div class="img-text">
+      <div class="img-text-image">
+        <img src="/images/coway-glaze-water-purifier-panel-view.jpg" alt="Coway GLAZE One-Touch Extraction" loading="lazy">
+      </div>
+      <div>
+        <p class="section-label">Convenience</p>
+        <h2 class="section-title">One-Touch Extraction</h2>
+        <p class="section-desc">Simply touch the panel to dispense water — no buttons, no knobs. Glaze's intuitive digital touch panel makes every pour effortless.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Volume Control -->
+<section class="section" style="background: var(--gray-50);">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Precision</p>
+    <h2 class="section-title">Volume Control</h2>
+    <p class="section-desc" style="margin:0 auto;">Choose from three preset volumes for the perfect pour every time.</p>
+    <div class="volume-grid">
+      <div class="volume-card">
+        <img src="/images/coway-glaze-volume-control-120ml.png" alt="120ml" loading="lazy">
+        <div class="volume-amount">120ml</div>
+        <p style="font-size:14px;color:var(--gray-500);">Small Cup</p>
+      </div>
+      <div class="volume-card">
+        <img src="/images/coway-glaze-volume-control-250ml.png" alt="250ml" loading="lazy">
+        <div class="volume-amount">250ml</div>
+        <p style="font-size:14px;color:var(--gray-500);">Regular Cup</p>
+      </div>
+      <div class="volume-card">
+        <img src="/images/coway-glaze-volume-control-500ml.png" alt="500ml" loading="lazy">
+        <div class="volume-amount">500ml</div>
+        <p style="font-size:14px;color:var(--gray-500);">Large Bottle</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Digital Touch Panel -->
+<section class="section">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Temperature Control</p>
+    <h2 class="section-title">Digital Touch Panel</h2>
+    <p class="section-desc" style="margin:0 auto;">Three temperature settings at your fingertips — hot, ambient, or cold.</p>
+    <div class="temp-grid">
+      <div class="temp-card">
+        <img src="/images/coway-glaze-hot-temperature.png" alt="Hot Water" loading="lazy">
+        <div class="temp-name">Hot</div>
+        <div class="temp-range">~85°C</div>
+      </div>
+      <div class="temp-card">
+        <img src="/images/coway-glaze-ambient-temperature.png" alt="Ambient Water" loading="lazy">
+        <div class="temp-name">Ambient</div>
+        <div class="temp-range">Room Temperature</div>
+      </div>
+      <div class="temp-card">
+        <img src="/images/coway-glaze-cold-temperature.png" alt="Cold Water" loading="lazy">
+        <div class="temp-name">Cold</div>
+        <div class="temp-range">~5°C</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Thoughtful and User-Friendly Features -->
+<section class="section" style="background: var(--gray-50);">
+  <div class="container">
+    <div class="img-text reverse">
+      <div class="img-text-image">
+        <img src="/images/coway-glaze-adjustable-tray.jpg" alt="Coway GLAZE Adjustable Tray" loading="lazy">
+      </div>
+      <div>
+        <p class="section-label">User-Friendly</p>
+        <h2 class="section-title">Thoughtful and User-Friendly Features</h2>
+        <p class="section-desc">The adjustable tray accommodates cups and bottles of various sizes. Designed with your convenience in mind, every detail of Glaze makes hydration effortless.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modern and Minimalist Design -->
+<section class="section">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Design</p>
+    <h2 class="section-title">Modern and Minimalist Design</h2>
+    <p class="section-desc" style="margin:0 auto;">Glaze blends seamlessly into any modern kitchen with its clean lines, premium Oatmeal Beige finish, and compact footprint. A water purifier that complements your space.</p>
+    <div style="max-width:500px; margin:32px auto 0;">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #D4C5B9;"></div>
+        <div class="color-name">Oatmeal Beige</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Overview -->
+<section class="section" style="background: var(--gray-50);">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Features</p>
+    <h2 class="section-title">Features Overview</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="/images/glaze.png" alt="Cold Water+" loading="lazy">
+        <h4 class="feature-name">COLD WATER+</h4>
+        <p class="feature-desc">Extra cooling function for ice-cold water whenever you crave it.</p>
+      </div>
+      <div class="feature-card">
+        <img src="/images/coway-glaze-eco-mode-function.jpg" alt="Eco Mode" loading="lazy">
+        <h4 class="feature-name">ECO MODE</h4>
+        <p class="feature-desc">Automatically reduces power consumption when not in use, saving energy without sacrificing performance.</p>
+      </div>
+      <div class="feature-card">
+        <img src="/images/coway-glaze-child-safety-lock.jpg" alt="Child Safety Lock" loading="lazy">
+        <h4 class="feature-name">CHILD SAFETY LOCK</h4>
+        <p class="feature-desc">Prevents accidental dispensing of hot water, keeping your family safe at all times.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Gallery</p>
+    <h2 class="section-title">Every Angle, Every Detail</h2>
+    <div class="gallery-strip">
+      <img src="/images/coway-glaze-water-purifier-right-front-view.jpg" alt="Glaze Right Front View" loading="lazy">
+      <img src="/images/coway-glaze-volume-control-120ml-icon.png" alt="Glaze Front View" loading="lazy">
+      <img src="/images/coway-glaze-water-purifier-front-side-view.jpg" alt="Glaze Front Side View" loading="lazy">
+      <img src="/images/coway-glaze-ambient-temperature-icon.png" alt="Glaze Panel View" loading="lazy">
+      <img src="/images/coway-glaze-water-purifier-with-cup-tray.jpg" alt="Glaze with Cup and Tray" loading="lazy">
+      <img src="/images/coway-glaze-water-purifier-right-view.jpg" alt="Glaze Right View" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- Filtration System -->
+<section class="section" style="background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Filtration</p>
+    <h2 class="section-title">What's Behind the Product</h2>
+    <p style="font-size:14px; color:var(--gray-500); margin-bottom:40px;">Advanced multi-stage filtration for pure, great-tasting water.</p>
+    <div class="filter-steps">
+      <div class="filter-step">
+        <p class="filter-step-num">STEP 1</p>
+        <img src="/images/coway-plus-neo-sense-filter.png" alt="Neo-Sense Filter" loading="lazy">
+        <h4>Neo-Sense Filter</h4>
+        <p class="filter-code">6 – 8 months</p>
+        <p>Removes particulates, chlorine, volatile organic compounds (VOCs) and dissolved organic and inorganic impurities.</p>
+      </div>
+      <div class="filter-step">
+        <p class="filter-step-num">STEP 2</p>
+        <img src="/images/coway-ro-membrane-filter.png" alt="RO Membrane Filter" loading="lazy">
+        <h4>RO Membrane Filter</h4>
+        <p class="filter-code">24 months</p>
+        <p>Removes water contaminants such as heavy metals, harmful organic chemicals, microbes and radioactive substances.</p>
+      </div>
+      <div class="filter-step">
+        <p class="filter-step-num">STEP 3</p>
+        <img src="/images/coway-plus-inno-sense-filter.png" alt="Plus Inno-Sense Filter" loading="lazy">
+        <h4>Plus Inno-Sense Filter</h4>
+        <p class="filter-code">18 – 20 months</p>
+        <p>Reduces odours and improves the taste of water for a fresher drinking experience.</p>
+      </div>
+      <div class="filter-step">
+        <p class="filter-step-num">STEP 4</p>
+        <img src="/images/coway-dual-uv-sterilisation-care.png" alt="Antibacterial" loading="lazy" style="width:72px;">
+        <h4>Antibacterial</h4>
+        <p class="filter-code">Built-in</p>
+        <p>Provides antibacterial protection to keep your water safe and hygienic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Heart Service -->
+<section class="section heart-service">
+  <div class="container">
+    <img src="/images/coway-heart-service.jpg" alt="Coway Heart Service" loading="lazy">
+    <p class="section-label">Service</p>
+    <h2 class="section-title">Protected by Complimentary Care Service</h2>
+    <p class="section-desc">Every Coway product comes with complimentary Heart Service — regular maintenance by certified technicians. *Terms and conditions apply.</p>
+    <a href="https://wa.me/60137227961?text=Saya%20nak%20tanya%20pasal%20Coway%20Heart%20Service" class="btn-outline" target="_blank">LEARN MORE</a>
+  </div>
+</section>
+
+<!-- Specs & Price -->
+<section class="section" id="specs">
+  <div class="container">
+    <p class="section-label">Specifications</p>
+    <h2 class="section-title">Specs & Price</h2>
+    <p class="section-desc">All you need to know about Glaze.</p>
+
+    <table class="specs-table">
+      <tr><th>MODEL</th><td>GLAZE (CHPI-6320L)</td></tr>
+      <tr><th>COLOUR</th><td>Oatmeal Beige</td></tr>
+      <tr><th>FILTRATION METHOD</th><td>Reverse Osmosis (RO)</td></tr>
+      <tr><th>TANK CAPACITY</th><td>3.5 Litres Ambient Water<br>2.5 Litres Cold Water<br>1.5 Litres Hot Water</td></tr>
+      <tr><th>FILTER TYPE & REPLACEMENT PERIOD<sup>1</sup></th><td>Neo-Sense (Sediment + Pre-Carbon) — 6 to 8 Months<br>RO Membrane — 24 Months<br>Plus Inno-Sense (Post-Carbon + Fine) — 18 to 20 Months<br>Antibacterial — Built-in</td></tr>
+      <tr><th>POWER CONSUMPTION</th><td>Heater 260W – 310W<br>Compressor 1.1A</td></tr>
+      <tr><th>DIMENSIONS (W × D × H)</th><td>260 × 500 × 1291 mm</td></tr>
+      <tr><th>NET WEIGHT</th><td>29.5 kg</td></tr>
+    </table>
+    <p class="disclaimer"><sup>1</sup>The recommended filter replacement period is based on standard usage conditions. In cases where the filter lifespan is affected by external factors (e.g. poor water quality, abnormal usage or environmental conditions), additional filters may be provided and replaced as needed, without affecting the standard replacement cycle. We reserve the right to charge for any additional filters provided due to such factors beyond the standard replacement cycle.</p>
+
+    <!-- Product Spec Image -->
+    <div style="text-align:center; margin-top:32px;">
+      <img src="/images/coway-glaze-product-spec.png" alt="Coway Glaze Product Spec" loading="lazy" style="max-width:450px; margin:0 auto;">
+    </div>
+
+    <!-- Pricing -->
+    <div style="text-align:center; margin-top:48px;">
+      <p class="section-label">Pricing</p>
+      <h2 class="section-title" style="margin-bottom:8px;">Pilih Pelan Anda</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <p class="pricing-type">Outright Purchase</p>
+        <div style="display:flex; align-items:baseline; gap:6px;">
+          <span class="pricing-amount">RM 3,700</span>
+        </div>
+        <span class="pricing-bonus">Free 1-Year Service</span>
+        <ul class="pricing-list">
+          <li><span>Heart Service-4M</span><span class="price-val">RM 3,700</span></li>
+          <li><span>Heart Service-2M</span><span class="price-val">RM 3,900</span></li>
+        </ul>
+      </div>
+      <div class="pricing-card featured">
+        <p class="pricing-type">Monthly Rental</p>
+        <div style="display:flex; align-items:baseline; gap:6px;">
+          <span class="pricing-amount">RM 70</span>
+          <span class="pricing-unit">/bulan</span>
+        </div>
+        <span class="pricing-bonus">Promosi: RM20/bln (7 bln pertama)</span>
+        <ul class="pricing-list">
+          <li><span>7 Bulan Pertama</span><span class="price-val" style="color:var(--red);">RM 20</span></li>
+          <li><span>Bulan ke-8 & seterusnya</span><span class="price-val">RM 70</span></li>
+          <li><span>Obligation 5+0</span><span class="price-val">RM 90</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer" style="margin-top:16px;">*The 3+2 plan carries a minimum obligation period of 3 years, with an optional 2 year extension during which the product may be returned without penalties. While the 5 year, 7 year, and 9 year plans are full-term obligations, and early terminations will result in penalties.<br><br>Prices displayed include SST and are subject to change without prior notice. Promotions, product availability, specifications, and service schedules may vary by model and may be updated without notice. Coway reserves the right to revise or withdraw prices, offers, and service packages at its discretion. Product images are for illustration only and may differ from actual items.</p>
+  </div>
+</section>
+
+<!-- AR Section -->
+<section class="section ar-section">
+  <div class="container">
+    <p class="section-label" style="color:rgba(255,255,255,0.6);">AR Experience</p>
+    <h2 class="section-title">See GLAZE in Your Home</h2>
+    <p class="section-desc">Use Coway AR to visualize Glaze in your space and unlock the unlimited possibilities with Coway products.</p>
+    <div class="ar-stores">
+      <img src="/images/coway-ar-app-store.png" alt="Download on App Store" loading="lazy">
+      <img src="/images/coway-ar-google-play.png" alt="Get it on Google Play" loading="lazy">
+    </div>
+    <div class="ar-phone">
+      <img src="/images/coway-ar-screenshot.png" alt="Coway AR App" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section" style="text-align:center; background:var(--blue-light);">
+  <div class="container">
+    <h2 class="section-title">Berminat dengan GLAZE?</h2>
+    <p class="section-desc" style="margin:0 auto 24px;">Dapatkan sewa serendah RM20/bulan untuk 7 bulan pertama dengan servis berkala PERCUMA.</p>
+    <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20GLAZE%20-%20nak%20tanya%20pasal%20promosi%20RM20%2Fbulan" class="hero-cta" target="_blank" style="margin:0 auto;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp — Dapatkan Sebut Harga
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="#">FAQ</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Notice</a>
+      <a href="#">Governance</a>
+      <a href="#">Warranty Policy</a>
+      <a href="#">Support</a>
+    </div>
+    <p class="footer-copy">COWAY (MALAYSIA) © 2026. ALL RIGHTS RESERVED. (735420-H) (AJL931694)</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20GLAZE" class="float-wa" target="_blank" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+</body>
+</html>

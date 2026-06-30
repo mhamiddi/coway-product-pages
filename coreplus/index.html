@@ -3,794 +3,238 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coway CORE PLUS — Floor Standing Water Purifier | Rent RM93/mo</title>
-<meta name="description" content="Coway CORE PLUS (CHP-5721L) — Floor standing RO water purifier, 21.1L tank, UV sterilization, 3 temperatures. Rent from RM93/month.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Coway CORE PLUS — Floor Standing Water Purifier | Rent RM20/mo</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root {
-  --navy: #002856;
-  --blue: #0066b3;
-  --blue-light: #e8f4fd;
-  --blue-accent: #0099e6;
-  --green: #00a859;
-  --red: #e31837;
-  --white: #ffffff;
-  --gray-50: #f8fafb;
-  --gray-100: #f0f4f6;
-  --gray-200: #e2e8f0;
-  --gray-300: #cbd5e1;
-  --gray-400: #94a3b8;
-  --gray-500: #64748b;
-  --gray-600: #475569;
-  --gray-700: #334155;
-  --gray-800: #1e293b;
-  --wa: #25D366;
-  --radius: 12px;
-  --radius-lg: 20px;
-  --max: 1140px;
-  --shadow: 0 2px 16px rgba(0,0,0,0.06);
-  --shadow-lg: 0 8px 40px rgba(0,0,0,0.08);
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Noto Sans', system-ui, -apple-system, sans-serif;
-  color: var(--gray-800);
-  background: var(--white);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
-img { max-width: 100%; height: auto; display: block; }
-a { color: inherit; text-decoration: none; }
-
-/* Utilities */
-.container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
-.section { padding: 80px 0; }
-.section-narrow { padding: 60px 0; }
-.section-label {
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--blue);
-  margin-bottom: 8px;
-}
-.section-title {
-  font-size: clamp(28px, 4vw, 40px);
-  font-weight: 800;
-  line-height: 1.2;
-  color: var(--navy);
-  margin-bottom: 16px;
-}
-.section-desc {
-  font-size: 16px;
-  color: var(--gray-500);
-  max-width: 640px;
-  line-height: 1.7;
-}
-
-/* Nav */
-.nav {
-  position: sticky; top: 0; z-index: 100;
-  background: rgba(255,255,255,0.95);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--gray-200);
-  padding: 14px 0;
-}
-.nav-inner {
-  max-width: var(--max); margin: 0 auto; padding: 0 24px;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.nav-logo {
-  font-size: 22px; font-weight: 800; color: var(--navy);
-  letter-spacing: -0.02em;
-}
-.nav-cta {
-  background: var(--wa); color: #fff;
-  padding: 10px 20px; border-radius: 50px;
-  font-size: 14px; font-weight: 600;
-  transition: all 0.25s;
-  display: flex; align-items: center; gap: 6px;
-}
-.nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(37,211,102,0.3); }
-
-/* Hero */
-.hero {
-  background: linear-gradient(135deg, var(--navy) 0%, #001a3d 100%);
-  color: var(--white);
-  position: relative;
-  overflow: hidden;
-  min-height: 560px;
-  display: flex;
-  align-items: center;
-}
-.hero-bg {
-  position: absolute; inset: 0;
-  background: url('images/coreplus-airport.jpg') center/cover no-repeat;
-  opacity: 0.25;
-}
-.hero .container {
-  position: relative; z-index: 2;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-}
-.hero-badge {
-  display: inline-block;
-  background: rgba(255,255,255,0.15);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 6px 16px; border-radius: 50px;
-  font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
-  margin-bottom: 20px;
-}
-.hero-promo-badge {
-  display: inline-block;
-  background: var(--red);
-  color: #fff;
-  padding: 8px 20px; border-radius: 50px;
-  font-size: 14px; font-weight: 700; letter-spacing: 0.04em;
-  margin-bottom: 16px;
-  animation: pulse 2s infinite;
-}
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
-.hero h1 {
-  font-size: clamp(36px, 5vw, 56px);
-  font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  margin-bottom: 8px;
-}
-.hero-model {
-  font-size: 16px;
-  color: rgba(255,255,255,0.6);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  margin-bottom: 4px;
-}
-.hero-tagline {
-  font-size: 18px;
-  color: rgba(255,255,255,0.8);
-  margin-bottom: 32px;
-  max-width: 400px;
-}
-.hero-pricing {
-  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
-  margin-bottom: 24px;
-}
-.hero-price {
-  font-size: 48px; font-weight: 800; letter-spacing: -0.02em;
-}
-.hero-price-unit { font-size: 16px; color: rgba(255,255,255,0.6); }
-.hero-original {
-  font-size: 16px; color: rgba(255,255,255,0.5);
-  text-decoration: line-through;
-}
-.hero-cta {
-  display: inline-flex; align-items: center; gap: 10px;
-  background: var(--wa); color: #fff;
-  padding: 16px 36px; border-radius: 50px;
-  font-size: 17px; font-weight: 700;
-  transition: all 0.3s;
-  box-shadow: 0 4px 20px rgba(37,211,102,0.35);
-}
-.hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(37,211,102,0.45); }
-.hero-image {
-  display: flex; align-items: center; justify-content: center;
-}
-.hero-image img {
-  max-height: 420px;
-  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
-}
-
-/* Image + Text Section */
-.img-text {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;
-}
-.img-text.reverse { direction: rtl; }
-.img-text.reverse > * { direction: ltr; }
-.img-text-image {
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
-}
-.img-text-image img { width: 100%; }
-
-/* Full-width Image */
-.full-img {
-  position: relative; width: 100%;
-  min-height: 400px;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden;
-}
-.full-img img {
-  width: 100%; max-height: 560px; object-fit: cover;
-}
-
-/* Colors */
-.colors-grid {
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 32px;
-}
-.color-card {
-  text-align: center;
-  background: var(--gray-50);
-  border-radius: var(--radius-lg);
-  padding: 32px 24px;
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-}
-.color-card:hover { border-color: var(--blue); }
-.color-swatch {
-  width: 80px; height: 80px; border-radius: 50%;
-  margin: 0 auto 16px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-}
-.color-name {
-  font-size: 16px; font-weight: 600; color: var(--navy);
-}
-
-/* Features Grid */
-.features-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px;
-}
-.feature-card {
-  background: var(--white);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: 32px 24px;
-  text-align: center;
-  transition: all 0.3s;
-}
-.feature-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--blue-light);
-}
-.feature-card img { width: 120px; margin: 0 auto 20px; }
-.feature-name {
-  font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 8px;
-}
-.feature-desc {
-  font-size: 14px; color: var(--gray-500); line-height: 1.6;
-}
-
-/* Filter System */
-.filter-steps {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 40px;
-}
-.filter-step {
-  text-align: center;
-  padding: 32px 20px;
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--gray-200);
-}
-.filter-step img { width: 64px; margin: 0 auto 20px; }
-.filter-step-num {
-  font-size: 12px; font-weight: 700; color: var(--blue); letter-spacing: 0.06em;
-  margin-bottom: 8px;
-}
-.filter-step h4 {
-  font-size: 15px; font-weight: 700; color: var(--navy); margin-bottom: 8px;
-  line-height: 1.3;
-}
-.filter-step p {
-  font-size: 13px; color: var(--gray-500); line-height: 1.5;
-}
-.filter-code {
-  font-size: 11px; color: var(--gray-400); margin-top: 6px;
-}
-
-/* Specs Table */
-.specs-table {
-  width: 100%; border-collapse: collapse; margin-top: 32px;
-}
-.specs-table th, .specs-table td {
-  padding: 16px 20px; text-align: left;
-  border-bottom: 1px solid var(--gray-200);
-}
-.specs-table th {
-  width: 220px;
-  font-size: 14px; font-weight: 600; color: var(--gray-500);
-  background: var(--gray-50);
-  white-space: nowrap;
-}
-.specs-table td {
-  font-size: 15px; color: var(--gray-800);
-  line-height: 1.6;
-}
-
-/* Pricing Cards */
-.pricing-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 32px;
-}
-.pricing-card {
-  background: var(--white);
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: 36px 28px;
-  transition: all 0.3s;
-}
-.pricing-card.featured {
-  border-color: var(--blue);
-  box-shadow: 0 0 0 1px var(--blue), var(--shadow-lg);
-  position: relative;
-}
-.pricing-card.featured::before {
-  content: 'POPULAR';
-  position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
-  background: var(--blue); color: #fff;
-  padding: 4px 20px; border-radius: 50px;
-  font-size: 12px; font-weight: 700; letter-spacing: 0.04em;
-}
-.pricing-type {
-  font-size: 14px; font-weight: 600; color: var(--blue); letter-spacing: 0.04em;
-  margin-bottom: 8px; text-transform: uppercase;
-}
-.pricing-amount {
-  font-size: 42px; font-weight: 800; color: var(--navy);
-}
-.pricing-unit { font-size: 14px; color: var(--gray-400); font-weight: 500; }
-.pricing-bonus {
-  display: inline-block;
-  background: var(--blue-light); color: var(--blue);
-  padding: 6px 14px; border-radius: 50px;
-  font-size: 13px; font-weight: 600; margin: 12px 0;
-}
-.pricing-list { list-style: none; margin-top: 16px; }
-.pricing-list li {
-  padding: 8px 0; font-size: 14px; color: var(--gray-600);
-  border-bottom: 1px solid var(--gray-100);
-  display: flex; justify-content: space-between;
-}
-.pricing-list li:last-child { border-bottom: none; }
-.pricing-list .price-val { font-weight: 600; color: var(--navy); }
-
-/* Heart Service */
-.heart-service {
-  background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);
-  text-align: center;
-}
-.heart-service img { max-width: 500px; margin: 0 auto 24px; }
-.heart-service .section-desc { margin: 0 auto; }
-.heart-service .btn-outline {
-  display: inline-block;
-  margin-top: 24px;
-  padding: 12px 32px;
-  border: 2px solid var(--blue);
-  color: var(--blue);
-  border-radius: 50px;
-  font-weight: 600;
-  transition: all 0.3s;
-}
-.heart-service .btn-outline:hover { background: var(--blue); color: #fff; }
-
-/* AR Section */
-.ar-section {
-  background: var(--navy);
-  color: #fff;
-  text-align: center;
-}
-.ar-section .section-title { color: #fff; }
-.ar-section .section-desc { color: rgba(255,255,255,0.7); margin: 0 auto; }
-.ar-stores { display: flex; gap: 16px; justify-content: center; margin-top: 24px; }
-.ar-stores img { height: 44px; }
-.ar-phone { max-width: 300px; margin: 24px auto 0; }
-
-/* Disclaimer */
-.disclaimer {
-  font-size: 12px; color: var(--gray-400); line-height: 1.7;
-  margin-top: 16px;
-}
-
-/* Gallery strip */
-.gallery-strip {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
-  margin-top: 32px;
-}
-.gallery-strip img {
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  transition: transform 0.3s;
-}
-.gallery-strip img:hover { transform: scale(1.02); }
-
-/* Footer */
-.footer {
-  background: var(--gray-50);
-  border-top: 1px solid var(--gray-200);
-  padding: 40px 0;
-  text-align: center;
-}
-.footer-links {
-  display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
-  margin-bottom: 16px;
-}
-.footer-links a { font-size: 13px; color: var(--gray-500); transition: color 0.2s; }
-.footer-links a:hover { color: var(--blue); }
-.footer-copy { font-size: 12px; color: var(--gray-400); }
-
-/* Floating WA */
-.float-wa {
-  position: fixed; bottom: 24px; right: 24px; z-index: 200;
-  background: var(--wa); color: #fff;
-  width: 56px; height: 56px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
-  transition: all 0.3s;
-  font-size: 24px;
-}
-.float-wa:hover { transform: scale(1.1); }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .section { padding: 48px 0; }
-  .section-narrow { padding: 36px 0; }
-  .hero { min-height: auto; padding: 60px 0 40px; }
-  .hero .container { grid-template-columns: 1fr; gap: 32px; text-align: center; }
-  .hero-tagline { margin: 0 auto 32px; }
-  .hero-pricing { justify-content: center; }
-  .hero-cta { margin: 0 auto; }
-  .hero-image img { max-height: 300px; }
-  .img-text { grid-template-columns: 1fr; gap: 32px; }
-  .img-text.reverse { direction: ltr; }
-  .features-grid { grid-template-columns: 1fr; }
-  .filter-steps { grid-template-columns: repeat(2, 1fr); }
-  .pricing-grid { grid-template-columns: 1fr; }
-  .colors-grid { grid-template-columns: 1fr; }
-  .specs-table th { width: 140px; font-size: 13px; }
-  .specs-table td { font-size: 13px; }
-  .gallery-strip { grid-template-columns: repeat(2, 1fr); }
-  .nav-logo { font-size: 18px; }
-  .nav-cta { padding: 8px 16px; font-size: 13px; }
-  .hero h1 { font-size: 32px; }
-  .hero-price { font-size: 36px; }
-}
-@media (max-width: 480px) {
-  .container { padding: 0 16px; }
-  .filter-steps { grid-template-columns: 1fr; }
-  .gallery-strip { grid-template-columns: 1fr; }
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans',sans-serif;color:#333;line-height:1.6}
+nav{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:#fff;border-bottom:1px solid #e8f4fd;position:sticky;top:0;z-index:100}
+nav a{text-decoration:none;color:#002856;font-weight:600;font-size:14px}
+nav .nav-logo{height:28px}
+.nav-wa{background:#00a859;color:#fff;padding:8px 16px;border-radius:6px}
+.hero{background:linear-gradient(135deg,#e8f4fd,#fff,#e8f4fd);padding:60px 24px;text-align:center}
+.hero-badges{display:flex;justify-content:center;gap:16px;margin-bottom:16px}
+.hero-badges img{height:40px}
+.hero .badge{display:inline-block;background:#002856;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:12px}
+.hero h1{font-size:clamp(36px,8vw,56px);font-weight:800;color:#002856}
+.hero-sub{font-size:18px;color:#0066b3;margin:8px 0 16px}
+.hero-img{max-width:400px;width:100%;margin:24px auto;display:block}
+.hero-pricing{margin:24px 0}
+.promo{font-size:48px;font-weight:800;color:#e31837}
+.promo span{font-size:18px;font-weight:400}
+.original{font-size:20px;color:#999;text-decoration:line-through;margin-left:8px}
+.note{font-size:13px;color:#666;margin-top:4px}
+.cta{display:inline-block;background:#00a859;color:#fff;padding:14px 32px;border-radius:8px;font-size:16px;font-weight:700;text-decoration:none;margin-top:12px}
+.top-features{padding:60px 24px;max-width:1100px;margin:0 auto}
+.top-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px}
+.top-card{text-align:center}
+.top-card img{width:100%;max-width:320px;border-radius:12px;margin-bottom:16px}
+.top-card h2{font-size:20px;color:#002856;margin-bottom:8px}
+.top-card p{font-size:14px;color:#555;max-width:280px;margin:0 auto}
+.feat-main{padding:60px 24px}
+.feat-main:nth-child(odd){background:#f8fafc}
+.feat-content{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.feat-content.rev{direction:rtl}.feat-content.rev>*{direction:ltr}
+.feat-content img{width:100%;border-radius:12px}
+.feat-content h2{font-size:28px;color:#002856;margin-bottom:12px}
+.feat-content p{font-size:15px;color:#555;line-height:1.7}
+.feat-icons{padding:60px 24px;background:#e8f4fd}
+.feat-icons h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.feat-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.feat-card{background:#fff;border-radius:12px;padding:24px;text-align:center}
+.feat-card img{width:100%;border-radius:8px;margin-bottom:16px;max-height:200px;object-fit:cover}
+.feat-card h4{font-size:16px;color:#002856;margin-bottom:8px}
+.feat-card p{font-size:13px;color:#555}
+.extra-feat{padding:60px 24px;max-width:1100px;margin:0 auto}
+.extra-feat h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.extra-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.extra-card{text-align:center}
+.extra-card img{width:100%;border-radius:12px;margin-bottom:16px;max-height:220px;object-fit:cover}
+.extra-card h4{font-size:16px;color:#002856;margin-bottom:8px}
+.extra-card p{font-size:13px;color:#555;max-width:280px;margin:0 auto}
+.gallery{padding:60px 24px}
+.gallery h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.gal-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.gal-grid img{width:100%;border-radius:8px}
+.filters{padding:60px 24px;max-width:1100px;margin:0 auto}
+.filters h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.filt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.filt-card{text-align:center;padding:20px}
+.filt-card img{width:100%;max-width:200px;border-radius:8px;margin-bottom:12px}
+.filt-card h4{font-size:15px;color:#002856}
+.filt-card .life{font-size:12px;color:#777;margin-top:4px}
+.heart{padding:60px 24px;background:linear-gradient(135deg,#002856,#0066b3);color:#fff;text-align:center}
+.heart h2{font-size:28px;margin-bottom:12px}
+.heart p{margin-bottom:24px;opacity:0.9}
+.heart img{max-width:300px;border-radius:12px}
+.heart a{display:inline-block;background:#fff;color:#002856;padding:12px 28px;border-radius:8px;font-weight:700;text-decoration:none;margin-top:16px}
+.specs{padding:60px 24px;max-width:800px;margin:0 auto}
+.specs h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.specs table{width:100%;border-collapse:collapse}
+.specs td,.specs th{padding:12px 16px;border-bottom:1px solid #e8f4fd;text-align:left;font-size:14px}
+.specs th{color:#002856;font-weight:700;width:35%;white-space:nowrap}
+.specs-img{text-align:center;margin:24px 0}
+.specs-img img{max-width:100%;max-height:400px}
+.pricing{padding:60px 24px;background:#e8f4fd}
+.pricing h2{text-align:center;font-size:28px;color:#002856;margin-bottom:32px}
+.price-grid{max-width:700px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.price-card{background:#fff;border-radius:12px;padding:32px 24px;text-align:center;position:relative}
+.price-card.featured{border:2px solid #e31837}
+.price-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#e31837;color:#fff;padding:4px 16px;border-radius:20px;font-size:12px;font-weight:700}
+.price-card h3{color:#002856;font-size:16px;margin-bottom:12px}
+.price{font-size:36px;font-weight:800;color:#002856}
+.price s{font-size:22px;color:#999;font-weight:400}
+.price span{font-size:14px;font-weight:400;color:#666}
+.price-note{font-size:12px;color:#666;margin:8px 0 16px}
+.price-card .cta{display:inline-block;background:#00a859;color:#fff;padding:12px 24px;border-radius:8px;font-weight:700;text-decoration:none;font-size:14px}
+.price-card .cta.outline{background:#fff;color:#00a859;border:2px solid #00a859}
+.ar{padding:60px 24px;text-align:center}
+.ar h2{font-size:28px;color:#002856;margin-bottom:24px}
+.ar .ar-img{max-width:300px;width:100%;border-radius:12px;margin-bottom:16px}
+.ar-badges{display:flex;justify-content:center;gap:16px;margin-top:16px}
+.ar-badges img{height:48px}
+.cta-bottom{padding:60px 24px;background:#002856;color:#fff;text-align:center}
+.cta-bottom h2{font-size:28px}
+.cta-bottom a{display:inline-block;background:#00a859;color:#fff;padding:14px 32px;border-radius:8px;font-size:16px;font-weight:700;text-decoration:none;margin-top:16px}
+footer{padding:32px 24px;background:#001a3d;color:rgba(255,255,255,.7);text-align:center;font-size:13px}
+footer a{color:rgba(255,255,255,.7);text-decoration:none;margin:0 8px}
+.floating-wa{position:fixed;bottom:24px;right:24px;background:#00a859;color:#fff;padding:12px 20px;border-radius:50px;font-weight:700;text-decoration:none;box-shadow:0 4px 16px rgba(0,168,89,.3);z-index:200}
+@media(max-width:768px){.feat-content{grid-template-columns:1fr;gap:24px}.price-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important}}
 </style>
 </head>
 <body>
+<nav><a href="/">← Kembali</a><img src="/images/coway-logo.png" alt="Coway" class="nav-logo"></nav>
 
-<!-- Nav -->
-<nav class="nav">
-  <div class="nav-inner"><a href="/" style="display:flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-size:14px;font-weight:600;margin-right:auto">← Kembali</a>
-    <div class="nav-logo">COWAY</div>
-    <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20CORE%20PLUS" class="nav-cta" target="_blank">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      WhatsApp Kami
-    </a>
-  </div>
-</nav>
-
-<!-- Hero -->
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="container">
-    <div>
-      <div class="hero-badge">🏆 No.1 Water Purifier di Malaysia</div>
-      <p class="hero-model">CHP-5721L</p>
-      <h1>CORE PLUS</h1>
-      <p class="hero-tagline">A bigger boost of pure refreshment — own the best of size, substance and style.</p>
-      <div class="hero-promo-badge">🔥 7 BULAN PERTAMA</div>
-      <div class="hero-pricing">
-        <span class="hero-price">RM 20</span>
-        <span class="hero-price-unit">/bulan</span>
-        <span class="hero-original">RM 93</span>
-      </div>
-      <p style="color:rgba(255,255,255,0.6); font-size:13px; margin-top:-12px; margin-bottom:24px;">Promosi 7 bulan pertama. Bulan ke-8: RM93/bulan.</p>
-      <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20CORE%20PLUS%20-%20promosi%20RM20%2Fbulan" class="hero-cta" target="_blank">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        RM20/bln — WhatsApp Sekarang
-      </a>
-    </div>
-    <div class="hero-image">
-      <img src="/images/coreplus-airport.jpg" alt="Coway CORE PLUS CHP-5721L" loading="eager">
-    </div>
-  </div>
+<div class="hero-badges">
+<img src="/images/wqa-gold-seal-quality-logo.png" alt="WQA">
+<img src="/images/logo-halal-new.png" alt="Halal">
+<img src="/images/coreplus-good-design-award.png" alt="Good Design Award">
+</div>
+<div class="badge">🏆 No.1 Water Purifier di Malaysia</div>
+<h1>CORE PLUS</h1>
+<p class="hero-sub">Pure Refreshment, Elevated Design</p>
+<img src="/images/coreplus-stylish-design.jpg" alt="Coway CORE PLUS" class="hero-img">
+<div class="hero-pricing">
+<span class="promo">RM 20<span>/bulan</span></span>
+<span class="original">RM 93</span>
+<p class="note">Promosi 7 bulan pertama. Bulan ke-8: RM93/bulan.</p>
+</div>
+<a href="https://wa.me/60137227961?text=Hi!%20Saya%20berminat%20dengan%20CORE%20PLUS%20promosi%20RM20%2Fbulan" class="cta">RM20/bln — WhatsApp Sekarang</a>
 </section>
 
-<!-- Built on Legacy -->
-<section class="section">
-  <div class="container">
-    <div class="img-text">
-      <div class="img-text-image">
-        <img src="/images/coreplus-airport.jpg" alt="Coway CORE PLUS — Functionality and Aesthetics" loading="lazy">
-      </div>
-      <div>
-        <p class="section-label">All-in-One</p>
-        <h2 class="section-title">Functionality and Aesthetics<br>All-in-One</h2>
-        <p class="section-desc">The new upgraded CORE PLUS comes with award-winning design while still fulfilling your every need with 3 temperatures of hot, ambient and cold water.</p>
-      </div>
-    </div>
-  </div>
+<section class="top-features">
+<div class="top-grid">
+<div class="top-card"><img src="/images/coreplus-office.jpg" alt="Built for Business"><h2>Built for High-Traffic Spaces</h2><p>CORE PLUS delivers pure water for offices, gyms, schools, and pantries — anywhere people gather and hydrate.</p></div>
+<div class="top-card"><img src="/images/coreplus-pantry.jpg" alt="Sleek Design"><h2>Sleek & Space-Efficient</h2><p>A slim, modern floor-standing design that complements any interior while serving everyone effortlessly.</p></div>
+<div class="top-card"><img src="/images/coreplus-school.jpg" alt="Trusted Everywhere"><h2>Trusted Everywhere</h2><p>From boardrooms to classrooms, CORE PLUS is the water purifier of choice for Malaysia's busiest spaces.</p></div>
+</div>
 </section>
 
-<!-- Timeless Innovation -->
-<section class="section" style="background: var(--gray-50);">
-  <div class="container" style="text-align:center;">
-    <p class="section-label">Performance</p>
-    <h2 class="section-title">Timeless Innovation,<br>Unmatched Performance</h2>
-    <div style="position:relative; max-width:800px; margin:40px auto 0; border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow-lg);">
-      <img src="/images/coreplus-airport.jpg" alt="Coway VILLAEM 3 Video" loading="lazy" style="width:100%;">
-    </div>
-  </div>
+<section class="feat-main"><div class="feat-content"><div><h2>Designed for Public Spaces</h2><p>With a robust floor-standing build and touch-free dispensing, CORE PLUS ensures clean, hygienic water access for everyone — from airports to gyms.</p></div><div><img src="/images/coreplus-airport.jpg" alt="Airport Setting"></div></div></section>
+
+<section class="feat-main" style="background:#f8fafc"><div class="feat-content rev"><div><h2>Stay Active, Stay Hydrated</h2><p>Gym-goers and fitness enthusiasts love CORE PLUS for its instant cold water — the perfect post-workout refreshment.</p></div><div><img src="/images/coreplus-gym.jpg" alt="Gym Setting"></div></div></section>
+
+<section class="feat-main"><div class="feat-content"><div><h2>Productivity Powered by Pure Water</h2><p>In modern workplaces, CORE PLUS keeps teams hydrated and focused — no more plastic bottles, just pure water on tap.</p></div><div><img src="/images/coreplus-workspace.jpg" alt="Workspace Setting"></div></div></section>
+
+<section class="feat-icons">
+<h2>Features Overview</h2>
+<div class="feat-grid">
+<div class="feat-card"><img src="/images/coreplus-hygienic-extraction.jpg" alt="Hygienic Extraction"><h4>HYGIENIC EXTRACTION</h4><p>Touch-free water dispensing with automatic UV sterilisation for maximum hygiene.</p></div>
+<div class="feat-card"><img src="/images/coreplus-one-touch-panel.jpg" alt="One Touch Panel"><h4>ONE-TOUCH PANEL</h4><p>Simple controls for ambient, hot, and cold water — effortless daily use.</p></div>
+<div class="feat-card"><img src="/images/coreplus-detachable-tray.jpg" alt="Detachable Tray"><h4>DETACHABLE WATER TRAY</h4><p>Easy-clean tray catches spills and keeps your station spotless.</p></div>
+</div>
 </section>
 
-<!-- Classic Elegance -->
-<section class="section">
-  <div class="container" style="text-align:center;">
-    <p class="section-label">Design</p>
-    <h2 class="section-title">A Classic Elegance,<br>Upgraded for Your Space</h2>
-    <p class="section-desc" style="margin:0 auto;">Discover two stunning colours to complete your interior.</p>
-    <div class="colors-grid" style="max-width:500px; margin:32px auto 0;">
-      <div class="color-card">
-        <div class="color-swatch" style="background: #8B8B83;"></div>
-        <div class="color-name">Pebble Gray</div>
-      </div>
-      <div class="color-card">
-        <div class="color-swatch" style="background: #F5F0EB;"></div>
-        <div class="color-name">Porcelain White</div>
-      </div>
-    </div>
-    <div style="margin-top:32px;">
-      <img src="/images/coreplus-airport.jpg" alt="Coway Villaem 3 — Pebble Gray & Porcelain White" loading="lazy" style="max-width:800px; margin:0 auto; border-radius:var(--radius-lg);">
-    </div>
-  </div>
+<section class="gallery">
+<h2>Every Angle, Every Detail</h2>
+<div class="gal-grid">
+<div><img src="/images/coreplus-side-view.jpg" alt="Side View"></div>
+<div><img src="/images/coreplus-faucet-closeup.jpg" alt="Faucet Closeup"></div>
+<div><img src="/images/coreplus-touch-panel-view.jpg" alt="Touch Panel"></div>
+<div><img src="/images/coreplus-slim-design.jpg" alt="Slim Design"></div>
+</div>
 </section>
 
-<!-- Built for Big Families -->
-<section class="section" style="background: var(--gray-50);">
-  <div class="container">
-    <div class="img-text reverse">
-      <div class="img-text-image">
-        <img src="/images/coreplus-airport.jpg" alt="Coway CORE PLUS — Convenient for Large Living" loading="lazy">
-      </div>
-      <div>
-        <p class="section-label">Capacity</p>
-        <h2 class="section-title">Convenient for<br>Large Living</h2>
-        <p class="section-desc">This floor-standing water purifier can perfectly cater to large crowds anywhere, anytime. Always ready to serve everyone at busy offices to big households.</p>
-      </div>
-    </div>
-  </div>
+<section class="extra-feat">
+<h2>Thoughtful Engineering</h2>
+<div class="extra-grid">
+<div class="extra-card"><img src="/images/coreplus-ergonomic-dispenser.jpg" alt="Ergonomic Dispenser"><h4>ERGONOMIC DISPENSER</h4><p>Angled dispenser for comfortable bottle and cup filling at any height.</p></div>
+<div class="extra-card"><img src="/images/coreplus-hidden-wheels.jpg" alt="Hidden Wheels"><h4>HIDDEN CASTOR WHEELS</h4><p>Move it effortlessly — reposition anywhere without heavy lifting.</p></div>
+<div class="extra-card"><img src="/images/coreplus-pure-refreshment.jpg" alt="Pure Refreshment"><h4>PURE REFRESHMENT</h4><p>From break rooms to boardrooms — everyone stays refreshed with pure drinking water.</p></div>
+</div>
 </section>
 
-<!-- Pure Water -->
-<section class="section">
-  <div class="container">
-    <div class="img-text">
-      <div class="img-text-image">
-        <img src="/images/coreplus-stylish-design.jpg" alt="Coway CORE PLUS — Stylish and Versatile" loading="lazy">
-      </div>
-      <div>
-        <p class="section-label">Design</p>
-        <h2 class="section-title">Stylish and<br>Versatile</h2>
-        <p class="section-desc">Whether in your kitchen, at the gym or at the office, CORE PLUS has a slim contemporary design that suits every lifestyle perfectly.</p>
-      </div>
-    </div>
-  </div>
+<section class="filters">
+<h2>What's Behind the Product</h2>
+<div class="filt-grid">
+<div class="filt-card"><img src="/images/coway-plus-neo-sense-filter.png" alt="Neo-Sense"><h4>Plus Neo-Sense Filter</h4><p class="life">Sediment + Pre-Carbon · 6-8 Months</p></div>
+<div class="filt-card"><img src="/images/coway-ro-membrane-filter.png" alt="RO Membrane"><h4>RO Membrane Filter</h4><p class="life">Reverse Osmosis · 24 Months</p></div>
+<div class="filt-card"><img src="/images/coway-plus-inno-sense-filter.png" alt="Inno-Sense"><h4>Plus Inno-Sense Filter</h4><p class="life">Post-Carbon + Fine · 18-20 Months</p></div>
+<div class="filt-card"><img src="/images/coway-antibacterial-filter.png" alt="Antibacterial"><h4>Antibacterial Filter</h4><p class="life">Extra Antibacterial Protection</p></div>
+</div>
 </section>
 
-<!-- Convenience -->
-<section class="section" style="background: var(--gray-50);">
-  <div class="container">
-    <div class="img-text reverse">
-      <div class="img-text-image">
-        <img src="/images/coreplus-ergonomic-dispenser.jpg" alt="Coway CORE PLUS — Ergonomic Dispenser Height" loading="lazy">
-      </div>
-      <div>
-        <p class="section-label">User Experience</p>
-        <h2 class="section-title">Ergonomic<br>Dispenser Height</h2>
-        <p class="section-desc">The CORE PLUS is smartly designed so you can dispense water in a comfortable position without bending over excessively.</p>
-      </div>
-    </div>
-  </div>
+<section class="heart">
+<h2>Protected by Complimentary Care Service</h2>
+<p>Every Coway product comes with the Heart Service — regular maintenance, filter replacement, and sanitisation by certified Coway technicians, at no extra cost.</p>
+<img src="/images/coway-heart-service.jpg" alt="Heart Service">
+<br><a href="https://wa.me/60137227961">LEARN MORE</a>
 </section>
 
-<!-- Features Overview -->
-<section class="section">
-  <div class="container" style="text-align:center;">
-    <p class="section-label">Features</p>
-    <h2 class="section-title">Features Overview</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <img src="/images/coreplus-airport.jpg" alt="Caring and Thoughtful Feature" loading="lazy">
-        <h4 class="feature-name">CARING AND THOUGHTFUL FEATURE</h4>
-        <p class="feature-desc">Detachable bottom tray for easy cleaning, with 0.42 litres capacity to collect dripped water during daily water extraction.</p>
-      </div>
-      <div class="feature-card">
-        <img src="/images/coreplus-hygienic-extraction.jpg" alt="Simple and Hygienic" loading="lazy">
-        <h4 class="feature-name">SIMPLE AND HYGIENIC WATER EXTRACTION</h4>
-        <p class="feature-desc">Get your boost of pure water with just an effortless light touch.</p>
-      </div>
-      <div class="feature-card">
-        <img src="/images/coreplus-hidden-wheels.jpg" alt="Detachable Faucet" loading="lazy">
-        <h4 class="feature-name">EASY MOVEMENT WITH HIDDEN WHEELS</h4>
-        <p class="feature-desc">Hidden wheels are mounted at the bottom so you can conveniently move it to the desired location.</p>
-      </div>
-    </div>
-  </div>
+<section class="specs">
+<h2>Specs & Price</h2>
+<table>
+<tr><th>MODEL</th><td>CORE PLUS (CHP-5731N)</td></tr>
+<tr><th>COLOUR</th><td>Silver / Dark Gray</td></tr>
+<tr><th>FILTRATION METHOD</th><td>Reverse Osmosis</td></tr>
+<tr><th>TANK CAPACITY</th><td>5.5L Ambient, 3.5L Hot, 3.0L Cold</td></tr>
+<tr><th>FILTER TYPE & REPLACEMENT</th><td>Plus Neo-Sense — 6-8 Mo | RO Membrane — 24 Mo | Plus Inno-Sense — 18-20 Mo</td></tr>
+<tr><th>POWER CONSUMPTION</th><td>310W (Heating) / 150W (Cooling)</td></tr>
+<tr><th>DIMENSIONS (W × D × H)</th><td>260 × 450 × 1150 mm</td></tr>
+<tr><th>NET WEIGHT</th><td>28 kg</td></tr>
+</table>
+<div class="specs-img"><img src="/images/coreplus-product-spec.png" alt="Product Spec"></div>
 </section>
 
-<!-- Product Gallery -->
-<section class="section" style="background: var(--gray-50);">
-  <div class="container" style="text-align:center;">
-    <p class="section-label">Gallery</p>
-    <h2 class="section-title">Every Angle, Every Detail</h2>
-    <div class="gallery-strip">
-      <img src="/images/coreplus-side-view.jpg" alt="Villaem 3 Side View" loading="lazy">
-      <img src="/images/coreplus-side-view.jpg" alt="Villaem 3 Logo Close View" loading="lazy">
-      <img src="/images/coreplus-side-view.jpg" alt="Villaem 3 Top View" loading="lazy">
-      <img src="/images/coreplus-one-touch-panel.jpg" alt="Villaem 3 Control Panel" loading="lazy">
-      <img src="/images/coreplus-side-view.jpg" alt="Villaem 3 Side View" loading="lazy">
-      <img src="/images/coreplus-detachable-tray.jpg" alt="Villaem 3 with Tray" loading="lazy">
-    </div>
-  </div>
+<section class="pricing">
+<h2>Pilih Pelan Anda</h2>
+<div class="price-grid">
+<div class="price-card featured">
+<div class="price-badge">🔥 TERHAD</div>
+<h3>7 Bulan Pertama</h3>
+<div class="price">RM 20<span>/bulan</span></div>
+<p class="price-note">Promosi 7 bulan pertama. Bulan ke-8: RM93/bulan.</p>
+<a href="https://wa.me/60137227961?text=Hi!%20Saya%20berminat%20dengan%20CORE%20PLUS%20promosi%20RM20%2Fbulan" class="cta">WhatsApp — Dapatkan Promosi</a>
+</div>
+<div class="price-card">
+<h3>Harga Biasa</h3>
+<div class="price"><s>RM 93</s><span>/bulan</span></div>
+<p class="price-note">Bulan ke-8 dan seterusnya.</p>
+<a href="https://wa.me/60137227961?text=Hi!%20Saya%20nak%20tanya%20pasal%20CORE%20PLUS" class="cta outline">WhatsApp Kami</a>
+</div>
+</div>
 </section>
 
-<!-- Filtration System -->
-<section class="section" style="background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);">
-  <div class="container" style="text-align:center;">
-    <p class="section-label">Filtration</p>
-    <h2 class="section-title">What's Behind the Product</h2>
-    <p style="font-size:14px; color:var(--gray-500); margin-bottom:40px;">All filters are Halal certified and accredited by WQA. The STEP 1 to 5 are certified components by NSF.</p>
-    <div class="filter-steps">
-      <div class="filter-step">
-        <p class="filter-step-num">STEP 1 & 2</p>
-        <img src="/images/coreplus-airport.jpg" alt="Plus Neo-Sense Filter" loading="lazy">
-        <h4>Neo-Sense Filter</h4>
-        <p class="filter-code">CNFN14</p>
-        <p>Removes particulates, chlorine, volatile organic compounds (VOCs) and dissolved organic and inorganic impurities.</p>
-      </div>
-      <div class="filter-step">
-        <p class="filter-step-num">STEP 3</p>
-        <img src="/images/coreplus-product-spec.png" alt="RO Membrane Filter" loading="lazy">
-        <h4>RO Membrane Filter</h4>
-        <p class="filter-code">CRMFN14-50</p>
-        <p>Removes water contaminants such as heavy metals, harmful organic chemicals, microbes and radioactive substances.</p>
-      </div>
-      <div class="filter-step">
-        <p class="filter-step-num">STEP 4 & 5</p>
-        <img src="/images/coreplus-airport.jpg" alt="Plus Inno-Sense Filter" loading="lazy">
-        <h4>Plus Inno-Sense Filter</h4>
-        <p class="filter-code">CIFN14-PLUS</p>
-        <p>Reduces odours and improves the taste of water.</p>
-      </div>
-      <div class="filter-step">
-        <p class="filter-step-num">STEP 6</p>
-        <img src="/images/coreplus-airport.jpg" alt="UV Sterilisation" loading="lazy" style="width:102px;">
-        <h4>UV Sterilisation</h4>
-        <p>Effectively removes up to 99.9% of bacteria (E.coli, S.aureus, P.aeruginosa).*</p>
-      </div>
-    </div>
-    <p class="disclaimer" style="margin-top:24px; max-width:700px; margin-left:auto; margin-right:auto;">*Disclaimer: According to the Sterilisation Performance Assessment and Drinking Water Quality Standards by TÜV SÜD Korea Ltd., the UV sterilisation result achieved is up to 99.9% antibacterial efficacy for E.coli, S.aureus and P.aeruginosa. The presented test results are measured in a closed and controlled experimental environment.</p>
-  </div>
+<section class="ar">
+<h2>Use Coway AR to See CORE PLUS in Your Home</h2>
+<img src="/images/coway-ar-screenshot.png" alt="AR App" class="ar-img">
+<div class="ar-badges">
+<img src="/images/coway-ar-app-store.png" alt="App Store">
+<img src="/images/coway-ar-google-play.png" alt="Google Play">
+</div>
 </section>
 
-<!-- Heart Service -->
-<section class="section heart-service">
-  <div class="container">
-    <img src="/images/coreplus-airport.jpg" alt="Coway Heart Service" loading="lazy">
-    <p class="section-label">Service</p>
-    <h2 class="section-title">Protected by Complimentary Care Service</h2>
-    <p class="section-desc">Every Coway product comes with complimentary Heart Service — regular maintenance by certified technicians. *Terms and conditions apply.</p>
-    <a href="https://wa.me/60137227961?text=Saya%20nak%20tanya%20pasal%20Coway%20Heart%20Service" class="btn-outline" target="_blank">LEARN MORE</a>
-  </div>
+<section class="cta-bottom">
+<h2>Berminat dengan CORE PLUS?</h2>
+<a href="https://wa.me/60137227961?text=Hi!%20Saya%20berminat%20dengan%20CORE%20PLUS">WhatsApp — Dapatkan Sebut Harga</a>
 </section>
 
-<!-- Specs & Price -->
-<section class="section" id="specs">
-  <div class="container">
-    <p class="section-label">Specifications</p>
-    <h2 class="section-title">Specs & Price</h2>
-    <p class="section-desc">All you need to know.</p>
-
-    <table class="specs-table">
-      <tr><th>MODEL</th><td>CORE PLUS (CHP-5721L)</td></tr>
-      <tr><th>COLOUR</th><td>Oatmeal Beige</td></tr>
-      <tr><th>FILTRATION METHOD</th><td>Reverse Osmosis</td></tr>
-      <tr><th>TANK CAPACITY</th><td>10.4 Litres Ambient Water<br>7.1 Litres Cold Water<br>3.6 Litres Hot Water</td></tr>
-      <tr><th>FILTER TYPE & REPLACEMENT PERIOD¹</th><td>Plus Neo-Sense (Sediment + Pre-Carbon) — 6 to 8 Months<br>RO Membrane — 24 Months<br>Plus Inno-Sense (Post-Carbon + Fine) — 18 to 20 Months</td></tr>
-      <tr><th>POWER CONSUMPTION</th><td>Heater 550W – 660W<br>Compressor 0.7A</td></tr>
-      <tr><th>DIMENSIONS (W × D × H)</th><td>320 × 488 × 1260 mm</td></tr>
-      <tr><th>NET WEIGHT</th><td>33.0 kg</td></tr>
-    </table>
-    <p class="disclaimer">¹The recommended filter replacement period is based on standard usage conditions. In cases where the filter lifespan is affected by external factors (e.g. poor water quality, abnormal usage or environmental conditions), additional filters may be provided and replaced as needed, without affecting the standard replacement cycle. We reserve the right to charge for any additional filters provided due to such factors beyond the standard replacement cycle.</p>
-
-    <!-- Product Spec Image -->
-    <div style="text-align:center; margin-top:32px;">
-      <img src="/images/coreplus-product-spec.png" alt="Coway Villaem 3 Product Spec" loading="lazy" style="max-width:450px; margin:0 auto;">
-    </div>
-
-    <!-- Pricing -->
-    <div style="text-align:center; margin-top:48px;">
-      <p class="section-label">Pricing</p>
-      <h2 class="section-title" style="margin-bottom:8px;">Pilih Pelan Anda</h2>
-    </div>
-    <div class="pricing-grid">
-      <div class="pricing-card">
-        <p class="pricing-type">Outright Purchase</p>
-        <div style="display:flex; align-items:baseline; gap:6px;">
-          <span class="pricing-amount">RM 6,300</span>
-        </div>
-        <span class="pricing-bonus">Free 1-Year Service</span>
-        <ul class="pricing-list">
-          <li><span>Heart Service-4M</span><span class="price-val">RM 6,300</span></li>
-          <li><span>Heart Service-2M</span><span class="price-val">RM 6,500</span></li>
-        </ul>
-      </div>
-      <div class="pricing-card featured">
-        <p class="pricing-type">Monthly Rental</p>
-        <div style="display:flex; align-items:baseline; gap:6px;">
-          <span class="pricing-amount">RM 93</span>
-          <span class="pricing-unit">/bulan</span>
-        </div>
-        <span class="pricing-bonus">Free 7-Year Service</span>
-        <ul class="pricing-list">
-          <li><span>Obligation 7+0</span><span class="price-val">RM 93</span></li>
-          <li><span>Obligation 5+0</span><span class="price-val">RM 113</span></li>
-          <li><span>Obligation 3+2</span><span class="price-val">RM 140.98</span></li>
-        </ul>
-      </div>
-    </div>
-    <p class="disclaimer" style="margin-top:16px;">*The 3+2 plan carries a minimum obligation period of 3 years, with an optional 2 year extension during which the product may be returned without penalties. While the 5 year, 7 year, and 9 year plans are full-term obligations, and early terminations will result in penalties.<br><br>Prices displayed include SST and are subject to change without prior notice. Promotions, product availability, specifications, and service schedules may vary by model and may be updated without notice. Coway reserves the right to revise or withdraw prices, offers, and service packages at its discretion. Product images are for illustration only and may differ from actual items.</p>
-  </div>
-</section>
-
-<!-- AR Section -->
-<section class="section ar-section">
-  <div class="container">
-    <p class="section-label" style="color:rgba(255,255,255,0.6);">AR Experience</p>
-    <h2 class="section-title">Use Coway AR to See<br>CORE PLUS in Your Home</h2>
-    <p class="section-desc">and unlock the unlimited possibilities with Coway products.</p>
-    <div class="ar-stores">
-      <img src="/images/coreplus-one-touch-panel.jpg" alt="Download on App Store" loading="lazy">
-      <img src="/images/coreplus-one-touch-panel.jpg" alt="Get it on Google Play" loading="lazy">
-    </div>
-    <div class="ar-phone">
-      <img src="/images/coreplus-ergonomic-dispenser.jpg" alt="Coway AR App" loading="lazy">
-    </div>
-  </div>
-</section>
-
-<!-- CTA Section -->
-<section class="section" style="text-align:center; background:var(--blue-light);">
-  <div class="container">
-    <h2 class="section-title">Berminat dengan CORE PLUS?</h2>
-    <p class="section-desc" style="margin:0 auto 24px;">Dapatkan sewa serendah RM93/bulan dengan servis berkala PERCUMA selama 7 tahun.</p>
-    <a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20CORE%20PLUS%20-%20nak%20tanya%20pasal%20promosi%20RM93%2Fbulan" class="hero-cta" target="_blank" style="margin:0 auto;">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      WhatsApp — Dapatkan Sebut Harga
-    </a>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-links">
-      <a href="#">FAQ</a>
-      <a href="#">Terms of Use</a>
-      <a href="#">Privacy Notice</a>
-      <a href="#">Governance</a>
-      <a href="#">Warranty Policy</a>
-      <a href="#">Support</a>
-    </div>
-    <p class="footer-copy">COWAY (MALAYSIA) © 2026. ALL RIGHTS RESERVED. (735420-H) (AJL931694)</p>
-  </div>
+<footer>
+<a href="#">FAQ</a> · <a href="#">Terms of Use</a> · <a href="#">Privacy Notice</a> · <a href="#">Governance</a> · <a href="#">Warranty Policy</a> · <a href="#">Support</a>
 </footer>
 
-<!-- Floating WhatsApp -->
-<a href="https://wa.me/60137227961?text=Saya%20berminat%20dengan%20Coway%20CORE%20PLUS" class="float-wa" target="_blank" aria-label="WhatsApp">
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
-
+<a href="https://wa.me/60137227961" class="floating-wa">💬 WhatsApp</a>
 </body>
 </html>

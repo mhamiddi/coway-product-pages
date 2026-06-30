@@ -1,0 +1,2058 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Not Found</title>
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta name="author" />
+    <meta name="og:image" />
+    <meta name="og:description" />
+	
+	
+    
+    <style type="text/css">@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/devanagari/wght/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Noto Sans;font-style:normal;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/greek-ext/wght/italic.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/greek/wght/italic.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/latin-ext/wght/italic.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/devanagari/wght/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Noto Sans;font-style:italic;font-weight:100 900;src:url(/cf-fonts/v/noto-sans/5.2.10/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+
+
+    <link href="/Content/css?v=z5h-vtrv_RiuZtoVS5xwbP0B0-Ju9_q_Z9vGFG8H5jo1" rel="stylesheet"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+.prime_text_white {
+	color: white!important;
+}
+
+.prime_text_white_two {
+	color: white!important;
+}
+
+.faded-highlight-text {
+  display: inline-block;
+  position: relative;
+  padding: 6px 18px;
+  margin-left: -18px;
+  color: #eef5f7;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.45);
+  z-index: 1;
+}
+
+.faded-highlight-text::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(255, 255, 255, 0.20) 50%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  box-shadow:
+    0 0 24px rgba(255, 255, 255, 0.14),
+    inset 0 0 18px rgba(255, 255, 255, 0.08);
+  filter: blur(1px);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px){
+
+.home-slider .slick-dots {
+	bottom: 0;
+    margin: 0;
+}
+
+.prime_text_white {
+	color: black!important;
+}
+
+.support-banner .btn-rounded {
+	color: #fff;
+    border-color: #fff;
+}
+
+}
+
+.product-new h1 {
+        font-weight: 400;
+    }
+    
+.product-new.section-1 p.code {
+        font-weight: 300;
+    }    
+
+header .navbar-default .navbar-nav>.active>a {
+    background-color: #7dacd3 !important;
+}
+
+div.sub-menu-wrapper.full .sub-menu-body {
+    background-color: #71a1c9 !important;
+}
+
+footer {
+    background-color: #7dacd3 !important;
+}
+
+
+
+.water-category-new{
+background: rgb(0,198,220);
+background: -moz-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 26%, rgba(0,121,177,1) 46%, rgba(0,70,134,1) 74%);
+background: -webkit-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 26%, rgba(0,121,177,1) 46%, rgba(0,70,134,1) 74%);
+background: linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 26%, rgba(0,121,177,1) 46%, rgba(0,70,134,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6dc",endColorstr="#004686",GradientType=1);
+}
+
+
+
+.air-category-new{
+background: rgb(0,198,220);
+background: -moz-linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 23%, rgba(4,151,209,1) 49%, rgba(136,226,176,1) 74%);
+background: -webkit-linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 23%, rgba(4,151,209,1) 49%, rgba(136,226,176,1) 74%);
+background: linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 23%, rgba(4,151,209,1) 49%, rgba(136,226,176,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6dc",endColorstr="#88e2b0",GradientType=1);
+}
+
+
+
+.comfort-category-new{
+background: rgb(0,198,220);
+background: -moz-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(107,108,197,1) 74%);
+background: -webkit-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(107,108,197,1) 74%);
+background: linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(107,108,197,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6dc",endColorstr="#6b6cc5",GradientType=1);
+}
+
+
+
+.bathroom-category-new{
+background: rgb(0,198,220);
+background: -moz-linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 20%, rgba(4,151,209,1) 43%, rgba(157,154,212,1) 74%);
+background: -webkit-linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 20%, rgba(4,151,209,1) 43%, rgba(157,154,212,1) 74%);
+background: linear-gradient(204deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 20%, rgba(4,151,209,1) 43%, rgba(157,154,212,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6dc",endColorstr="#9d9ad4",GradientType=1);
+}
+
+
+.outdoor-category-new{
+background: rgb(0,198,220);
+background: -moz-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(7,127,116,1) 74%);
+background: -webkit-linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(7,127,116,1) 74%);
+background: linear-gradient(160deg, rgba(0,198,220,1) 0%, rgba(0,140,217,1) 25%, rgba(4,151,209,1) 44%, rgba(7,127,116,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6dc",endColorstr="#077f74",GradientType=1);
+}
+
+
+.gradient-massagechair{
+	background: rgb(122,146,172);
+    background: -moz-linear-gradient(180deg, rgba(122,146,172,1) 3%, rgba(142,164,187,1) 51%, rgba(167,198,221,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(122,146,172,1) 3%, rgba(142,164,187,1) 51%, rgba(167,198,221,1) 100%);
+    background: linear-gradient(180deg, rgba(122,146,172,1) 3%, rgba(142,164,187,1) 51%, rgba(167,198,221,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a92ac",endColorstr="#a7c6dd",GradientType=1);
+}
+
+
+.gradient-aircond{
+    background: rgb(51,196,213);
+    background: -moz-linear-gradient(180deg, rgba(51,196,213,1) 0%, rgba(69,187,214,1) 43%, rgba(68,161,199,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(51,196,213,1) 0%, rgba(69,187,214,1) 43%, rgba(68,161,199,1) 100%);
+    background: linear-gradient(180deg, rgba(51,196,213,1) 0%, rgba(69,187,214,1) 43%, rgba(68,161,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#33c4d5",endColorstr="#44a1c7",GradientType=1);
+}
+
+
+.gradient-wellness{
+    background: rgb(2,185,219);
+    background: linear-gradient(171deg, rgba(2,185,219,1) 0%, rgba(0,162,229,1) 17%, rgba(228,185,204,1) 58%, rgba(255,185,199,1) 68%);
+}
+
+.gradient-berex{
+	background: rgb(20,6,1);
+	background: linear-gradient(163deg, rgba(20,6,1,1) 40%, rgba(61,30,15,1) 70%, rgba(79,43,25,1) 89%);
+}
+
+.gradient-berex2{
+	background: rgb(64,52,44);
+	background: linear-gradient(163deg, rgba(64,52,44,1) 24%, rgba(81,65,56,1) 38%, rgba(95,76,66,1) 57%, rgba(154,140,130,1) 100%, rgba(189,183,177,1) 100%);
+}
+
+
+.gradient-laundry{
+    background: rgb(0,94,112);
+    background: linear-gradient(326deg, rgba(0,94,112,1) 16%, rgba(0,94,112,1) 36%, rgba(7,146,214,1) 75%, rgba(7,190,216,1) 90%);
+}
+
+
+.mobile-navigation .logo img {
+    height: 20px !important;
+}
+
+.mobile-menu-modal.opened ul li{
+    opacity: 1;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(11){
+	transition-delay: .97s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(12){
+	transition-delay: 1.04s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(13){
+	transition-delay: 1.11s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(14){
+	transition-delay: 1.18s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(15){
+	transition-delay: 1.25s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(16){
+	transition-delay: 1.32s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(17){
+	transition-delay: 1.39s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(18){
+	transition-delay: 1.46s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(19){
+	transition-delay: 1.53s;
+}
+
+.mobile-menu-modal.opened ul li:nth-child(20){
+	transition-delay: 1.6s;
+}
+
+@media only screen and (min-width: 1200px){
+.logo img {
+    height: 24px !important;
+}
+
+.logo {
+    padding: 19px 0 17px 100px !important;
+}
+
+}
+</style>    
+
+
+    <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+
+    
+</head>
+<body class="loading">
+
+    
+
+    <div class="loadingBg">
+        <img src="/img/loading_logo.gif" class="loadingIcon" style="
+			top: 51%;
+			width: 84px;
+			height: 84px;
+			background: transparent;
+			margin-left: auto;
+			margin-bottom: auto;
+			transform: translate(-50%, -50%);
+		">
+        <div class="loadingText">Loading...</div>
+    </div>
+
+
+
+
+
+
+<header class="hidden-xs hidden-sm hidden-md">                    <nav class="navbar navbar-default navbar-fixed-top">                                        <div class="container-fluid">                                                            <div class="navbar-header">                                                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">                              		<span class="icon-bar"></span>          		<span class="icon-bar"></span>          		<span class="icon-bar"></span>        	</button>                                                                            <a href="/" class="logo">		<img src="/img/coway-malaysia-logo.png" alt="Coway Malaysia Logo">	</a>                                                            </div>                                                            <div id="navbar-collapse" class="navbar-collapse collapse">      	
+
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="menu-dropdown " id="the-water-specialist">
+            <a href="/">
+                CHANGE YOUR LIFE
+            </a>
+        </li>
+        <li class="menu-dropdown large" id="products">
+            <a href="/products">
+                Products
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </a>
+                <div class="sub-menu-wrapper full">
+                    <div class="sub-menu-body">
+                        <div class="sub-menu-item">
+                            <div class="row">
+
+                                
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/water-purifier">
+                                            <img src="/files/Products/water-purifier/coreslim/Core Slim Website Thumbnail.jpg" class="img-responsive">
+                                            Water Purifier
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                    <li class="first">Table Top</li>
+                                                            <li><a href="/products/water-purifier/villaem3">villaem 3</a></li>
+                                                            <li><a href="/products/water-purifier/neon">neon</a></li>
+                                                            <li><a href="/products/water-purifier/dazzie">dazzie</a></li>
+                                                            <li><a href="/products/water-purifier/ais">ais</a></li>
+                                                            <li><a href="/products/water-purifier/cinnamon">cinnamon</a></li>
+                                                            <li><a href="/products/water-purifier/neoplus">neo plus</a></li>
+                                                            <li><a href="/products/water-purifier/glaze">glaze</a></li>
+                                                            <li><a href="/products/water-purifier/ombak">ombak</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="first">Floor Standing</li>
+                                                            <li><a href="/products/water-purifier/coreslim">core slim</a></li>
+                                                            <li><a href="/products/water-purifier/coreplus">core plus</a></li>
+                                                            <li><a href="/products/water-purifier/lucyplus">lucy plus</a></li>
+                                                            <li><a href="/products/water-purifier/harry">harry</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/air-purifier">
+                                            <img src="/files/Products/air-purifier/header-menu-air-purifier-studiosuite.jpg" class="img-responsive">
+                                            Air Purifier
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/air-purifier/studio">studio</a></li>
+                                                        <li><a href="/products/air-purifier/suite">suite</a></li>
+                                                        <li><a href="/products/air-purifier/atrium">atrium</a></li>
+                                                        <li><a href="/products/air-purifier/noble2">noble 2</a></li>
+                                                        <li><a href="/products/air-purifier/storm2">storm 2</a></li>
+                                                        <li><a href="/products/air-purifier/lombok3">lombok 3</a></li>
+                                                        <li><a href="/products/air-purifier/tuba">tuba</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/berex">
+                                            <img src="/files/Products/mattress/smart-mattress/header-menu-coway-berex-smart-mattress.jpg" class="img-responsive">
+                                            Coway BEREX
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                    <li class="first">Mattress</li>
+                                                            <li><a href="/products/berex/smartmattress">smart mattress</a></li>
+                                                            <li><a href="/products/berex/primelite">prime lite</a></li>
+                                                            <li><a href="/products/berex/ecolite">eco lite</a></li>
+                                                            <li><a href="/products/berex/prime2">prime 2</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="first">Massage</li>
+                                                            <li><a href="/products/berex/massagebed">massage bed</a></li>
+                                                            <li><a href="/products/berex/pebble">pebble</a></li>
+                                                            <li><a href="/products/berex/mine">mine</a></li>
+                                                            <li><a href="/products/berex/massagechair">massage chair</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/handsfree-bidet">
+                                            <img src="/files/Products/bathroom/header-menu-bathroom-bidet.jpg" class="img-responsive">
+                                            Hands-free Bidet
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/handsfree-bidet/flowletplus">flowlet plus</a></li>
+                                                        <li><a href="/products/handsfree-bidet/flowlet">flowlet</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/airconditioner">
+                                            <img src="/files/Products/cooling/pseries/header-menu-p-series-air-conditioner.jpg" class="img-responsive">
+                                            Air Conditioner
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/airconditioner/pseries">p-series</a></li>
+                                                        <li><a href="/products/airconditioner/fseries">f-series</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/outdoor">
+                                            <img src="/files/Products/outdoor/outdoor-filter/header-menu-coway-outdoor-water-filter.jpg" class="img-responsive">
+                                            Outdoor
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/outdoor/outdoorfilter">outdoor filter</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/laundry">
+                                            <img src="/files/Products/laundry/header-menu-laundry-care.png" class="img-responsive">
+                                            Laundry
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/laundry/washerdryer">washer dryer</a></li>
+                                                </ul>
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/products/refrigerator">
+                                            <img src="/files/Products/refrigerator/refrigerator_header_thumbnail.jpg" class="img-responsive">
+                                            Refrigerator
+                                        </a>
+                                        <hr />
+                                                <ul>
+                                                        <li><a href="/products/refrigerator/multidoor551l">Multi-Door 551L</a></li>
+                                                        <li><a href="/products/refrigerator/sidebyside715l">Side-by-Side 715L</a></li>
+                                                </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="menu-dropdown large" id="service">
+            <a href="/service">
+                Service
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </a>
+                <div class="sub-menu-wrapper full">
+                    <div class="sub-menu-body">
+                        <div class="sub-menu-item">
+                            <div class="row">
+
+                                
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/heartservice">
+                                            <img src="/img/heart-service/header-menu-coway-heart-service.jpg" class="img-responsive">
+                                            Heart Service
+                                        </a>
+                                        <hr />
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/mattress-careservice">
+                                            <img src="/files/Header/Service/header-menu-mattress-care-service.jpg" class="img-responsive">
+                                            Mattress Care Service
+                                        </a>
+                                        <hr />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="menu-dropdown large" id="trade-in">
+            <a href="/trade-in">
+                Trade-In
+            </a>
+        </li>
+        <li class="menu-dropdown large" id="happywaterproject">
+            <a href="/happywaterproject">
+                Happy Water Project
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </a>
+                <div class="sub-menu-wrapper full">
+                    <div class="sub-menu-body">
+                        <div class="sub-menu-item">
+                            <div class="row">
+
+                                
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/happywaterproject/about">
+                                            <img src="/files/Header/HappyWaterProject/coway-happy-water-project-about-us.jpg" class="img-responsive">
+                                            About Us 
+                                        </a>
+                                        <hr />
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/happywaterproject/ourprojects">
+                                            <img src="/files/Header/HappyWaterProject/coway-happy-water-project-our-projects.jpg" class="img-responsive">
+                                            Our Projects
+                                        </a>
+                                        <hr />
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/happywaterproject/stories">
+                                            <img src="/files/Header/HappyWaterProject/coway-happy-water-project-stories.jpg" class="img-responsive">
+                                            Inspiring Stories
+                                        </a>
+                                        <hr />
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/happywaterproject/media">
+                                            <img src="/files/Header/HappyWaterProject/coway-happy-water-project-media.jpg" class="img-responsive">
+                                            Media
+                                        </a>
+                                        <hr />
+                                    </div>
+                                    <div class="col-sm-3" data-mh="eq-menu">
+                                        <a class="title" href="/happywaterproject/cowayrun">
+                                            <img src="/files/Header/HappyWaterProject/coway-happy-water-project-coway-run.jpg" class="img-responsive">
+                                            Coway Run
+                                        </a>
+                                        <hr />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="menu-dropdown large" id="about">
+            <a href="/about">
+                About
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+            </a>
+                    <div class="sub-menu-wrapper full">
+                        <div class="sub-menu-body">
+                            <div class="sub-menu-item">
+                                <div class="row">
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#ourstory">
+													<img src="/files/Header/About/header-menu-our-story.jpg" class="img-responsive">
+													Our Story
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#marketshare">
+													<img src="/files/Header/About/header-menu-no-1-market.jpg" class="img-responsive">
+													No.1 In  Market Share
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#history">
+													<img src="/files/Header/About/header-menu-our-history.jpg" class="img-responsive">
+													Our History
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#developement">
+													<img src="/files/Header/About/header-menu-coway-research-developement.jpg" class="img-responsive">
+													Research &amp;  Development
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#design">
+													<img src="/files/Header/About/header-menu-design-philosophy.jpg" class="img-responsive">
+													Design Philosophy
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#customers">
+													<img src="/files/Header/About/header-menu-csr-trust.jpg" class="img-responsive">
+													Our Corporate Customers
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/about#csr">
+													<img src="/files/Header/About/header-menu-csr-leading.jpg" class="img-responsive">
+													CSR
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title" href="https://vr.coway.com.my" target="_blank">
+													<img src="/files/Header/About/coway-virtual-showroom.jpg" class="img-responsive">
+													Coway Virtual Showroom
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/westandasone">
+													<img src="/files/Header/About/coway-we-stand-as-one-menu-header.jpg" class="img-responsive">
+													We Stand As One Campaign
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/halal">
+													<img src="/files/halal/header-menu-coway-malaysia-halal.jpg" class="img-responsive">
+													Halal
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title" href="https://company.coway.com/en/company/ethical-system" target="_blank">
+													<img src="/files/Header/About/coway-global-ethics-menu-header.jpg" class="img-responsive">
+													Coway Global Ethics
+												</a>
+											<hr />
+										</div>
+										<div class="col-sm-3" data-mh="eq-menu2">
+												<a class="title special-hashclick" href="/career">
+													<img src="/files/Header/About/coway-career-menu-header.jpg" class="img-responsive">
+													Career
+												</a>
+											<hr />
+										</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </li>
+        <li class="menu-dropdown large" id="support">
+            <a href="/support">
+                Support
+            </a>
+        </li>
+	<li class="menu-dropdown" id="customer-portal">
+			<a href="https://selfcare.coway.com.my/" target="_blank">
+				<i class="fa fa-user fa-lg " aria-hidden="true" style="margin-left:0px;"></i>
+			</a>
+		</li>
+		 <li class="menu-dropdown" id="coway-mall">
+                <a href="https://emall.coway.com.my/" target="_blank">
+                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                </a>
+            </li>
+    </ul>
+
+
+                                                            </div>                                        </div>                    </nav></header><nav class="mobile-navigation visible-xs visible-sm visible-md">            <a href="/" class="logo">        <img src="https://www.coway.com.my/img/coway-malaysia-logo.png" alt="Coway Malaysia Logo">    </a>                  <a href="#" class="menu-button" id="menuButton">        <span class="burger-icon"></span>    </a>                  <div class="mobile-menu-modal">        
+
+
+        <ul>
+                    <li id="the-water-specialist">
+                        <a href="/">CHANGE YOUR LIFE</a>
+
+                </li>
+                    <li id="products">
+                        <a href="/products">Products</a>
+
+                            <ul>
+                                    <li>
+                                        <a class="title" href="/products/water-purifier">Water Purifier</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/air-purifier">Air Purifier</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/berex">Coway BEREX</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/handsfree-bidet">Hands-free Bidet</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/airconditioner">Air Conditioner</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/outdoor">Outdoor</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/laundry">Laundry</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/products/refrigerator">Refrigerator</a>
+                                        
+                                    </li>
+                            </ul>
+                </li>
+                    <li id="service">
+                        <a href="/service">Service</a>
+
+                            <ul>
+                                    <li>
+                                        <a class="title" href="/heartservice">Heart Service</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/mattress-careservice">Mattress Care Service</a>
+                                        
+                                    </li>
+                            </ul>
+                </li>
+                    <li id="trade-in">
+                        <a href="/trade-in">Trade-In</a>
+
+                </li>
+                    <li id="happywaterproject">
+                        <a href="/happywaterproject">Happy Water Project</a>
+
+                            <ul>
+                                    <li>
+                                        <a class="title" href="/happywaterproject/about">About Us </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/happywaterproject/ourprojects">Our Projects</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/happywaterproject/stories">Inspiring Stories</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/happywaterproject/media">Media</a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a class="title" href="/happywaterproject/cowayrun">Coway Run</a>
+                                        
+                                    </li>
+                            </ul>
+                </li>
+                    <li id="about">
+                        <a href="/about">About</a>
+
+								<ul>
+										<li>
+												<a class="title special-hashclick" href="/about#ourstory">
+													Our Story
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#marketshare">
+													No.1 In  Market Share
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#history">
+													Our History
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#developement">
+													Research &amp;  Development
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#design">
+													Design Philosophy
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#customers">
+													Our Corporate Customers
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/about#csr">
+													CSR
+												</a>
+										</li>
+										<li>
+												<a class="title" href="https://vr.coway.com.my" target="_blank">
+													Coway Virtual Showroom
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/westandasone">
+													We Stand As One Campaign
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/halal">
+													Halal
+												</a>
+										</li>
+										<li>
+												<a class="title" href="https://company.coway.com/en/company/ethical-system" target="_blank">
+													Coway Global Ethics
+												</a>
+										</li>
+										<li>
+												<a class="title special-hashclick" href="/career">
+													Career
+												</a>
+										</li>
+								</ul>
+                </li>
+                    <li id="support">
+                        <a href="/support">Support</a>
+
+                </li>
+			<li id="SelfCare-Page">
+                    <a href="https://selfcare.coway.com.my/" target="_blank">Selfcare</a>
+            </li>
+			 <li id="coway-mall-page">
+                    <a href="https://emall.coway.com.my/" target="_blank">Coway Mall</a>
+            </li>
+        </ul>
+                  </div></nav>                                                                 
+
+
+    
+
+
+
+
+<div class="block-wrapper gradient-bluewhite" style="min-height:500px;">
+    <div class="container">
+        <div class="title text-center">
+            <p><img src="/img/404.png" alt="Not Found" class="img-responsive center-block" /></p>
+            <p class="lead">This page doesn't exist.</p>
+            <p>Just like this drop of dirty water.</p>
+            <br>
+            <p><a href="/" class="btn-rounded">GET PURIFIED</a></p>
+        </div>
+    </div>
+</div>
+
+
+    <div class="modal modal-general ads animated fadeInDown" id="advance-ads" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content text-grey" style="text-align: left;">
+                <a href="#" class="btn-close-blue" data-dismiss="modal" aria-label="Close" title="Close"></a>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="modal-display-template modal fade modal-general gradient-blue" id="partial-enquiry-form"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><a class="btn-close-blue pull-right close-modal" href="#" title="Close">&nbsp;</a></div><div class="modal-body"><div class="main-content">
+  <div class="container plugin-enquiry-form"><div id="modal-enquiry-form-unique" class="block-wrapper wdg-wrapper gradient-blue text-white">
+    <div class="container wdg-wrapper">
+
+        <div class="title">
+            <h3>ENQUIRY FORM</h3>
+            <p id="enquiry-form-instructions" class="lead">Fill up the online form below and we will get back to you as soon as possible.</p>
+            <br>
+            <p id="ThankYou" class="lead hidden">Thank you for your time.<br class="hidden-xs hidden-sm"> We&#39;ll get back to you as soon as possible. Thanks again!</p>
+        </div>
+<form action="/enquiryform" class="form-horizontal" id="EnquiryForm" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="WXPfwwMtUwYSCy_d6LJN-6NMMie-jTiHS0u-5wp8rp34kI9MoKm4R3gRhreHXCr3A-_2AD3Bxbw7J24jEEA6L55pP3IxozQm7rD975owh-E1" />            <div class="row text-left">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Full Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control input-lg" data-val="true" data-val-required="Your name, please." id="FullName" name="FullName" placeholder="Enter Full Name" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="FullName" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Email</label>
+                        <div class="col-sm-9">
+                            <input class="form-control input-lg" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="Your email, please." id="Email" name="Email" placeholder="Enter Email" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Mobile Number</label>
+                        <div class="col-sm-9">
+                            <input class="form-control input-lg" data-val="true" data-val-required="Your mobile number, please." id="MobileNo" maxlength="11" name="MobileNo" onkeypress="return isNumberKey(event);" placeholder="Mobile Number" type="text" value="" />
+                            <span class="field-validation-valid text-danger" data-valmsg-for="MobileNo" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">State</label>
+                        <div class="col-sm-9">
+                            <select id="State" name="State" class="form-control input-lg" data-val="true" data-val-required="Your State, please.">
+                                <option value="">Select State</option>
+                                <option value="Johor">Johor</option>
+                                <option value="Kedah">Kedah</option>
+                                <option value="Kelantan">Kelantan</option>
+                                <option value="Kuala Lumpur">Kuala Lumpur</option>
+                                <option value="Labuan">Labuan</option>
+                                <option value="Melaka">Melaka</option>
+                                <option value="Negeri Sembilan">Negeri Sembilan</option>
+                                <option value="Pahang">Pahang</option>
+                                <option value="Perak">Perak</option>
+                                <option value="Perlis">Perlis</option>
+                                <option value="Pulau Pinang">Pulau Pinang</option>
+                                <option value="Sabah">Sabah</option>
+                                <option value="Sarawak">Sarawak</option>
+                                <option value="Selangor">Selangor</option>
+                                <option value="Terengganu">Terengganu</option>
+                            </select>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="State" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Select Enquiry</label>
+                        <div class="col-sm-9">
+                            <select name="EnquirySelection" id="EnquirySelection" class="form-control input-lg" data-val="true" data-val-required="Your Enquiry About, please.">
+                                <option value="">Select Enquiry Type</option>
+                                
+                            </select>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="EnquirySelection" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Enquiry</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control input-lg" cols="7" data-val="true" data-val-required="Your enquiry message, please." id="Enquiry" name="Enquiry" rows="7">
+</textarea>
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Enquiry" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="recaptchaenquiry" style="width:304px; margin: 0 auto;"></div>
+            <br>
+            <p id="captchaError" class="text-danger text-center"></p>
+            <p class="text-center">
+                <input id="btnSubmit" type="submit" class="btn-rounded white" value="Submit" onclick="return formValidate(1);">
+            </p>
+</form>
+    </div>
+</div>
+  </div>
+</div></div></div></div></div>
+
+
+
+
+
+
+
+                                        <div class="sim-row ui-draggable" style="position: relative;"><div class="sim-row ui-draggable" style="position: relative;"><div class="sim-row ui-draggable" style="position: relative;"><div class="sim-row ui-draggable" style="position: relative;"><div class="sim-row ui-draggable" style="position: relative;">
+    <div class="sim-row ui-draggable" data-id="139">
+        <div class="block-wrapper wdg-wrapper bg-ricewhite" id="footersection">
+            <div class="container wdg-wrapper">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 item-listing-support" data-mh="listing-support" style="height: 193px;">
+                        <a class="cta sim-row-edit" data-type="modals" href="/enquiry" title="" target="" data-anchor="" data-target="" data-toggle="" data-genre="link" data-titlehash="">
+                            <img alt="Ask Us" class="img-responsive inline-block" src="/img/icon-ask-us.png" data-pin-nopin="true">
+                            <h6>
+                                ASK US
+                            </h6>
+
+                            <div>
+                                Send us an enquiry
+                                <br>
+                                to your matter
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 item-listing-support" data-mh="listing-support" style="height: 193px;">
+                        <a class="cta sim-row-edit" data-type="modals" href="tel:1800888111" title="" data-titlehash="" target="" data-target="" data-toggle="" data-genre="link">
+                            <img alt="Call Us" class="img-responsive inline-block sim-row-edit" data-type="image" src="/img/icon-call-us.png" data-pin-nopin="true">
+                            <h6>
+                                CALL US
+                            </h6>
+
+                        </a><div>
+                            <a class="cta sim-row-edit" data-type="modals" href="#" title="" data-titlehash="" target="" data-target="" data-toggle="" data-genre="link">
+                                Toll-free Careline
+                                <br>
+                                1 800-888-111
+                            </a>
+                        </div><a class="cta sim-row-edit" data-type="modals" href="#" title="" data-titlehash="" target="" data-target="" data-toggle="" data-genre="link">
+
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 item-listing-support" data-mh="listing-support" style="height: 193px;">
+                        <a class="cta sim-row-edit" data-type="modals" href="#" title="" data-titlehash="" target="" data-target="" data-toggle="" data-genre="link">
+                        </a><a class="cta sim-row-edit" data-type="modals" href="/contact" title="" target="" data-target="" data-toggle="" data-genre="link">
+                            <img alt="Locate Us" class="img-responsive inline-block" data-type="image" src="/img/icon-locate-us.png" data-pin-nopin="true">
+                            <h6>
+                                LOCATE US
+                            </h6>
+
+                            <div>
+                                Find the nearest
+                                <br>
+                                service centre
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 item-listing-support" data-mh="listing-support" style="height: 193px;">
+                        <a class="cta subscribe-cta sim-row-edit" data-type="modals" href="#subscribe-now">
+                            <img alt="Subscribe" class="img-responsive inline-block" data-type="image" src="/img/icon-subscribe.png" data-pin-nopin="true">
+                            <h6>
+                                SUBSCRIBE
+                            </h6>
+
+                            <div>
+                                Get the
+                                <br>
+                                latest updates
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="subscribe-now hidden" id="subscribe-now">
+                <a href="#" class="btn-close-blue" title="Close">&nbsp;</a>
+                <div class="container text-center">
+                    <div class="title">
+                        <h4>
+                            SUBSCRIBE NOW!
+                        </h4>
+                        <p>
+                            Subscribe to Coway's e-newsletter and get exclusive updates, offers, and more!
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <input class="form-control input-lg" id="txtNewsEmail" placeholder="Email Address" type="text">
+                          <p style="font-size: 80%;">
+                      By signing up, you agree to Coway's <a href="/terms-of-use" target="_blank" class="text-blue">Terms of Use</a> &amp; <a href="/privacy-notice" target="_blank" class="text-blue">Privacy Policy.</a>
+</p>
+                            <p class="text-danger" id="txtNewsEmailError">
+                                &nbsp;
+                            </p>
+                            &nbsp;
+                            <div class="thank-you hidden">
+                                <h4>
+                                    THANK YOU!
+                                </h4>
+                                <p class="lead">
+                                    Look out for Coway's newsletter in your inbox soon!
+                                </p>
+                            </div>
+                            <input class="btn-rounded white" id="submitBtn" type="button" value="SUBSCRIBE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    </div></div></div></div>
+                                    <footer>                                                                                                                              <div class="copyright container-fluid">                                                                                                                                                                                                                                                            <div class="row text-uppercase avenir">                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-sm-4 col-md-6 text-left">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <ul class="list-inline">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/faq" title="Faq">Faq</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/terms-of-use" title="Terms Of Use">Terms Of Use</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li>                                                                                                                                                                                                                                                                                                                                                              <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/privacy-notice" title="Privacy Notice">Privacy Notice</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li>                                                            <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/governance" target="_blank" title="Governance">Governance</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </li>                                                <li>                                                                                                                                                                                                                                                                  <a href="/warranty-policy" target="_blank" title="Coway Warranty Policy">WARRANTY POLICY</a>                                                                                                                                         </li>                                             <!--li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/career" title="Career">Career</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li-->                                                                                                                                                      <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/support" title="Coway Support">Support</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </li>                                                                                <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="https://selfcare.coway.com.my/" title="SelfCare Login">SelfCare</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </li>                                        <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/partnership" title="SelfCare Login">Partnership</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </li>                                </ul>                                                                                                                                                                                                                                                                                                                                                                                          </div>                                                                                                                                                                                                                       <br class="hidden-lg hidden-sm hidden-md">                                                                                    <div class="col-sm-8 col-md-6 text-right">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <ul class="list-inline">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="https://www.youtube.com/channel/UCHgpj0ipoUGsD4lAHv8y6OQ" title="Coway Malaysia YouTube Channel" target="_blank">              <i class="fa fa-youtube-play fa-lg" aria-hidden="true">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </i>            </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://www.facebook.com/CowayMalaysia" title="Coway Malaysia Facebook" target="_blank">                            <i class="fa fa-facebook-official fa-lg" aria-hidden="true">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </i>                        </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li>                                                                                                                                                                                                                                                                                                          <li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://www.instagram.com/officialcowaymalaysia/" title="Coway Malaysia Instagram" target="_blank">                            <i class="fa fa-instagram fa-lg" aria-hidden="true">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </i>                        </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </li>                                                                                                                                                                <li>                                                                                                                        <br class="hidden-lg hidden-sm hidden-md">COWAY (MALAYSIA) © 2026. All Rights Reserved.                                                                                                                                                                                                                                                             <span style="font-size: 9px">(735420-H) (AJL931694)</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>                                                                                                                                                                                                                                                                                                                                                                                          </div>                                                                                                                                                                                                                                                                                               <div>                                                                                                                                                                                                    </div>                                                                                                          </div>                                                                                                                              </div></footer>                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  
+
+    <div class="modal-display-template modal fade modal-general modal-album modal-timeline modal-blue" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header"><a class="btn-close-blue pull-right close-modal" title="Close" data-dismiss="modal" aria-label="Close">&nbsp;</a></div>
+        <div class="modal-body">
+        <div class="modal-loading">
+            <span class="copy">Loading...</span>
+            <span class="animation"></span>
+          </div>
+          <div class="main-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal-display-template modal fade modal-general modal-album modal-timeline modal-stories modal-blue" id="myModal-stories">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header"><a class="btn-close-blue pull-right close-modal" title="Close" data-dismiss="modal" aria-label="Close">&nbsp;</a></div>
+          <div class="modal-body">
+            <div class="main-content">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     
+    <div class="modal-display-template modal fade modal-general bg-white" id="modal-support-topic-solution" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content text-grey">
+                <div class="modal-header"><a class="btn-close-blue pull-right close-modal" title="Close">&nbsp;</a></div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal-display-template modal fade modal-general bg-white" id="coway-support-video-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><a class="btn-close-blue pull-right close-modal" title="Close">&nbsp;</a></div>
+                <div class="modal-body">
+                    <div class="main-content">
+                        <div class="container youtube-tvc">
+                            <h4 class="sim-row-edit" id="video-modal-title" data-type=""></h4><br>
+                            <div class="row">
+                                <div class="video">
+                                    <div class="embed-responsive embed-responsive-16by9 sim-row-edit" data-type="text"><iframe class="embed-responsive-item" id="video-modal-video" src=""></iframe></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="backdrop-in"></div>
+
+    <div id="mcoModal"></div>
+	
+	<div id="DivJSModal"></div>
+
+    <script src="/bundles/jquery?v=Z_3sx_Om2qdGQNW4A5Csgy0WZLaXSa4Eg8ukUl26_Qw1"></script>
+
+    <script src="/bundles/jqueryval?v=WhRmI8vUVF186UwYB1zRP7-DwJzqpKlt0JksOBJvolw1"></script>
+
+    <script src="/bundles/bootstrap?v=pUkA3NZhAp4L6xOuybak6cqH5RWnW_gMYjQAReLOIoM1"></script>
+
+    <script src="/bundles/matchheight?v=p7ZtIQuYx7oWPU3IaxbrNKi7GA8gz71rA4Z5XAedo001"></script>
+
+
+    <script type="text/javascript" src="/Scripts/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Content/daterangepicker.css" />
+
+    <script src="/Scripts/TweenMax.min.js"></script>
+    <script src="/Scripts/ScrollMagic.js"></script>
+    <script src="/Scripts/animation.gsap.js"></script>
+    <script src="/Scripts/ScrollToPlugin.min.js"></script>
+    <script src="/Scripts/slick.js"></script>
+    <script src="/Scripts/scrolla.jquery.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script src="/bundles/appjs?v=feF_NFYLLTpcj_ThzswPT9VQjqU80GD8kkeQjWAFhOE1"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src='https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit' type="text/javascript" async defer></script>
+<script>
+   var recaptchaenquiry;
+var recaptchaloyaltyform;
+var recaptchacareerform;
+var recaptchatradeinform;
+var recaptchawowplanform;
+var recaptchadynamicform;
+var recaptchatopicsolutionform;
+var validateMessageFail = "Please validate google reCaptcha!";
+var siteKey = "6Ld_XwcUAAAAAH5eZ1e7POXuXs-RWNEn4YLk-RJ_";
+var myCallBack = function() {
+ setTimeout(function() {
+  //if ($("#footersection").length > 0 || $("#EnquiryForm").length > 0) {
+  //    recaptchaenquiry = grecaptcha.render('recaptchaenquiry', {
+  //        'sitekey': siteKey,
+  //        'theme': 'light'
+  //    });
+  //}
+
+  if ($("#LoyaltyForm").length > 0) {
+   recaptchaloyaltyform = grecaptcha.render('recaptchaloyaltyform', {
+    'sitekey': siteKey,
+    'theme': 'light'
+   });
+  }
+
+  if ($("#SoundLikeYouForm").length > 0) {
+   recaptchacareerform = grecaptcha.render('recaptchacareerform', {
+    'sitekey': siteKey,
+    'theme': 'light'
+   });
+  }
+
+  if ($("#TradeInForm").length > 0) {
+   recaptchatradeinform = grecaptcha.render('recaptchatradein', {
+    'sitekey': siteKey,
+    'theme': 'light'
+   });
+  }
+
+  if ($("#WowPlanForm").length > 0) {
+   recaptchawowplanform = grecaptcha.render('recaptchawowplan', {
+    'sitekey': siteKey,
+    'theme': 'light'
+   });
+  }
+
+  if ($("#DynamicForm").length > 0) {
+   recaptchadynamicform = grecaptcha.render('recaptchadynamicform', {
+    'sitekey': siteKey,
+    'theme': 'light'
+   });
+  }
+  if ($("#TopicSolutionForm").length > 0) {
+                recaptchatopicsolutionform = grecaptcha.render('recaptchatopicform', {
+                    'sitekey': siteKey,
+                    'theme': 'light'
+                });
+            }
+ }, 1000);
+};
+
+function formValidate(btnType) {
+
+var fileinputstatus = true;
+var fileinputcombine = "";
+
+$('input[name^="fileuniqueinput"]').each(function() {
+    var $input = $(this);
+    var excl = false;
+  
+    if ($input.attr("id") != "fileuniqueinput") 
+    {
+        if ($('#ForeignerField1').length > 0) {
+            if ($('#ForeignerField1').css('display') == "none") {
+                $('#ForeignerField1 input').each(function() {
+                    var $excludeInput = $(this);
+                    if ($excludeInput.attr('id') == $input.attr("id")) {
+                        excl = true;
+                    }
+                });
+            }
+        }
+
+        if (!excl) 
+        {
+            $files = $input[0].files;
+            if (typeof $files != "undefined") 
+            {
+                for (var i = 0; i < $files.length; i++) {
+                    fileinputcombine += $input.attr("id") + "$" + $files[i].name + ",";
+                }
+            }
+
+            if ($input.val() == "") {
+                $('span[data-valmsg-for=' + $input.attr("id") + ']').html('<span>' + $input.attr("data-val-required") + '</span>');
+                fileinputstatus = false;
+            } else {
+                $('span[data-valmsg-for=' + $input.attr("id") + ']').html('');
+            }
+        }
+    }
+});
+
+$("#DynamicFormFileInputField").val(fileinputcombine);
+
+if(!fileinputstatus)
+{
+	return false;
+}
+
+
+ $('#callmebackcaptchaerror').html("");
+ //$('#captchaError').html("");
+ $('#captchaErrorCareer').html("");
+ $('#captchaTradeInError').html("");
+ $('#captchaWowPlanError').html("");
+ $('#captchaDynamicFormError').html("");
+ $('#captchaTopicFormError').html("");
+
+ if (grecaptcha.getResponse(recaptchaloyaltyform) == "" && btnType == "loyalty") {
+  $('#callmebackcaptchaerror').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+ }
+ //else if (grecaptcha.getResponse(recaptchaenquiry) == "" && btnType == "1") {$('#captchaError').html(validateMessageFail); grecaptcha.reset(); return false; }
+ else if (grecaptcha.getResponse(recaptchacareerform) == "" && btnType == "career") {
+  $('#captchaErrorCareer').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+ } else if (grecaptcha.getResponse(recaptchatradeinform) == "" && btnType == "tradein") {
+  $('#captchaTradeInError').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+ } else if (grecaptcha.getResponse(recaptchawowplanform) == "" && btnType == "wowplan") {
+  $('#captchaWowPlanError').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+ } else if (grecaptcha.getResponse(recaptchadynamicform) == "" && btnType == "dynamic") {
+  $('#captchaDynamicFormError').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+ } else if (grecaptcha.getResponse(recaptchadynamicform) == "" && btnType == "dynamicmco") {
+  $('#captchaDynamicFormError').html(validateMessageFail);
+  grecaptcha.reset();
+  return false;
+} else if (grecaptcha.getResponse(recaptchatopicsolutionform) == "" && btnType == "topicsolution") {
+     $('#captchaTopicFormError').html(validateMessageFail);
+     console.log("here");
+     grecaptcha.reset();
+     return false;
+    }
+
+    if (btnType == "topicsolution")
+    {
+        $(".state-selection #State").val($("#display-state-dropdown-value").val());
+        $("#TopicSelection").val($("#display-dropdown-id").val());
+
+    if ($("#TopicSolutionForm").valid()) {
+        var myData = $('#TopicSolutionForm').serialize();
+        $.ajax({
+        type: "POST",
+            url: '/insertTopicEnquiry',
+            dataType: "json",
+            data: myData,
+            success: function (response) {
+        console.log(response);
+                $("#topic-form-inner-wdg").fadeOut();
+                $("#topic-form-thankyou").fadeIn();
+            },
+            error: function () {console.log("topic form error"); }
+        });
+        return false;
+    } else {
+        return false;
+    }
+}
+
+
+ if (btnType == "dynamic" || btnType == "dynamicmco") {
+  var tncId = [];
+  $("#tncerror").html("");
+  $("#wrapping-form").find(':input').each(function() {
+   var $thisInput = $(this);
+   if ($thisInput.attr("id") != "btnSubmit" && $thisInput.attr("id") != "Permalink" && $thisInput.attr("id") != "DynamicFormField") {
+    if ($thisInput.attr("type") == "checkbox") {
+     if (!$thisInput.prop("checked")) {
+      var requiredText = $thisInput.attr("data-errormsgrequired");
+      tncId.push($thisInput.attr("id"));
+      setTimeout(function() {
+       $("p[data-valmsg-for='" + $thisInput.attr("id") + "']").html("<span id='" + $thisInput.attr("id") + "-error' class='' >" + requiredText + "</span >");
+       $("p[data-valmsg-for='" + $thisInput.attr("id") + "']").removeClass("hidden");
+      }, 500);
+     } else {
+      tncId.push($thisInput.attr("id"));
+     }
+    }
+   }
+  });
+
+  var x = $("#dynamic-form form").serializeArray();
+  var formType = $("#dynamic-form").data("type");
+  if (typeof formType !== 'undefined') {
+   $("#formType").val(formType);
+  } else {
+   $("#formType").val(""); //sure is dynamic form
+  }
+  var formsData = "";
+  $.each(x, function(i, field) {
+   if (field.name != "g-recaptcha-response" && field.name != "Permalink" && field.name != "DynamicFormField") {
+    if (tncId.indexOf(field.name) >= 0) {
+     if (field.value == "on") {
+      field.value = "Yes-check";
+     } else {
+      field.value = "No-check";
+     }
+    }
+    formsData += field.name + ":" + removeEmojis(field.value.replace(/\*/g, '').trim()) + "*";
+   }
+  });
+
+  $("#DynamicFormField").val(formsData.substring(0, formsData.length - 1));
+
+  if ($("#dynamic-form form").valid()) {
+   var found = true;
+   tncId.forEach(function(value) {
+   if(typeof value != 'undefined'){
+    if (!$("#wrapping-form").find("input[id='" + value + "']").prop("checked")) {
+     found = false;
+    }
+    }
+   });
+
+   if (btnType == "dynamicmco" && found) {
+    $("#confirmationModal").modal("show");
+    return false;
+   }
+
+   return found;
+  }
+ }
+}
+
+$(".ads .modal-content").css("background-color", "transparent");
+
+function removeEmojis(string) {
+ var regex = /(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|\ud83c[\ude32-\ude3a]|\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])/g;
+ return string.replace(regex, '');
+}
+
+$(document).ready(function() {
+ //return false only for spec and price button
+ $('.specs-and-price a[data-toggle="modal"]').click(function(e) {
+  return false;
+ });
+
+ //return false for spec and price tab button
+ $('a[data-toggle="tab"]').on('click', function(e) {
+  var tab = e.target.hash;
+  $('a[href="' + tab + '"]').tab("show");
+  return false;
+ });
+
+ //all modal button click
+ $('a[data-toggle="modal"]').click(function() {
+
+  if (typeof $(this).attr('data-titlehash') != 'undefined') // add hash
+  {
+   window.location.hash = '#' + $(this).attr('data-titlehash');
+  } else // remove hash
+  {
+   window.location.hash = '';
+  }
+
+  $("#modal-wrapper .close-modal").removeAttr("href"); // remove modal close button href
+  $("#modal-wrapper .close-modal").click(function() { // during click remove hash from url
+   if (typeof window.location.href.split('#')[1] != 'undefined' || window.location.href.split('#')[1] != '') {
+    window.history.pushState(null, null, window.location.href.split('#')[0]);
+   }
+  });
+ });
+
+ //on loads show modal
+ if (typeof window.location.href.split('#')[1] != 'undefined' || window.location.href.split('#')[1] != '') {
+  setTimeout(function() {
+   $($("a[data-titlehash='" + window.location.href.split('#')[1] + "']").attr("data-target")).modal("show");
+  }, 1100);
+ }
+});
+
+$('#service').find("a:first").click(function() {
+ return false;
+});
+
+var salaryText = $(".career-details .salary").html();
+if (salaryText == "-") {
+ $(".career-details .salary").hide();
+}
+</script>
+
+
+    <script>
+        var delete_cookie = function (name) {
+            document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/;';
+        };
+
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function createCookie(name, value, days) {
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
+            }
+            else var expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        var curday = function (sp) {
+            today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //As January is 0.
+            var yyyy = today.getFullYear();
+
+            if (dd < 10) dd = '0' + dd;
+            if (mm < 10) mm = '0' + mm;
+            return (dd + sp + mm + sp + yyyy);
+        };
+
+        $(document).ready(function () {
+            $(".product-new.section-6 .row .col-sm-4.wdg-wrapper").matchHeight();
+
+            if (!''.includes("support/product") && !''.includes("mattress-careservice/500freetrial")) {
+                 // nav active
+                var someStringValue = '';
+                if (someStringValue != "") {
+                    if ($("#" + someStringValue).length == 1) {
+                        $("#" + someStringValue).addClass('active');
+                    }
+                    else {
+                        //find the top first li
+                        $("a[href=" + someStringValue + "]").parents("li").last().addClass('active');
+                    }
+                }
+            }
+
+            var PageTakeOverStatus = '';
+            if (PageTakeOverStatus != "") {
+                if (PageTakeOverStatus == "Show") {
+                    //console.log("here");
+                    $("#advance-ads .modal-body").html("");
+                    $("#advance-ads .modal-body").html('');
+                    //setTimeout(function () {
+                        $("#advance-ads").modal("show");
+                    //}, 1000);
+
+                }
+            }
+
+            var careerTitle = getParameterByName('title');
+            if (typeof(careerTitle) != "undefined")
+            {
+                if(careerTitle != null)
+                {
+                    if (careerTitle != "")
+                    {
+                        $("#hfcareertitle").val(careerTitle);
+                    }
+                }
+            }
+
+            //check if mobile
+            var isMobileMenu = {
+                Android: function () {
+                    return navigator.userAgent.match(/Android/i);
+                },
+                BlackBerry: function () {
+                    return navigator.userAgent.match(/BlackBerry/i);
+                },
+                iOS: function () {
+                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+                },
+                Opera: function () {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                },
+                Windows: function () {
+                    return navigator.userAgent.match(/IEMobile/i);
+                },
+                any: function () {
+                    return (isMobileMenu.Android() || isMobileMenu.BlackBerry() || isMobileMenu.iOS() || isMobileMenu.Opera() || isMobileMenu.Windows());
+                }
+            };
+
+            if (isMobileMenu.any()) {
+                if ($("#navbar-collapse ul li").length > 0)
+                {
+                    $("#navbar-collapse ul li").each(function () {
+                        var $thisMenu = $(this);
+                        if ($thisMenu.find(".sub-menu-wrapper").length > 0)
+                        {
+                            $thisMenu.find("a:first").attr("href", "#");
+                        }
+                    });
+                }
+            }
+        });
+
+        function detectIE() {
+            var ua = window.navigator.userAgent;
+
+            // Test values; Uncomment to check result …
+
+            // IE 10
+            // ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
+
+            // IE 11
+            // ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
+
+            // Edge 12 (Spartan)
+            // ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0';
+
+            // Edge 13
+            // ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586';
+
+            var msie = ua.indexOf('MSIE ');
+            if (msie > 0) {
+                // IE 10 or older => return version number
+                return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+            }
+
+            var trident = ua.indexOf('Trident/');
+            if (trident > 0) {
+                // IE 11 => return version number
+                var rv = ua.indexOf('rv:');
+                return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+            }
+
+            var edge = ua.indexOf('Edge/');
+            if (edge > 0) {
+                // Edge (IE 12+) => return version number
+                return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            }
+
+            // other browser
+            return false;
+        }
+
+        $('.input-filename').click(function () {
+
+            var version = detectIE();
+            if (version != false)
+            {
+                var $getVal = $('#ResumeFile').val();
+                $('#ResumeFile').change(function (evt) {
+                    var $getVal = $(this).val().substring(12);
+                    $('.input-filename').html($getVal.split("\\").pop());
+                });
+                $('#ResumeFile').trigger("click");
+            }
+            else
+            {
+                var $getVal = $('#ResumeFile').val();
+                $('#ResumeFile').trigger("click");
+                $('#ResumeFile').change(function (evt) {
+                    var $getVal = $(this).val().substring(12);
+                    $('.input-filename').html($getVal);
+                });
+            }
+        });
+
+        //get file path from client system
+        function getNameFromPath(strFilepath) {
+            var objRE = new RegExp(/([^\/\\]+)$/);
+            var strName = objRE.exec(strFilepath);
+
+            if (strName == null) {
+                return null;
+            }
+            else {
+                return strName[0];
+            }
+        }
+
+        $(function () {
+            $("#ResumeFile").change(function () {
+                var file = getNameFromPath($(this).val());
+                if (file != null) {
+                    var extension = file.substr((file.lastIndexOf('.') + 1));
+                    switch (extension) {
+                        case 'pdf':
+                        case 'docx':
+                        case 'doc':
+                        case 'xlsx':
+                        case 'xls':
+                        case 'csv':
+                        case 'txt':
+                            flag = true;
+                            break;
+                        default:
+                            flag = false;
+                    }
+                }
+                if (flag == false) {
+                    $("#uploadResume > span").html("");
+                    $("#uploadResume > span").html("You can upload only pdf,docx,doc,xlsx,xls,csv,txt extension file");
+                    return false;
+                }
+                else {
+                    $("#uploadResume > span").html("");
+                    if (this.files[0].size / 1024 / 1024 > 4) {
+                        $("#uploadResume > span").html("You can upload file up to 4 MB");
+                        return false
+                    }
+                }
+            });
+        });
+
+        function careerFilter()
+        {
+            if (window.location.href.indexOf("?") > -1)
+                window.location.href = window.location.href.split("?")[0] + "?location=" + $('#ddlCareerLocation').val() + "&position=" + $('#ddlCareerPosition').val();
+            else
+            {
+                window.location.href = window.location.href + "?location=" + $('#ddlCareerLocation').val() + "&position=" + $('#ddlCareerPosition').val();
+            }
+        }
+
+        var careerLocation = getParameterByName('location');
+        var careerPosition = getParameterByName('position');
+        if (typeof (careerLocation) != "undefined") {
+            if (careerLocation != null) {
+                if (careerLocation != "") {
+                    $("#ddlCareerLocation").val(careerLocation);
+                }
+            }
+        }
+        if (typeof (careerPosition) != "undefined") {
+            if (careerPosition != null) {
+                if (careerPosition != "") {
+                    $("#ddlCareerPosition").val(careerPosition);
+                }
+            }
+        }
+
+        $("#btn-techspec").click(function () {
+            $("#spec-price-payment-tablist li").removeClass("active");
+            $("#spec-price-payment-tablist li:nth-child(1)").addClass("active");
+            $("#spec-price-payment-content .tab-pane:eq(1)").removeClass("active");
+            $("#spec-price-payment-content .tab-pane:eq(0)").addClass("active");
+
+            $("#modal-spec-price-payment").modal("show");
+        });
+
+        $("#btn-payment").click(function () {
+            $("#spec-price-payment-tablist li").removeClass("active");
+            $("#spec-price-payment-tablist li:nth-child(2)").addClass("active");
+            $("#spec-price-payment-content .tab-pane:eq(0)").removeClass("active");
+            $("#spec-price-payment-content .tab-pane:eq(1)").addClass("active");
+
+            $("#modal-spec-price-payment").modal("show");
+        });
+
+        $("#tabtechspec").click(function () {
+            $("#spec-price-payment-content .tab-pane:eq(1)").removeClass("active");
+        });
+
+        $("#tabpaymentmethod").click(function () {
+            $("#spec-price-payment-content .tab-pane:eq(0)").removeClass("active");
+        });
+
+        if (getCookie("CowayLoyaltyProgrameSuccess") == "success")
+        {
+            $('#ThankYou').fadeIn('slow').removeClass('hidden');
+            $("#LoyaltyForm").hide();
+            delete_cookie('CowayLoyaltyProgrameSuccess');
+            setTimeout(function () {
+                $('html,body').animate({
+                    scrollTop: $("#loyalty-form").offset().top
+                },
+            'slow');
+            }, 500);
+        }
+
+        if (getCookie("CowayEnquiryFormSuccess") == "success") {
+            $("#EnquiryForm").hide();
+            $('#enquiry-form-instructions').hide();
+            $('#modal-enquiry-form-unique #ThankYou').fadeIn('slow').removeClass('hidden');
+            $("#partial-enquiry-form").modal("show");
+            delete_cookie('CowayEnquiryFormSuccess');
+        }
+
+        //if (getCookie("CowayCareerSuccess") == "success") {
+        //    setTimeout(function () {
+        //        $('html,body').animate({
+        //            scrollTop: $("#applyForm").offset().top
+        //        },
+        //    'slow');
+        //    }, 500);
+        //    $('#applyForm #ThankYou').fadeIn('slow').removeClass('hidden');
+        //    $("#SoundLikeYouForm").hide();
+        //    delete_cookie('CowayCareerSuccess');
+        //}
+
+        if (getCookie("CowayTradeInPromotionSuccess") == "success") {
+            $('#ThankYou').fadeIn('slow').removeClass('hidden');
+            $('#tradein-form-instructions').hide();
+            $("#TradeInForm").hide();
+            delete_cookie('CowayTradeInPromotionSuccess');
+        }
+
+        //if (getCookie("CowayWowPlanSuccess") == "success") {
+        //    $('#ThankYou').fadeIn('slow').removeClass('hidden');
+        //    $('#tradein-form-instructions').hide();
+        //    $("#TradeInForm").hide();
+        //    delete_cookie('CowayTradeInPromotionSuccess');
+        //}
+
+        $("#ddlNewsYear").change(function () {
+            var $this = $(this);
+            if ($this.val() != "-1")
+            {
+                if (window.location.href.indexOf("?") > -1)
+                    window.location.href = window.location.href.split("?")[0] + "?year=" + $this.val();
+                else {
+                    window.location.href = window.location.href + "?year=" + $this.val();
+                }
+            }
+        });
+
+        var newsyear = getParameterByName('year');
+        if (typeof (newsyear) != "undefined") {
+            if (newsyear != null) {
+                if (newsyear != "") {
+                    $("#ddlNewsYear").val(newsyear);
+                }
+            }
+        }
+
+        //var nextPage = 2;
+
+        //$("#btnLoadMore").click(function (e) {
+        //    e.preventDefault();
+        //    var $this = $(this);
+
+        //    if ($this.attr('href').indexOf("?") == -1)
+        //    {
+        //        var newsyear = getParameterByName('year');
+
+        //        if (newsyear != null) {
+        //            $this.attr('href', $this.attr('href') + "?newspage=" + nextPage + "&year=" + newsyear);
+        //        }
+        //        else {
+        //            $this.attr('href', $this.attr('href') + "?newspage=" + nextPage);
+        //        }
+        //    }
+
+        //    $.get($this.attr('href'), function (data) {
+        //        if ($.trim(data) != '') {
+        //            var $elems = $($.trim(data));
+
+        //            $container = $("#dynamic-news-listing");
+
+        //            $container.append($elems);
+
+        //            history.replaceState({ scrollPos: "100px" }, null, $this.attr('href'));
+
+        //            nextPage += 1;
+        //            $this.attr('href', $this.attr('href').replace('newspage=' + (nextPage - 1), 'newspage=' + nextPage));
+        //        }
+        //        else // no more news
+        //        {
+        //            $('#btnLoadMore').hide();
+        //            alert("No more news!");
+        //        }
+        //    });
+        //});
+
+        $("#news-listing a").click(function () {
+            createCookie("newsbtnback", window.location.href, 1);
+        });
+        if (getCookie("newsbtnback") != "")
+        {
+            $("#news-backbtn").attr("href", "");
+            $("#news-backbtn").attr("href", getCookie("newsbtnback"));
+        }
+        if (getCookie("newsbtnbackscroll") != "") {
+
+            setTimeout(function () {
+                $('html,body').animate({
+                    scrollTop: $("#filterBy").offset().top
+                },
+            'slow');
+                delete_cookie('newsbtnbackscroll');
+            }, 500);
+        }
+        $("#news-backbtn").click(function () {
+            delete_cookie('newsbtnback');
+            createCookie("newsbtnbackscroll", "true", 1);
+        });
+
+        $(".career-listing a").click(function () {
+            createCookie("careerbtnback", window.location.href, 1);
+        });
+        if (getCookie("careerbtnback") != "") {
+            $("#career-backbtn").attr("href", "");
+            $("#career-backbtn").attr("href", getCookie("careerbtnback"));
+        }
+        if (getCookie("careerbtnbackscroll") != "") {
+
+            setTimeout(function () {
+                $('html,body').animate({
+                    scrollTop: $(".filtering").offset().top - 50
+                },
+            'slow');
+                delete_cookie('careerbtnbackscroll');
+            }, 500);
+        }
+        $("#career-backbtn").click(function () {
+            delete_cookie('careerbtnback');
+            createCookie("careerbtnbackscroll", "true", 1);
+        });
+
+        //Dynamic Error Message
+        $("#wrapping-form").wrap("<form action=\"/dynamicform\" class=\"form-horizontal\" id=\"DynamicForm\" method=\"post\" role=\"form\" novalidate=\"novalidate\" enctype=\"multipart/form-data\"></form>");
+        if ($("#wrapping-form").length > 0) {
+            var $thisForm = $("#wrapping-form");
+            if ($thisForm.find(':input').length > 0) {
+                $thisForm.find(':input').each(function () {
+                    var $thisInput = $(this);
+                    if ($thisInput.attr("id") != "btnSubmit" && $thisInput.attr("id") != "Permalink" && $thisInput.attr("id") != "DynamicFormField") {
+                        var requiredText = $thisInput.attr("data-errormsgrequired");
+                        var emailValid = $thisInput.attr("data-errormsginvalidemail");
+                        if (requiredText != null && requiredText != "") {
+                            $thisInput.attr("data-val-required", requiredText);
+
+                            if ($thisInput.attr("type") == "checkbox") {
+                                $thisInput.on("change", function () {
+                                    if ($(this).prop("checked")) {
+                                        $("p[data-valmsg-for='" + $thisInput.attr("id") +"']").addClass("hidden");
+                                    }
+                                });
+                            }
+                        }
+                        if (emailValid != null && emailValid != "") {
+                            $thisInput.attr("data-val-email", emailValid)
+                        }
+                    }
+                });
+                $thisForm.find('textarea').each(function () {
+                    var $thisInput = $(this);
+                    if ($thisInput.attr("id") != "btnSubmit" && $thisInput.attr("id") != "Permalink" && $thisInput.attr("id") != "DynamicFormField") {
+                        var requiredText = $thisInput.attr("data-errormsgrequired");
+                        if (requiredText != null && requiredText != "") {
+                            $thisInput.attr("data-val-required", requiredText);
+                        }
+                    }
+                });
+            }
+        }
+
+        if ($("#wrapping-form").length > 0) {
+            $(".EnquirySelectionInput").change(function (e) {
+                e.preventDefault();
+                var $this = $(this);
+
+                var data = JSON.stringify({
+                    'enquiryvalue': $this.find(":selected").text()
+                });
+                $.ajax({
+                    type: "POST",
+                    url: '/enquiryddlhtml',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: data,
+                    success: function (response) {
+                        $("#extraHTML").html("");
+                        $("#extraHTML").html(response.datahtml);
+
+                        $(response.datahtml).find("input").each(function () {
+                            var $input = $(this);
+                            if (typeof $input.data("errormsgrequired") != "undefined") {
+                                $('#' + $input.attr("id")).rules("add", {
+                                    required: true,
+                                    messages: {
+                                        required: $input.data("errormsgrequired")
+                                    }
+                                });
+                            }
+
+                            if (typeof $input.data("errormsginvalidemail") != "undefined") {
+                                $('#' + $input.attr("id")).attr("data-val-email", $input.data("errormsginvalidemail"))
+                                $('#' + $input.attr("id")).rules("add", {
+                                    email:true,
+                                    messages: {
+                                        email: $input.data("errormsginvalidemail")
+                                    }
+                                });
+                            }
+                        });
+
+                        $('input.unique-daterange').daterangepicker({
+                            opens: 'left',
+                            locale: {
+                                format: 'DD-MM-YYYY',
+                                separator: " to "
+                            }
+                        }, function (start, end, label) {
+                            //console.log("A new date selection was made: " + start.format('DD-MM-YYYY') + ' to ' + end.format('DD-MM-YYYY'));
+                        });
+                    },
+                    error: function () { alert('Error occoured'); }
+                });
+            });
+        }
+
+        if ($("#wrapping-form #Permalink").length > 0) {
+            $("#wrapping-form #Permalink").val(window.location.pathname);
+        }
+
+        //if ($("#wrapping-form #FullName").length > 0) {
+        //    $("#wrapping-form #FullName").attr("data-val-required", "Your name, please.");
+        //}
+        //if ($("#wrapping-form #Email").length > 0) {
+        //    $("#wrapping-form #Email").attr("data-val-email", "The Email field is not a valid e-mail address.").attr("data-val-required", "Your email, please.");
+        //}
+        //if ($("#wrapping-form #MobileNo").length > 0) {
+        //    $("#wrapping-form #MobileNo").attr("data-val-required", "Your mobile number, please.");
+        //}
+        //if ($("#wrapping-form #State").length > 0) {
+        //    $("#wrapping-form #State").attr("data-val-required", "Your State, please.");
+        //}
+        //if ($("#wrapping-form #RaceSelection").length > 0) {
+        //    $("#wrapping-form #RaceSelection").attr("data-val-required", "Your language, please.");
+        //}
+
+        //hash click on special menu
+	    $(".special-hashclick").click(function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var href = $this.attr("href");
+            if (href.indexOf("#") > -1) {
+                if (href.indexOf("http") > -1 || href.indexOf("https") > -1) {
+                    window.location.href = href;
+                }
+                else
+                {
+                    //window.location = href.replace(/^\/+/g, '');
+                    //window.location.reload();
+                    window.location.href = 'https://www.coway.com.my/' + href.replace(/^\/+/g, '');
+                }
+            }
+            else {
+                if (href.indexOf("http") > -1 || href.indexOf("https") > -1) {
+                    return window.location.href = href;
+                }
+                else {
+                    return window.location.href = 'https://www.coway.com.my' + href;
+                }
+            }
+            showModal();
+        });
+
+        function showModal()
+        {
+            if (typeof window.location.href.split('#')[1] != 'undefined' || window.location.href.split('#')[1] != '')
+            {
+                $($("a[data-titlehash='" + window.location.href.split('#')[1] + "']").attr("data-target")).modal("show");
+            }
+        }
+		
+		 $(document).ready(function () {
+            if (typeof window.location.href.split('#')[1] != 'undefined' && window.location.href.split('#')[1] != '') {
+                setTimeout(function () {
+                    const headerHeight = $('.mobile-navigation').height();
+                    $('html, body').animate({
+                        scrollTop: $("#" + window.location.href.split('#')[1]).offset().top - headerHeight
+                    }, 400);
+                }, 500);
+            }
+        });
+    </script>
+
+
+    
+
+    
+
+    
+</body>
+</html>
