@@ -8,7 +8,7 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #fff; background: #000; }
   img { max-width: 100%; height: auto; display: block; }
-  .hero { position: relative; min-height: 100vh; background: url('https://www.coway.com.my/files/Products/refrigerator/551L/fridge_551L_homebanner.jpg') center/cover no-repeat; display: flex; align-items: center; }
+  .hero { position: relative; min-height: 100vh; background: linear-gradient(135deg, #0a0a0a, #1a1a2e); display: flex; align-items: center; }
   .hero-overlay { width: 100%; max-width: 1400px; margin: 0 auto; padding: 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
   .hero-text { max-width: 500px; }
   .hero-text h2 { font-size: clamp(28px, 4vw, 48px); text-transform: uppercase; font-weight: 800; line-height: 1.1; margin-bottom: 8px; }
@@ -22,6 +22,10 @@
   .hero-price .period { font-size: 18px; text-align: center; }
   .hero-price .disclaimer { font-size: 10px; margin-top: 4px; }
   .hero-fridge { max-height: 85vh; }
+  .hero-thumbs { display: flex; gap: 10px; justify-content: center; padding: 20px 5% 10px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; }
+  .hero-thumbs img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(255,255,255,.1); cursor: pointer; transition: border-color .25s; }
+  .hero-thumbs img:hover { border-color: #25D366; }
+  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; } }
   .section { padding: 80px 5%; position: relative; overflow: hidden; }
   .section h2 { font-size: clamp(24px, 4vw, 40px); font-weight: 800; margin-bottom: 16px; }
   .section h3 { font-size: clamp(18px, 2.5vw, 24px); font-weight: 600; }
@@ -78,12 +82,24 @@
       <p class="tagline">Food Care in Multiple Ways</p>
       <div class="hero-price">
         <p class="from">FROM</p>
-        <span class="currency">RM</span><span class="amount">94<sup>*</sup></span>
-        <p class="period">/month</p>
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">
+          <span class="currency" style="font-size:20px;font-weight:700;">RM</span>
+          <span class="amount" style="font-size:48px;font-weight:800;line-height:1;">20</span>
+          <span style="font-size:14px;font-weight:400;opacity:.7;">/month</span>
+        </div>
+        <p style="font-size:14px;margin-bottom:16px;opacity:.6;"><s>RM94</s> /month</p>
         <p class="disclaimer">*Terms and conditions apply.</p>
       </div>
     </div>
-    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/homebanner_fridge.png" alt="Coway Multi-Door Refrigerator 551L" class="hero-fridge">
+    <img src="../images/fridge-4door.png" alt="Coway Multi-Door Refrigerator 551L" class="hero-fridge">
+  </div>
+  <div class="hero-thumbs">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_1.jpg" alt="View 1">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_2.jpg" alt="View 2">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_3.jpg" alt="View 3">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_4.jpg" alt="View 4">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_5.jpg" alt="View 5">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/551L/gallery_6.jpg" alt="View 6">
   </div>
 </section>
 
@@ -217,8 +233,12 @@
     </div>
     <div class="hero-price" style="margin-top:30px;background:#1a1a2e;color:#fff;border-radius:12px;padding:24px 40px;">
       <p class="from">FROM</p>
-      <span class="currency">RM</span><span class="amount">94<sup>*</sup></span>
-      <p class="period">/month</p>
+      <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">
+        <span style="font-size:20px;font-weight:700;">RM</span>
+        <span style="font-size:48px;font-weight:800;line-height:1;">20</span>
+        <span style="font-size:14px;font-weight:400;opacity:.7;">/month</span>
+      </div>
+      <p style="font-size:14px;margin-bottom:16px;opacity:.6;"><s>RM94</s> /month</p>
       <p class="disclaimer">*Terms and conditions apply.</p>
     </div>
   </div>

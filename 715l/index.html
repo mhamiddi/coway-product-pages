@@ -8,7 +8,12 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #fff; background: #000; }
   img { max-width: 100%; height: auto; display: block; }
-  .hero { min-height: 100vh; background: url('https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Banner6b.jpg') center/cover no-repeat; display: flex; align-items: center; }
+.hero-thumbs { display: flex; gap: 10px; justify-content: center; padding: 20px 5% 10px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; }
+  .hero-thumbs img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(255,255,255,.1); cursor: pointer; transition: border-color .25s; }
+  .hero-thumbs img:hover { border-color: #25D366; }
+  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; } }
+    .hero-fridge { max-height: 85vh; }
+  .hero { min-height: 100vh; background: linear-gradient(135deg, #0a0a0a, #1a1a2e); display: flex; align-items: center; }
   .hero-overlay { width: 100%; max-width: 1400px; margin: 0 auto; padding: 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
   .hero-text { max-width: 550px; }
   .hero-text h2 { font-size: clamp(28px, 4vw, 44px); text-transform: uppercase; font-weight: 800; line-height: 1.1; margin-bottom: 8px; }
@@ -75,12 +80,26 @@
       <p class="tagline">Built for Bigger, Smarter Living</p>
       <div class="hero-price">
         <p class="from">FROM</p>
-        <span class="currency">RM</span><span class="amount">119<sup>*</sup></span>
-        <p class="period">/month</p>
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">
+          <span style="font-size:20px;font-weight:700;color:#1a1a2e;">RM</span>
+          <span style="font-size:48px;font-weight:800;line-height:1;color:#1a1a2e;">20</span>
+          <span style="font-size:14px;font-weight:400;opacity:.7;color:#1a1a2e;">/month</span>
+        </div>
+        <p style="font-size:14px;margin-bottom:16px;opacity:.6;color:#1a1a2e;"><s>RM119</s> /month</p>
         <p class="disclaimer">*Terms and conditions apply.</p>
       </div>
     </div>
+    <img src="../images/fridge-2door.png" alt="Coway Side-by-Side Refrigerator 715L" class="hero-fridge">
   </div>
+  <div class="hero-thumbs">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card1_V2.jpg" alt="View 1">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card2_V2.jpg" alt="View 2">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card3_V2.jpg" alt="View 3">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card4_V2.jpg" alt="View 4">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card5_V2.jpg" alt="View 5">
+    <img src="https://www.coway.com.my/files/Products/refrigerator/715L/Coway_SBS715-Refrigerator_Card6_V2.jpg" alt="View 6">
+  </div>
+
 </section>
 
 <section class="section" style="background:#001a33;">
@@ -211,10 +230,13 @@
       <img src="https://www.coway.com.my/files/Products/refrigerator/715L/715L-specs.png" alt="Specifications Diagram" style="max-width:700px;margin:0 auto;">
     </div>
     <div style="margin-top:30px;background:#1a1a2e;color:#fff;border-radius:12px;padding:24px 40px;display:inline-block;">
-      <p style="font-size:14px;text-align:right;margin-bottom:-30px;padding-right:100px;">FROM</p>
-      <span style="font-size:28px;font-weight:700;">RM</span>
-      <span style="font-size:64px;font-weight:800;">119<sup style="font-size:20px;">*</sup></span>
-      <p style="font-size:18px;text-align:center;">/month</p>
+      <p style="font-size:14px;text-align:center;margin-bottom:4px;">FROM</p>
+      <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;justify-content:center;">
+        <span style="font-size:28px;font-weight:700;color:#fff;">RM</span>
+        <span style="font-size:64px;font-weight:800;line-height:1;color:#fff;">20</span>
+        <span style="font-size:18px;font-weight:400;opacity:.7;color:#fff;">/month</span>
+      </div>
+      <p style="font-size:14px;margin-bottom:16px;opacity:.6;color:#fff;"><s>RM119</s> /month</p>
       <p style="font-size:10px;">*Terms and conditions apply.</p>
     </div>
   </div>
