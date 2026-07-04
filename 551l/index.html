@@ -174,10 +174,20 @@
 <body>
 
 <nav class="nav">
-  <div class="nav-inner"><a href="/" style="display:flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-size:14px;font-weight:600;margin-right:auto">← Kembali</a>
-    <div class="nav-logo">COWAY</div>
-    
-  </div>
+  <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
+  <a href="/" style="display:flex;align-items:center;gap:8px;color:var(--coway-navy, #002856);text-decoration:none;font-size:14px;font-weight:600">← Kembali</a>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="/#penapis-air">Penapis Air</a></li>
+    <li><a href="/#penapis-udara">Penapis Udara</a></li>
+    <li><a href="/#aircond">Aircond</a></li>
+    <li><a href="/#peti-sejuk">Peti Sejuk</a></li>
+    <li><a href="/#washer">Washer Dryer</a></li>
+    <li><a href="/#berex">BEREX</a></li>
+    <li><a href="/#contact" class="nav-cta">Hubungi</a></li>
+  </ul>
 </nav>
 
 <section class="hero">
