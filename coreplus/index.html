@@ -182,7 +182,97 @@ footer a{color:rgba(255,255,255,.7);text-decoration:none;margin:0 8px}
   .footer a { color: rgba(255,255,255,0.8); }
   .footer-social { margin: 1rem 0; display: flex; gap: 1rem; justify-content: center; }
   .footer-social a { opacity: 0.8; transition: opacity 0.2s; }
-  .footer-social a:hover { opacity: 1; }</style>
+  .footer-social a:hover { opacity: 1; }
+  .nav {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-logo { height: 36px; }
+  .nav-links {
+    display: flex;
+    gap: 0.25rem;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .nav-links a {
+    padding: 0.5rem 0.85rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .nav-links a:hover { background: #e8f4fd; color: #002856; }
+  .nav-cta {
+    background: #00a859;
+    color: #ffffff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+    z-index: 101;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #002856;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.22,1,0.36,1);
+  }
+  .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px); }
+  @media (max-width: 768px) {
+    .nav { position: relative; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      flex-direction: column;
+      padding: 0.75rem 1.5rem;
+      border-bottom: 3px solid #002856;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+      gap: 0;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 0.75rem 0.25rem;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .nav-links a.nav-cta {
+      margin-top: 0.5rem;
+      text-align: center;
+      border-radius: 8px;
+      border-bottom: none;
+      padding: 0.75rem;
+    }
+  }
+</style>
 
     <meta property="og:title" content="Coway CORE PLUS — Floor Standing Water Purifier | Rent RM20/mo">
     <meta property="og:description" content="">
@@ -212,11 +302,8 @@ footer a{color:rgba(255,255,255,.7);text-decoration:none;margin:0 8px}
 <body>
 <!-- NAV -->
 <nav class="nav">
-  <div style="display:flex;align-items:center;gap:10px">
-    <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" height="32" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
-    <a href="/" class="nav-back">← Kembali</a>
-  </div>
-  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open')">
+  <a href="/"><img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'"></a>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">
@@ -368,5 +455,24 @@ footer a{color:rgba(255,255,255,.7);text-decoration:none;margin:0 8px}
 </footer>
 
 <a href="https://wa.me/60176881669" class="floating-wa"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> WhatsApp</a>
+
+<script>
+// Mobile menu: close on link click
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.querySelector('.nav-toggle').classList.remove('open');
+    document.querySelector('.nav-links').classList.remove('open');
+  });
+});
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+  const nav = document.querySelector('.nav');
+  if (!nav.contains(e.target)) {
+    document.querySelector('.nav-toggle').classList.remove('open');
+    document.querySelector('.nav-links').classList.remove('open');
+  }
+});
+</script>
+
 </body>
 </html>
