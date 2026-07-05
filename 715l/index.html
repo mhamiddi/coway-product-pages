@@ -11,7 +11,8 @@
 .hero-thumbs { display: flex; gap: 10px; justify-content: center; padding: 20px 5% 10px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; }
   .hero-thumbs img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(255,255,255,.1); cursor: pointer; transition: border-color .25s; }
   .hero-thumbs img:hover { border-color: #25D366; }
-  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; } }
+  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; }   img[style*="max-width"] { max-width: 100% !important; height: auto; }
+}
     .hero-fridge { max-height: 85vh; }
   .hero { min-height: 100vh; background: linear-gradient(135deg, #0a0a0a, #1a1a2e); display: flex; align-items: center; }
   .hero-overlay { width: 100%; max-width: 1400px; margin: 0 auto; padding: 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }

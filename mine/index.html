@@ -51,7 +51,8 @@
   .service-step { background: rgba(255,255,255,.1); padding: 20px 10px; border-radius: 12px; text-align: center; }
   .service-step .num { font-size: 24px; font-weight: 700; color: #d4b896; }
   .service-step .desc { font-size: 12px; margin-top: 8px; }
-  @media (max-width: 768px) { .service-steps { grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 768px) { .service-steps { grid-template-columns: repeat(4, 1fr); }   img[style*="max-width"] { max-width: 100% !important; height: auto; }
+}
 
   .massage-modes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 1000px; margin: 30px auto 0; }
   .massage-mode { background: #fff; padding: 24px 12px; border-radius: 12px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,.05); }

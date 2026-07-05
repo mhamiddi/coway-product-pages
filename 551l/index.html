@@ -25,7 +25,8 @@
   .hero-thumbs { display: flex; gap: 10px; justify-content: center; padding: 20px 5% 10px; max-width: 1400px; margin: 0 auto; flex-wrap: wrap; }
   .hero-thumbs img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid rgba(255,255,255,.1); cursor: pointer; transition: border-color .25s; }
   .hero-thumbs img:hover { border-color: #25D366; }
-  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; } }
+  @media (max-width: 768px) { .hero-thumbs img { width: 56px; height: 56px; }   img[style*="max-width"] { max-width: 100% !important; height: auto; }
+}
   .section { padding: 80px 5%; position: relative; overflow: hidden; }
   .section h2 { font-size: clamp(24px, 4vw, 40px); font-weight: 800; margin-bottom: 16px; }
   .section h3 { font-size: clamp(18px, 2.5vw, 24px); font-weight: 600; }
