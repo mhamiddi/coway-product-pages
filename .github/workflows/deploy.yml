@@ -17,4 +17,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: 1117ea89d1a9e1211f81c01dd5068e6d
           command: pages deploy . --project-name=coway-product-pages --branch=master
