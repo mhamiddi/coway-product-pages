@@ -11,7 +11,7 @@
     body{font-family:'Noto Sans',Arial,Helvetica,sans-serif;color:#464646;background:#a1b6c0;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
     img{max-width:100%;height:auto;display:block}
     a{text-decoration:none;color:inherit}
-    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.97);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:72px;box-shadow:0 1px 8px rgba(0,0,0,0.06)}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--navy);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:72px;box-shadow:0 1px 8px rgba(0,0,0,0.06)}
     .nav-logo{height:36px}
     .nav-links{display:flex;list-style:none;gap:32px;align-items:center}
     .nav-links a{font-size:13px;font-weight:600;letter-spacing:.5px;color:#333;text-transform:uppercase;transition:color .2s}
@@ -100,7 +100,7 @@
     padding: 0;
   }
   .nav-links a {
-    color: var(--coway-navy, #002856);
+    color: #fff;
     text-decoration: none;
     padding: 0.4rem 0.75rem;
     border-radius: 6px;
@@ -109,7 +109,7 @@
     transition: background 0.2s;
     white-space: nowrap;
   }
-  .nav-links a:hover { background: var(--coway-light, #e8f4fd); }
+  .nav-links a:hover { background: rgba(255,255,255,0.15); }
   .nav-cta {
     background: var(--coway-green, #00a859);
     color: white !important;
@@ -136,7 +136,7 @@
       align-items: stretch;
     }
     .nav-links.open { transform: translateX(0); }
-    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; }
+    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; color: var(--navy); }
   }
   .footer {
     background: var(--coway-navy, #002856);
@@ -182,9 +182,11 @@
 
   <!-- NAV -->
 <nav class="nav">
-  <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
-  <a href="/" style="display:flex;align-items:center;gap:8px;color:var(--coway-navy, #002856);text-decoration:none;font-size:14px;font-weight:600">← Kembali</a>
-  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+  <div style="display:flex;align-items:center;gap:10px">
+    <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" height="32" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
+    <a href="/" class="nav-back">← Kembali</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open')">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">

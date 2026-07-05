@@ -62,7 +62,7 @@
 
     .float-wa{position:fixed;bottom:24px;right:24px;z-index:9999;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,.4);transition:all .25s;color:#fff}
     .float-wa:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(37,211,102,.5)}
-:root{--navy:#002856;--white:#fff;--gray-200:#e2e8f0;--max:1140px}.nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px solid var(--gray-200)}.nav-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;padding:10px 24px;gap:16px}.nav-logo{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:2px}.nav-cta{display:flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:8px 16px;border-radius:24px;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:transform .2s}.nav-cta:hover{transform:scale(1.05)}
+:root{--navy:#002856;--white:#fff;--gray-200:#e2e8f0;--max:1140px}.nav{position:sticky;top:0;z-index:100;background:var(--navy);border-bottom:1px solid var(--gray-200)}.nav-inner{margin:0 auto;display:flex;align-items:center;padding:10px 24px;gap:16px}.nav-logo{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:2px}.nav-cta{display:flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:8px 16px;border-radius:24px;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:transform .2s}.nav-cta:hover{transform:scale(1.05)}
 
   .nav-toggle {
     display: none;
@@ -94,7 +94,7 @@
     padding: 0;
   }
   .nav-links a {
-    color: var(--coway-navy, #002856);
+    color: #fff;
     text-decoration: none;
     padding: 0.4rem 0.75rem;
     border-radius: 6px;
@@ -103,7 +103,7 @@
     transition: background 0.2s;
     white-space: nowrap;
   }
-  .nav-links a:hover { background: var(--coway-light, #e8f4fd); }
+  .nav-links a:hover { background: rgba(255,255,255,0.15); }
   .nav-cta {
     background: var(--coway-green, #00a859);
     color: white !important;
@@ -130,7 +130,7 @@
       align-items: stretch;
     }
     .nav-links.open { transform: translateX(0); }
-    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; }
+    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; color: var(--navy); }
   }
   .footer {
     background: var(--coway-navy, #002856);
@@ -174,9 +174,11 @@
 <body>
 
 <nav class="nav">
-  <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
-  <a href="/" style="display:flex;align-items:center;gap:8px;color:var(--coway-navy, #002856);text-decoration:none;font-size:14px;font-weight:600">← Kembali</a>
-  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+  <div style="display:flex;align-items:center;gap:10px">
+    <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" height="32" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
+    <a href="/" class="nav-back">← Kembali</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open')">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">

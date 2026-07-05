@@ -20,11 +20,11 @@ a{color:inherit;text-decoration:none}
 .section-label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);margin-bottom:8px}
 .section-title{font-size:clamp(28px,4vw,40px);font-weight:800;line-height:1.2;color:var(--navy);margin-bottom:16px}
 .section-desc{font-size:16px;color:var(--gray-500);max-width:640px;line-height:1.7}
-.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--gray-200);padding:14px 0}
-.nav-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
-.nav-logo{font-size:22px;font-weight:800;color:var(--navy);letter-spacing:-.02em}
-.nav-cta{background:var(--wa);color:#fff;padding:10px 20px;border-radius:50px;font-size:14px;font-weight:600;transition:all .25s;display:flex;align-items:center;gap:6px}
-.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(37,211,102,.3)}
+.nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);padding:10px 24px}
+
+.nav-logo{height:32px;width:auto;display:block}.nav-back{display:flex;align-items:center;gap:6px;color:#fff;text-decoration:none;font-size:14px;font-weight:600;white-space:nowrap}
+.nav-cta{background:var(--green);color:#fff;padding:8px 20px;border-radius:50px;font-size:13px;font-weight:600;transition:all .25s;display:flex;align-items:center;gap:6px}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,168,89,.3)}
 .hero{background:linear-gradient(135deg,var(--navy)0%,#001a3d 100%);color:var(--white);position:relative;overflow:hidden;min-height:560px;display:flex;align-items:center}
 .hero-bg{position:absolute;inset:0;background:url('https://www.coway.com.my/files/Products/water-purifier/neo-plus/coway-malaysia-neo-plus-water-purifier-CHP-264L.jpg') center/cover no-repeat;opacity:.25}
 .hero .container{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
@@ -102,7 +102,7 @@ a{color:inherit;text-decoration:none}
 .footer-copy{font-size:12px;color:var(--gray-400)}
 .float-wa{position:fixed;bottom:24px;right:24px;z-index:200;background:var(--wa);color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:all .3s;font-size:24px}
 .float-wa:hover{transform:scale(1.1)}
-@media(max-width:768px){.section{padding:48px 0}.hero{min-height:auto;padding:60px 0 40px}.hero .container{grid-template-columns:1fr;gap:32px;text-align:center}.hero-tagline{margin:0 auto 32px}.hero-pricing{justify-content:center}.hero-image img{max-height:300px}.img-text{grid-template-columns:1fr;gap:32px}.img-text.reverse{direction:ltr}.temp-grid,.features-grid{grid-template-columns:1fr}.filter-steps,.gallery-strip{grid-template-columns:repeat(2,1fr)}.pricing-grid{grid-template-columns:1fr}.specs-table th{width:140px;font-size:13px}.specs-table td{font-size:13px}.nav-logo{font-size:18px}.nav-cta{padding:8px 16px;font-size:13px}.hero h1{font-size:32px}.hero-price{font-size:36px}}
+@media(max-width:768px){.section{padding:48px 0}.hero{min-height:auto;padding:60px 0 40px}.hero .container{grid-template-columns:1fr;gap:32px;text-align:center}.hero-tagline{margin:0 auto 32px}.hero-pricing{justify-content:center}.hero-image img{max-height:300px}.img-text{grid-template-columns:1fr;gap:32px}.img-text.reverse{direction:ltr}.temp-grid,.features-grid{grid-template-columns:1fr}.filter-steps,.gallery-strip{grid-template-columns:repeat(2,1fr)}.pricing-grid{grid-template-columns:1fr}.specs-table th{width:140px;font-size:13px}.specs-table td{font-size:13px}.nav-logo{height:28px}.nav-cta{padding:8px 16px;font-size:13px}.hero h1{font-size:32px}.hero-price{font-size:36px}}
 @media(max-width:480px){.container{padding:0 16px}.filter-steps,.gallery-strip{grid-template-columns:1fr}}
 
   .nav-toggle {
@@ -185,7 +185,7 @@ a{color:inherit;text-decoration:none}
   .footer a { color: rgba(255,255,255,0.8); }
   .footer-social { margin: 1rem 0; display: flex; gap: 1rem; justify-content: center; }
   .footer-social a { opacity: 0.8; transition: opacity 0.2s; }
-  .footer-social a:hover { opacity: 1; }</style>
+  .footer-social a:hover { opacity: 1; }.nav-overlay{display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.4);z-index:99}.nav-overlay.open{display:block}</style>
 
     <meta property="og:title" content="Coway NEO PLUS — Essential Water Purifier | Promo RM20/bulan">
     <meta property="og:description" content="Coway NEO PLUS (CHP-264L) — Penapis air Reverse Osmosis dengan 3 suhu, Eco Mode. Hot & cold water purifier. Promosi RM 20/bulan!">
@@ -223,7 +223,7 @@ a{color:inherit;text-decoration:none}
 <nav class="nav">
   <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
   <a href="/" style="display:flex;align-items:center;gap:8px;color:var(--coway-navy, #002856);text-decoration:none;font-size:14px;font-weight:600">← Kembali</a>
-  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open')">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">
@@ -235,8 +235,8 @@ a{color:inherit;text-decoration:none}
     <li><a href="/#berex">BEREX</a></li>
     <li><a href="/#contact" class="nav-cta">Hubungi</a></li>
   </ul>
-</nav><section class="hero">
-  <div class="hero-bg" style="background:url('https://www.coway.com.my/files/Products/water-purifier/neo-plus/coway-malaysia-neo-plus-water-purifier-CHP-264L.jpg') center/cover no-repeat;"></div>
+<div class="nav-overlay" onclick="document.querySelector('.nav-toggle').classList.remove('open');document.querySelector('.nav-links').classList.remove('open')"></div></nav><section class="hero">
+  <div class="hero-bg" style="background:url('https://www.coway.com.my/files/Products/water-purifier/neo-plus/coway-malaysia-neo-plus-water-purifier-CHP-264L.jpg') center/cover no-repeat;">
   <div class="container">
     <div>
       <div class="hero-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.8 3.7 4 4.4V19H7v2h10v-2h-3.2v-1.6c2.2-.7 3.6-2.4 4-4.4H20c1 0 2-1 2-2V2h-4zM4 11V4h2v5c0 .6.2 1.3.5 1.8L4 11zm16 0h-2.5c.3-.5.5-1.2.5-1.8V4h2v7z"/></svg> No.1 Water Purifier di Malaysia</div>

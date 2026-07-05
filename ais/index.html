@@ -6,13 +6,13 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Noto Sans',sans-serif;color:var(--gray-800);background:var(--white);line-height:1.6}
 img{max-width:100%;height:auto;display:block}
-.container{max-width:var(--max);margin:0 auto;padding:0 24px}
+.container{margin:0 auto;padding:0 24px}
 .section{padding:80px 0}
 .section-label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);margin-bottom:8px}
 .section-title{font-size:clamp(28px,4vw,40px);font-weight:800;line-height:1.2;color:var(--navy);margin-bottom:16px}
 .section-desc{font-size:16px;color:var(--gray-500);max-width:640px;line-height:1.7}
-.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--gray-200);padding:14px 0}
-.nav-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);padding:10px 24px}
+
 .nav-logo{font-size:22px;font-weight:800;color:var(--navy)}
 .nav-cta{background:var(--wa);color:#fff;padding:10px 20px;border-radius:50px;font-size:14px;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:6px}
 .hero{background:linear-gradient(135deg,var(--navy)0%,#001a3d 100%);color:var(--white);position:relative;overflow:hidden;min-height:560px;display:flex;align-items:center}
@@ -99,7 +99,7 @@ img{max-width:100%;height:auto;display:block}
 .pricing-grid{grid-template-columns:1fr}
 .specs-table th{width:140px;font-size:13px}
 .specs-table td{font-size:13px}
-.nav-logo{font-size:18px}
+.nav-logo{height:28px}
 .nav-cta{padding:8px 16px;font-size:13px}
 .hero h1{font-size:32px}
 .hero-price{font-size:36px}
@@ -136,7 +136,7 @@ img{max-width:100%;height:auto;display:block}
     padding: 0;
   }
   .nav-links a {
-    color: var(--coway-navy, #002856);
+    color: #fff;
     text-decoration: none;
     padding: 0.4rem 0.75rem;
     border-radius: 6px;
@@ -145,7 +145,7 @@ img{max-width:100%;height:auto;display:block}
     transition: background 0.2s;
     white-space: nowrap;
   }
-  .nav-links a:hover { background: var(--coway-light, #e8f4fd); }
+  .nav-links a:hover { background: rgba(255,255,255,0.15); }
   .nav-cta {
     background: var(--coway-green, #00a859);
     color: white !important;
@@ -172,7 +172,7 @@ img{max-width:100%;height:auto;display:block}
       align-items: stretch;
     }
     .nav-links.open { transform: translateX(0); }
-    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; }
+    .nav-links a { font-size: 0.95rem; padding: 0.75rem 1rem; color: var(--navy); }
   }
   .footer {
     background: var(--coway-navy, #002856);
@@ -186,7 +186,7 @@ img{max-width:100%;height:auto;display:block}
   .footer a { color: rgba(255,255,255,0.8); }
   .footer-social { margin: 1rem 0; display: flex; gap: 1rem; justify-content: center; }
   .footer-social a { opacity: 0.8; transition: opacity 0.2s; }
-  .footer-social a:hover { opacity: 1; }</style>
+  .footer-social a:hover { opacity: 1; }.nav-overlay{display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.4);z-index:99}.nav-overlay.open{display:block}</style>
     <meta property="og:title" content="Coway AIS — Penapis Air | Promosi RM 20/bln">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://www.coway.com.my/files/Products/water-purifier/ais/coway-ais-water-purifier-with-ice-making-feature-CHPI-7520L.jpg">
@@ -220,9 +220,11 @@ img{max-width:100%;height:auto;display:block}
 </head><body>
 <!-- NAV -->
 <nav class="nav">
-  <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" loading="lazy" width="auto" height="36" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
-  <a href="/" style="display:flex;align-items:center;gap:8px;color:var(--coway-navy, #002856);text-decoration:none;font-size:14px;font-weight:600">← Kembali</a>
-  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+  <div style="display:flex;align-items:center;gap:10px">
+    <img src="/images/coway-logo.png" alt="Coway" class="nav-logo" height="32" onerror="this.src='https://cowaypromo.com/wp-content/uploads/2024/09/coway-white-logo.png'">
+    <a href="/" class="nav-back">← Kembali</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open')">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">
@@ -234,8 +236,8 @@ img{max-width:100%;height:auto;display:block}
     <li><a href="/#berex">BEREX</a></li>
     <li><a href="/#contact" class="nav-cta">Hubungi</a></li>
   </ul>
-</nav>
-<section class="hero"><div class="hero-bg"></div><div class="container"><div><div class="hero-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.8 3.7 4 4.4V19H7v2h10v-2h-3.2v-1.6c2.2-.7 3.6-2.4 4-4.4H20c1 0 2-1 2-2V2h-4zM4 11V4h2v5c0 .6.2 1.3.5 1.8L4 11zm16 0h-2.5c.3-.5.5-1.2.5-1.8V4h2v7z"/></svg> No.1 Water Purifier di Malaysia</div><div class="hero-promo-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M12 23c-4 0-7-2.5-7-7 0-3.5 2-6 5-9 .5 2 2 3.5 4 3.5 1 0 2-.5 2-1.5 0-1-.5-2-1-3 2 0 4 1.5 5 4 .5 1.5 1 3 1 5 0 4.5-3 8-9 8z"/></svg> 7 BULAN PERTAMA</div><p class="hero-model">CHPI-7520L</p><h1>AIS</h1><p class="hero-tagline">Seek perfection in every facet of life without compromising quality, convenience and aesthetics.</p><div class="hero-pricing"><span class="hero-price">RM 20</span><span class="hero-price-unit">/bulan</span><span class="hero-original">RM 120</span></div><p style="color:rgba(255,255,255,.6);font-size:13px;margin-top:-12px;margin-bottom:24px">Promosi 7 bulan pertama. Bulan ke-7: RM 120/bulan.</p><a href="https://wa.me/60176881669?text=Saya%20berminat%20dengan%20Coway%20AIS%20-%20promosi%20RM20%2Fbulan" class="hero-cta" target="_blank">RM20/bln — WhatsApp Sekarang</a></div><div class="hero-image"><img src="https://www.coway.com.my/files/Products/water-purifier/ais/coway-ais-water-purifier-with-ice-making-feature-CHPI-7520L.jpg" alt="Coway AIS CHPI-7520L" loading="lazy"></div></div></section>
+<div class="nav-overlay" onclick="document.querySelector('.nav-toggle').classList.remove('open');document.querySelector('.nav-links').classList.remove('open')"></div></nav>
+<section class="hero"><div class="hero-bg"><div class="container"><div><div class="hero-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.8 3.7 4 4.4V19H7v2h10v-2h-3.2v-1.6c2.2-.7 3.6-2.4 4-4.4H20c1 0 2-1 2-2V2h-4zM4 11V4h2v5c0 .6.2 1.3.5 1.8L4 11zm16 0h-2.5c.3-.5.5-1.2.5-1.8V4h2v7z"/></svg> No.1 Water Purifier di Malaysia</div><div class="hero-promo-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:4px"><path d="M12 23c-4 0-7-2.5-7-7 0-3.5 2-6 5-9 .5 2 2 3.5 4 3.5 1 0 2-.5 2-1.5 0-1-.5-2-1-3 2 0 4 1.5 5 4 .5 1.5 1 3 1 5 0 4.5-3 8-9 8z"/></svg> 7 BULAN PERTAMA</div><p class="hero-model">CHPI-7520L</p><h1>AIS</h1><p class="hero-tagline">Seek perfection in every facet of life without compromising quality, convenience and aesthetics.</p><div class="hero-pricing"><span class="hero-price">RM 20</span><span class="hero-price-unit">/bulan</span><span class="hero-original">RM 120</span></div><p style="color:rgba(255,255,255,.6);font-size:13px;margin-top:-12px;margin-bottom:24px">Promosi 7 bulan pertama. Bulan ke-7: RM 120/bulan.</p><a href="https://wa.me/60176881669?text=Saya%20berminat%20dengan%20Coway%20AIS%20-%20promosi%20RM20%2Fbulan" class="hero-cta" target="_blank">RM20/bln — WhatsApp Sekarang</a></div><div class="hero-image"><img src="https://www.coway.com.my/files/Products/water-purifier/ais/coway-ais-water-purifier-with-ice-making-feature-CHPI-7520L.jpg" alt="Coway AIS CHPI-7520L" loading="lazy"></div></div></section>
 <section class="section"style="background:var(--gray-100);"><div class="container"><div class="img-text"><div class="img-text-image"><img src="https://www.coway.com.my/files/Products/water-purifier/ais/video/coway-ais-video-thumbnail.gif" alt="Uplift Your<br loading="lazy">Lifestyle" loading="lazy"></div><div><p class="section-label">Innovation</p><h2 class="section-title">Uplift Your<br>Lifestyle</h2><p class="section-desc">Take a leap into unparalleled sophistication with Coway Malaysia's first-ever countertop ice-making water purifier — Coway AIS.</p></div></div></div></section>
 <section class="section"><div class="container"><div class="img-text reverse"><div class="img-text-image"><img src="https://www.coway.com.my/files/Products/water-purifier/ais/coway-ais-water-purifier-aesthetics-and-intelligence.jpg" alt="Perfected with Aesthetics<br loading="lazy">and Intelligence" loading="lazy"></div><div><p class="section-label">Design</p><h2 class="section-title">Perfected with Aesthetics<br>and Intelligence</h2><p class="section-desc">Two exquisite shades — Porcelain White and Pebble Gray. Be in control with My Cup setting to customise your preferred volume (120ml to 800ml).</p></div></div></div></section>
 <section class="section"style="background:var(--gray-100);"><div class="container"><div class="img-text"><div class="img-text-image"><img src="https://www.coway.com.my/files/Products/water-purifier/ais/coway-ais-revitalise-with-pure-icy-solution.jpg" alt="Revitalise with<br loading="lazy">Pure Icy Solution" loading="lazy"></div><div><p class="section-label">Ice</p><h2 class="section-title">Revitalise with<br>Pure Icy Solution</h2><p class="section-desc">Produces crystal clear bullet ice through a fully-automated system. Enclosed UV-sterilised tank keeps ice free from unpleasant taste.</p></div></div></div></section>
